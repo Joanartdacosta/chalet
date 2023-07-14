@@ -6,7 +6,8 @@
 
 The project applied **JavaScript, React and Next.js**.
 In the website it will be possible to find detailed information about the designer _Mariana Batista Ramadas_, her services and check some projects developed in a gallery.
-<sub>At the moment, it is under-construction.</sub>
+
+At the moment, it is under-construction.
 
 [Chalet Interior Design page](https://www.instagram.com/chalet_designinteriores/)
 

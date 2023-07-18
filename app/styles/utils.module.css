@@ -50,3 +50,7 @@
 .lightText {
   color: #666;
 }
+
+.background {
+  background-image: url(https://joana-personal-website.s3.eu-central-1.amazonaws.com/Chalet-background.jpeg);
+}

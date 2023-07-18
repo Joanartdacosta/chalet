@@ -1,23 +1,26 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Script from 'next/script'
+import Head from "next/head";
+import Image from "next/image";
+import Script from "next/script";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
+import NavBar from "../components/NavBar";
 
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
-
-const name = '[Your Name]'
-export const siteTitle = 'Next.js Sample Website'
+const name = "Chalet";
+export const siteTitle = "Chalet - Atelier de Design de Interiores";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
+        <div className={styles.navBar}>
+          <NavBar />
+        </div>
+        <link
+          rel="icon"
+          href="https://joana-personal-website.s3.eu-central-1.amazonaws.com/Logotipo.png"
         />
+        <meta name="CHALET" content="Atelier de Design de Interiores" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -74,5 +77,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }

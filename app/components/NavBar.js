@@ -4,9 +4,9 @@ export default function NavBar() {
   return (
     <>
       <Link href="/about">Sobre mim</Link>
-      <Link href="">Contactos</Link>
-      <Link href="">Servicos</Link>
-      <Link href="">Projetos</Link>
+      <Link href="/contactos">Contactos</Link>
+      <Link href="/services">Servicos</Link>
+      <Link href="/projetos">Projetos</Link>
     </>
   );
 }

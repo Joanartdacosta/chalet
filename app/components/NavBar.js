@@ -6,16 +6,16 @@ export default function NavBar() {
   return (
     <>
       <Link className={styles.navBar} href="/about">
-        Sobre mim
+        SOBRE MIM
       </Link>
       <Link className={styles.navBar} href="/contactos">
-        Contactos
+        CONTACTOS
       </Link>
       <Link className={styles.navBar} href="/services">
-        Servicos
+        SERVICOS
       </Link>
       <Link className={styles.navBar} href="/projetos">
-        Projetos
+        PROJETOS
       </Link>
     </>
   );

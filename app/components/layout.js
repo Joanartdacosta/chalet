@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
-import Navbar from "../components/NavBar";
-
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import NavBar from "../components/NavBar";
 
 const name = "Chalet";
 export const siteTitle = "Chalet - Atelier de Design de Interiores";
@@ -14,6 +13,9 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        <div className={styles.navBar}>
+          <NavBar />
+        </div>
         <link
           rel="icon"
           href="https://joana-personal-website.s3.eu-central-1.amazonaws.com/Logotipo.png"
@@ -38,7 +40,6 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Navbar />
             <Image
               priority
               src="/images/profile.jpg"

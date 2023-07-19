@@ -1,0 +1,31 @@
+.cardHomeServices {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardHomeServices > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardHomeServices .cardHomeServicesInfos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.cardHomeServicesInfos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+.designerName {
+  font-style: italic;
+  font-size: 20px;
+}

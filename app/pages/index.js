@@ -2,20 +2,23 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
-import Link from "next/link";
-import Date from "../components/date";
 import ChaletEntrance from "../components/homepage/ChaletEntrance";
 import Mission from "../components/homepage/Mission";
+// import HomeSections from "../components/homepage/HomeSections";
 
-export default function Home({ allPostsData }) {
+export default function Home() {
   return (
     <div>
+      <Head />
       <section className={utilStyles.background}>
         <Layout home>
           <ChaletEntrance />
         </Layout>
       </section>
-      <Mission />
+      <section>
+        <Mission />
+      </section>
+      {/* <HomeSections /> */}
     </div>
   );
 }

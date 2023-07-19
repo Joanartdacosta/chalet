@@ -15,14 +15,27 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
-  font-size: 18px;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
-img {
+/* img {
   max-width: 100%;
   display: block;
+} */
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
 }

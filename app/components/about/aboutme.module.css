@@ -1,0 +1,15 @@
+.aboutMe {
+  margin: 10px;
+  text-align: justify;
+}
+
+.designerPhoto {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+}
+
+.aboutMeBlock {
+  display: inline-flex;
+  text-align: justify;
+}

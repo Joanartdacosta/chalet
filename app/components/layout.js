@@ -4,7 +4,7 @@ import Script from "next/script";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import NavBar from "../components/NavBar";
+import NavBar from "./navbar/NavBar";
 
 const name = "CHALET";
 export const siteTitle = "Chalet - Atelier de Design de Interiores";
@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <div className={styles.navBar}>
+        <div>
           <NavBar />
         </div>
         <link

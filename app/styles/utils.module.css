@@ -50,15 +50,3 @@
 .lightText {
   color: #666;
 }
-
-.background {
-  background-image: url(https://joana-personal-website.s3.eu-central-1.amazonaws.com/Chalet-background.jpeg);
-  text-align: center;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-.missionSentence {
-  text-align: center;
-}

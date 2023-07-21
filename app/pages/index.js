@@ -5,12 +5,13 @@ import { getSortedPostsData } from "../lib/posts";
 import ChaletEntrance from "../components/homepage/ChaletEntrance";
 import Mission from "../components/homepage/Mission";
 // import HomeSections from "../components/homepage/HomeSections";
+import styles from "../components/homepage/homeservices.module.css";
 
 export default function Home() {
   return (
     <div>
       <Head />
-      <section className={utilStyles.background}>
+      <section className={styles.background}>
         <Layout home>
           <ChaletEntrance />
         </Layout>

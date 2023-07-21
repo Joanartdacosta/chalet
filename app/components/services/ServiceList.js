@@ -1,9 +1,8 @@
-// import ServiceItem from ""
-// import classes from
+import styles from "./service.module.css";
 
 function ServicesList() {
   return (
-    <ul className={classes.list}>
+    <ul className={styles.servicesList}>
       {props.services.map((service) => (
         <ServiceItem
           key={service.id}

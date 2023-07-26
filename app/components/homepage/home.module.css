@@ -40,26 +40,33 @@
   text-align: center;
   letter-spacing: 30px;
   margin-bottom: 0;
+  padding-top: 100px;
 }
 
 .background {
   background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
   text-align: center;
   background-size: 100% 100%;
+  /* min-height: 100%; */
+  /* min-width: 1024px; */
+  /* width: 100%; */
+  /* height: auto; */
+  /* position: fixed; */
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 1000px;
+  /* top: 0; */
 }
 
 .missionSentence {
   text-align: center;
-  padding: 150px;
+  /* padding: px; */
 }
 .missionSentenceBlock {
   display: inline-flex;
 }
 
 .missionSentenceBlockImg {
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 150px;
 }

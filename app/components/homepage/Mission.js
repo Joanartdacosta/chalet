@@ -1,12 +1,13 @@
-import styles from "./homeservices.module.css";
+import homeStyles from "./home.module.css";
+import layoutStyles from "../layout.module.css";
 
 export default function Mission() {
   return (
     <div>
-      <div className={styles.missionSentence}>
-        <h1 className={styles.missionTitle}>Missao</h1>
+      <div className={homeStyles.missionSentence}>
+        <h1 className={layoutStyles.differentTitle}>Missao</h1>
         <h2>Cada projeto é o início de uma nova história!</h2>
-        <div className={styles.missionSentenceBlock}>
+        <div className={homeStyles.missionSentenceBlock}>
           <p>
             O Chalet - Design de Interiores nasce com a finalidade de trazer
             ideias e soluções aos espaços dos seus clientes, quer sejam eles
@@ -17,20 +18,12 @@ export default function Mission() {
             à da sua família.
           </p>
           <img
-            className={styles.missionSentenceBlockImg}
+            className={homeStyles.missionSentenceBlockImg}
             src="https://chalet-webapp.s3.amazonaws.com/deco-articles02.png"
             alt="chalet-icon01"
           />
         </div>
       </div>
-      {/* {allPostsData.map(({ id, date, title }) => (
-          <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>{title}</Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small> */}
-      {/* ))} */}
     </div>
   );
 }

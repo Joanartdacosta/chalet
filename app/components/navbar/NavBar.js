@@ -6,7 +6,7 @@ export default function NavBar() {
     <>
       <div className={styles.navBar}>
         <div className={styles.menuLeft}>
-          <Link className={styles.navBarLink} href="/about">
+          <Link className={styles.navBarLink} href="/sobre">
             SOBRE MIM
           </Link>
           <Link className={styles.navBarLink} href="/contactos">
@@ -14,7 +14,7 @@ export default function NavBar() {
           </Link>
         </div>
         <div className={styles.menuRight}>
-          <Link className={styles.navBarLink} href="/services">
+          <Link className={styles.navBarLink} href="/servicos">
             SERVICOS
           </Link>
           <Link className={styles.navBarLink} href="/projetos">

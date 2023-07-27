@@ -1,27 +1,31 @@
-html,
+/* Poppins thin */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+/* Poppins thin-italic */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+/* Roboto thin-italic */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+/* Roboto thin */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/* Windsogn regular 400 */
+@import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
+
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6;
-  font-size: 18px;
 }
 
-* {
-  box-sizing: border-box;
+h1 {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-a {
-  color: #0070f3;
-  text-decoration: none;
+h2 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  display: block;
+p {
+  font-size: 16px;
 }

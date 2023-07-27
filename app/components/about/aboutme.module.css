@@ -18,11 +18,9 @@
 .aboutMeBlock {
   display: inline-flex;
   text-align: justify;
-  /* background-color: #e9dccf; */
   width: 100%;
   padding: 20px 20px 20px;
   margin-bottom: 30px;
-  /* border-radius: 5px; */
 }
 
 .slogan {

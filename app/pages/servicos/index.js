@@ -1,5 +1,3 @@
-// import SERVICES from "../../components/services/";
-// import ServicesList from "";
 import Layout from "../../components/layout";
 
 export default function Services() {
@@ -7,7 +5,6 @@ export default function Services() {
     <>
       <Layout>
         <h1>SERVICOS</h1>
-        {/* <ServicesList services={SERVICES} /> */}
       </Layout>
     </>
   );

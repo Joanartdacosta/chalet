@@ -4,7 +4,6 @@ export default function AboutMe() {
   return (
     <>
       <div className={aboutStyles.aboutIntroduction}>
-        {/* <h1 className={layoutStyles.subtitles}>CHALET</h1> */}
         <h2 className={aboutStyles.slogan}>
           'Cada projeto é o início de uma nova história.'
         </h2>

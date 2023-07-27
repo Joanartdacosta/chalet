@@ -39,11 +39,7 @@ export default function Layout({ children, home }) {
       />
       <header className={styles.header}>
         {home ? (
-          <>
-            <h1 className={utilStyles.heading2Xl}>
-              {name} <hr />
-            </h1>
-          </>
+          <></>
         ) : (
           <>
             <h2 className={utilStyles.headingLg}>

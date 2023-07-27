@@ -29,3 +29,15 @@
   font-style: italic;
   font-size: 20px;
 }
+
+.hr {
+  border: 0.001rem solid black;
+  width: 500px;
+}
+
+.chaletTitle {
+  font-size: 90px;
+  text-align: center;
+  letter-spacing: 30px;
+  margin-bottom: 0;
+}

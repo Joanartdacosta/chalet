@@ -1,7 +1,8 @@
-.container {
-  max-width: 36rem;
+.informationSection {
+  max-width: 70rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
+  padding-top: 40px;
 }
 
 .header {
@@ -12,12 +13,29 @@
 
 .backToHome {
   margin: 3rem 0 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .differentTitle {
   font-family: windsong;
   font-weight: lighter;
   font-size: 40px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.subtitles {
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 0;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .nameStyles {

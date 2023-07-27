@@ -1,24 +1,25 @@
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
-import styles from "./layout.module.css";
+import layoutStyles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import NavBar from "./navbar/NavBar";
+import Footer from "./footer/Footer";
 
 const name = "CHALET";
 export const siteTitle = "Chalet - Atelier de Design de Interiores";
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <div>
           <NavBar />
         </div>
         <link
           rel="icon"
-          href="https://joana-personal-website.s3.eu-central-1.amazonaws.com/Logotipo.png"
+          href="https://chalet-webapp.s3.amazonaws.com/Logotipo.png"
         />
         <meta name="CHALET" content="Atelier de Design de Interiores" />
         <meta
@@ -37,23 +38,26 @@ export default function Layout({ children, home }) {
           console.log(`script loaded correctly, window.FB has been populated`)
         }
       />
-      <header className={styles.header}>
+
+      <header className={layoutStyles.header}>
         {home ? (
           <></>
         ) : (
-          <>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
-          </>
+          <div>
+            <p></p>
+          </div>
         )}
       </header>
       <main>{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+        <div className={layoutStyles.backToHome}>
+          <Link href="/">
+            <img
+              src="https://chalet-webapp.s3.amazonaws.com/Logotipo.png"
+              alt="chalet-logo"
+              className={layoutStyles.logo}
+            ></img>
+          </Link>
         </div>
       )}
     </div>

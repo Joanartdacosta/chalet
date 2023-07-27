@@ -1,0 +1,24 @@
+.footer {
+  background-color: #e9dccf;
+  bottom: 0;
+  width: 100%;
+  margin-top: 3rem;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerTime {
+  align-self: center;
+}
+
+.nameStyles {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.nameStylesLink {
+  font-style: italic;
+  text-decoration: none;
+}

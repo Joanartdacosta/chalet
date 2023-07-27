@@ -1,10 +1,8 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
+import Layout from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import ChaletEntrance from "../components/homepage/ChaletEntrance";
 import Mission from "../components/homepage/Mission";
-// import HomeSections from "../components/homepage/HomeSections";
 import styles from "../components/homepage/homeservices.module.css";
 
 export default function Home() {
@@ -19,7 +17,6 @@ export default function Home() {
       <section>
         <Mission />
       </section>
-      {/* <HomeSections /> */}
     </div>
   );
 }

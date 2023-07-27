@@ -9,11 +9,6 @@
   align-items: center;
 }
 
-.footerTime p {
-  color: black;
-  font-size: 16px;
-}
-
 .footerTime {
   align-self: center;
 }

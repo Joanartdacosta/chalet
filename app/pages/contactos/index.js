@@ -1,4 +1,3 @@
-// import Form from "../../components/contacts/Form";
 import Layout from "../../components/layout";
 
 export default function Contacts() {
@@ -6,8 +5,6 @@ export default function Contacts() {
     <>
       <Layout>
         <h1>CONTACTOS</h1>
-
-        {/* <Form/> */}
       </Layout>
     </>
   );

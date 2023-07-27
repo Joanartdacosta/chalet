@@ -4,7 +4,6 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import ChaletEntrance from "../components/homepage/ChaletEntrance";
 import Mission from "../components/homepage/Mission";
-// import HomeSections from "../components/homepage/HomeSections";
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
       <section>
         <Mission />
       </section>
-      {/* <HomeSections /> */}
     </div>
   );
 }

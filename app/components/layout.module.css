@@ -30,10 +30,12 @@
   color: black;
   cursor: pointer;
 }
+
 .navBarLink:after,
 .navBarLink:before {
   transition: all 0.2.s;
 }
+
 .navBarLink:hover {
   transition-duration: 0.1s;
   letter-spacing: 3px;

@@ -41,3 +41,30 @@
   letter-spacing: 30px;
   margin-bottom: 0;
 }
+
+.background {
+  background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
+  text-align: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.missionTitle {
+  font-family: windsong;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+.missionSentence {
+  text-align: center;
+  padding: 150px;
+}
+.missionSentenceBlock {
+  display: inline-flex;
+}
+
+.missionSentenceBlockImg {
+  width: 300px;
+  height: 200px;
+}

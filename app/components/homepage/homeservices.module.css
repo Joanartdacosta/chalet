@@ -48,12 +48,7 @@
   background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-}
-
-.missionTitle {
-  font-family: windsong;
-  font-weight: lighter;
-  font-size: 40px;
+  height: 600px;
 }
 
 .missionSentence {

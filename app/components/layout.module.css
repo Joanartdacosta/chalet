@@ -14,6 +14,12 @@
   margin: 3rem 0 0;
 }
 
+.differentTitle {
+  font-family: windsong;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
 .nameStyles {
   font-style: italic;
 }

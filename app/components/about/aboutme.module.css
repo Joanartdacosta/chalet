@@ -1,0 +1,46 @@
+.aboutIntroduction {
+  text-align: center;
+}
+
+.aboutMe {
+  margin: 10px;
+  text-align: justify;
+  text-align: center;
+}
+
+.designerPhoto {
+  width: 700px;
+  height: 800px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.aboutMeBlock {
+  display: inline-flex;
+  text-align: justify;
+  width: 100%;
+  padding: 20px 20px 20px;
+  margin-bottom: 30px;
+}
+
+.slogan {
+  font-size: 20px;
+  line-height: 0%;
+  background: antiquewhite;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.designerName {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 50px;
+  background: antiquewhite;
+}
+
+.designerIntroduction {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}

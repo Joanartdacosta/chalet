@@ -1,4 +1,3 @@
-// import Form from "../../components/contacts/Form";
 import Layout from "../../components/layout";
 import layoutStyles from "../../components/layout.module.css";
 import contactsStyles from "../../components/contacts.module.css";
@@ -13,7 +12,6 @@ export default function Contacts() {
           src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
           alt="details"
         ></img>
-        {/* <Form/> */}
       </Layout>
     </section>
   );

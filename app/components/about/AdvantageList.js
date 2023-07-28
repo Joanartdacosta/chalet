@@ -1,4 +1,4 @@
-import createCard from "./createCard";
+import createCard from "./createCardAdvantage";
 import aboutStyles from "./aboutme.module.css";
 import ICONS1 from "./ICONS1";
 import ICONS2 from "./ICONS2";

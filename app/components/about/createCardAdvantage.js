@@ -1,6 +1,6 @@
 import CardAdvantage from "./CardAdvantage";
 
-export default function createCard(ICONS) {
+export default function createCardAdvantage(ICONS) {
   return (
     <CardAdvantage
       key={ICONS.id}

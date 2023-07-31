@@ -6,7 +6,6 @@ export default function Services() {
     <div className={layoutStyles.informationSection}>
       <Layout>
         <h1 className={layoutStyles.subtitles}>SERVICOS</h1>
-        <h1>SERVICOS</h1>
       </Layout>
     </div>
   );

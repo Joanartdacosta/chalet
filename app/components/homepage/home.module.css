@@ -1,16 +1,31 @@
 .cardHomeServices {
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px rgba(98, 81, 64, 0.2);
+  padding: 30px 30px 30px;
 }
 
-.cardHomeServicesImg {
-  height: 200px;
-  width: 100%;
+.cardHomeServicesImage {
+  height: 300px;
+  width: 300px;
   object-fit: cover;
 }
 
-.cardHomeServices .cardHomeServicesInfos {
+.cardHomeServicesTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  font-family: roboto;
+}
+
+.cardHomeServicesDescription {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 0;
+  font-family: roboto;
+}
+
+.cardHomeServicesInfos {
   padding: 16px;
   display: flex;
   justify-content: space-between;
@@ -18,11 +33,18 @@
   position: relative;
 }
 
-.cardHomeServicesInfos {
-  position: absolute;
-  right: 16px;
-  top: -20px;
-  width: 40px;
+.cardHomeServicesLink {
+  text-decoration: none;
+  color: black;
+}
+
+.cardHomeServicesLink:hover {
+  opacity: 0.7;
+}
+
+.homeSections {
+  display: inline-flex;
+  margin-top: 60px;
 }
 
 .designerName {

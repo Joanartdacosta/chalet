@@ -1,0 +1,37 @@
+.servicesList {
+  display: flex;
+}
+
+.servicesSection {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 20px;
+}
+
+.serviceSection {
+  background-image: urllinear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.serviceSection:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.05);
+  text-decoration-color: black;
+  color: whitesmoke;
+  justify-content: center;
+  text-shadow: 1px 1px 2px black, 0 0 0.9em black;
+  font-weight: bolder;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
+  opacity: 0.85;
+}

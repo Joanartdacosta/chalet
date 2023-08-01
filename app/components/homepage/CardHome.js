@@ -16,7 +16,7 @@ export default function CardHome(props) {
             <h1 className={homeStyles.cardHomeServicesTitle}>{props.title}</h1>
 
             <p className={homeStyles.cardHomeServicesDescription}>
-              little description
+              {props.description}
             </p>
           </div>
         </div>

@@ -17,11 +17,6 @@ export default function Mission() {
             sempre em conta a sua identidade e objetivos adequados à sua vida e
             à da sua família.
           </p>
-          <img
-            className={homeStyles.missionSentenceBlockImg}
-            src="https://chalet-webapp.s3.amazonaws.com/deco-articles02.png"
-            alt="chalet-icon01"
-          />
         </div>
       </div>
     </div>

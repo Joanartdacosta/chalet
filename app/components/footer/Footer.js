@@ -1,10 +1,10 @@
-import styles from "./footer.module.css";
+import footerStyles from "./footer.module.css";
 import CurrentDate from "./CurrentDate";
 import Social from "../socials/Social";
 
 function Footer() {
   return (
-    <div className={styles.footer}>
+    <div className={footerStyles.footer}>
       <Social />
       <CurrentDate />
     </div>

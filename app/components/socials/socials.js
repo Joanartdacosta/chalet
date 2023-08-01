@@ -1,13 +1,15 @@
 const SOCIALS = [
   {
+    id: 1,
     href: "https://www.instagram.com/chalet_designinteriores/",
     text: "instagram-icon",
-    url: "https://chalet-webapp.s3.amazonaws.com/insta-icon.png",
+    imgURL: "https://chalet-webapp.s3.amazonaws.com/icons/insta-icon.png",
   },
   {
+    id: 2,
     href: "/contactos",
-    text: "message",
-    url: "https://chalet-webapp.s3.amazonaws.com/message-icon.png",
+    text: "message-icon",
+    imgURL: "https://chalet-webapp.s3.amazonaws.com/icons/message-icon.png",
   },
 ];
 

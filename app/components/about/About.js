@@ -2,7 +2,7 @@ import aboutStyles from "./aboutme.module.css";
 
 export default function AboutMe() {
   return (
-    <>
+    <div>
       <div className={aboutStyles.aboutIntroduction}>
         <h2 className={aboutStyles.slogan}>
           'Cada projeto é o início de uma nova história.'
@@ -62,6 +62,6 @@ export default function AboutMe() {
           conto com vocês para que venham por aí muitos bons e novos projetos!"{" "}
         </h2>
       </div>
-    </>
+    </div>
   );
 }

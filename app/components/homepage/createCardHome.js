@@ -6,6 +6,7 @@ export default function createCardHome(SECTIONS) {
       title={SECTIONS.title}
       imgURL={SECTIONS.imgURL}
       href={SECTIONS.href}
+      description={SECTIONS.description}
     />
   );
 }

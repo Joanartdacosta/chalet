@@ -3,7 +3,7 @@ import styles from "./navbar.module.css";
 
 export default function NavBar() {
   return (
-    <>
+    <div>
       <div className={styles.navBar}>
         <div className={styles.menuLeft}>
           <Link className={styles.navBarLink} href="/sobre">
@@ -22,6 +22,6 @@ export default function NavBar() {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -1,14 +1,14 @@
-import socials from "./socials";
-import styles from "./social.module.css";
+import SOCIALS from "./socials";
+import socialStyles from "./social.module.css";
 
 export default function Social() {
   return (
-    <div className={styles.socialIcons}>
-      {socials.map((social) => (
-        <a href={social.href}>
+    <div className={socialStyles.socialIcons}>
+      {SOCIALS.map((social) => (
+        <a href={social.href} key={social.id}>
           <img
-            className={styles.socialIcon}
-            src={social.url}
+            className={socialStyles.socialIcon}
+            src={social.imgURL}
             alt={social.text}
           ></img>
         </a>

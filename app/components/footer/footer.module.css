@@ -11,14 +11,17 @@
 
 .footerTime {
   align-self: center;
+  margin-bottom: 20px;
 }
 
 .nameStyles {
   font-style: italic;
   text-decoration: none;
+  color: black;
 }
 
 .nameStylesLink {
   font-style: italic;
   text-decoration: none;
+  color: black;
 }

@@ -2,10 +2,23 @@
   display: flex;
 }
 
+.serviceColumn {
+  float: left;
+  margin: 10px;
+  border-style: solid;
+  border-width: 0px 5px 0px 0px;
+  border-left: 1px;
+  height: 350px;
+  border-color: #e9dccf;
+  border-radius: 25%;
+  opacity: 40%;
+}
+
 .serviceText {
   list-style-type: circle;
   padding: 40px 40px 40px 40px;
   text-align: justify;
+  margin-bottom: 100px;
 }
 
 .serviceDescription {
@@ -25,6 +38,19 @@
   justify-content: center;
   align-items: right;
   margin-right: 0;
+  margin-top: 70px;
   border-radius: 5px;
-  padding: 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.button {
+  color: #856343;
+  border: none;
+  width: 200px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 12px;
+  font-family: poppins;
+  background: #e9dccf;
+  margin-top: 50px;
 }

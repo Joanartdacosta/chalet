@@ -47,7 +47,7 @@ const SERVICES = [
   },
   {
     id: 3,
-    title: "Projetos Design Interiores",
+    title: "Projetos de Design Interiores",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/Servicos/remodelacao/moradia-mezzanine/cozinha/render8.png)",
     description:
@@ -72,7 +72,7 @@ const SERVICES = [
   },
   {
     id: 4,
-    title: "Projeto de Decoracao de Interiores",
+    title: "Projetos de Decoracao de Interiores",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/Servicos/remodelacao/moradia-tv/1.jpg)",
     description:

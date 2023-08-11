@@ -1,16 +1,16 @@
 import createCard from "./createCardAdvantage";
 import aboutStyles from "./aboutme.module.css";
-import ICONS1 from "./ICONS1";
-import ICONS2 from "./ICONS2";
+import icons1 from "./icons1";
+import icons2 from "./icons2";
 
 export default function AdvantagesList() {
   return (
     <div>
       <div className={aboutStyles.advantagesSections}>
-        {ICONS1.map(createCard)}
+        {icons1.map(createCard)}
       </div>
       <div className={aboutStyles.advantagesSections}>
-        {ICONS2.map(createCard)}
+        {icons2.map(createCard)}
       </div>
     </div>
   );

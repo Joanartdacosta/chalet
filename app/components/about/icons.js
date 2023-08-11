@@ -1,4 +1,4 @@
-const ICONS2 = [
+const icons2 = [
   {
     id: 1,
     alt: "potential",
@@ -25,4 +25,4 @@ const ICONS2 = [
   },
 ];
 
-export default ICONS2;
+export default icons2;

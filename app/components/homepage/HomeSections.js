@@ -1,12 +1,12 @@
 import homeStyles from "./home.module.css";
-import SECTIONS from "./SECTIONS";
+import sections from "./sections";
 import createCardHome from "./createCardHome";
 
 export default function HomeSections() {
   return (
     <div>
       <div className={homeStyles.homeSections}>
-        {SECTIONS.map(createCardHome)}
+        {sections.map(createCardHome)}
       </div>
     </div>
   );

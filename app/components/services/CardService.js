@@ -1,6 +1,18 @@
+import { useState } from "react";
 import serviceStyles from "./service.module.css";
+import ModalService from "./ModalService";
 
 export default function CardService(props) {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  function handleSeeMore() {
+    setModalIsOpen(true);
+  }
+
+  function handleClose() {
+    setModalIsOpen(false);
+  }
+
   return (
     <div>
       <img
@@ -21,7 +33,10 @@ export default function CardService(props) {
           <li className={serviceStyles.serviceBullets}>{props.detail3}</li>
           <li className={serviceStyles.serviceBullets}>{props.detail4}</li>
 
-          <button className={serviceStyles.button}>Saber mais</button>
+          <button className={serviceStyles.button} onClick={handleSeeMore}>
+            Saber mais
+          </button>
+          {modalIsOpen && <ModalService onClose={handleClose} />}
         </div>
 
         <div

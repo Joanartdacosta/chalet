@@ -13,10 +13,23 @@ At the moment, it is under-construction.
 
 ## Github Workflow Steps
 
+### Create a new feature
+
+- `git checkout main`
+- `git pull origin main`
 - `git checkout -b "branch_name"`
+- Code stuff
 - `git add .`
 - `git commit -m "description"`
 - `git push origin "branch_name"`
-- Merge feature branch to main after PR is reviewed and approved
-- `git checkout main`
-- `git pull origin main`
+- Merge feature branch to dev after PR is reviewed and approved
+- Manually deploy dev branch using Vercel CLI
+  - git checkout dev && git pull origin dev
+  - cd app
+  - npx vercel
+- Ensure changes in dev are correct
+- Merge feature branch to master after PR is reviewed and approved
+- Manually deploy main branch using Vercel CLI
+  - git checkout main && git pull origin main
+  - cd app
+  - npx vercel --prod

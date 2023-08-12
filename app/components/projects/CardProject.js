@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CardProjects(props) {
   return (
-    <div className={projectStyles.projectMenu}>
+    <div className={projectStyles.projectTitleMenu}>
       <p>{props.title}</p>
     </div>
   );

@@ -1,4 +1,4 @@
-import SERVICES from "./SERVICES";
+import SERVICES from "./services";
 import createCardService from "./createCardService";
 import serviceStyles from "./service.module.css";
 

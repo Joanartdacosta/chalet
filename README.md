@@ -2,7 +2,7 @@
 
 **This is a Web-App developed for an _Interior Design’s_ project called _Chalet_**.
 
-> ![Chalet Interior Design](https://joana-personal-website.s3.eu-central-1.amazonaws.com/Logotipo.png)
+> ![Chalet Interior Design](https://chalet-webapp.s3.amazonaws.com/icons/Chalet-logo.jpg)
 
 The project applied **JavaScript, React and Next.js**.
 In the website it will be possible to find detailed information about the designer _Mariana Batista Ramadas_, her services and check some projects developed in a gallery.

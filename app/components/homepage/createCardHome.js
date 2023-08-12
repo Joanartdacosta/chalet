@@ -1,12 +1,12 @@
 import CardHome from "./CardHome";
 
-export default function createCardHome(SECTIONS) {
+export default function createCardHome(sections) {
   return (
     <CardHome
-      title={SECTIONS.title}
-      imgURL={SECTIONS.imgURL}
-      href={SECTIONS.href}
-      description={SECTIONS.description}
+      title={sections.title}
+      imgURL={sections.imgURL}
+      href={sections.href}
+      description={sections.description}
     />
   );
 }

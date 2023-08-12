@@ -32,4 +32,4 @@ At the moment, it is under-construction.
 - Manually deploy main branch using Vercel CLI
   - git checkout main && git pull origin main
   - cd app
-  - npx vercel
+  - npx vercel --prod

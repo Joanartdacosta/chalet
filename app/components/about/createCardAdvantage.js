@@ -1,11 +1,11 @@
 import CardAdvantage from "./CardAdvantage";
 
-export default function createCardAdvantage(icons) {
+export default function createCardAdvantage(Icons) {
   return (
     <CardAdvantage
-      key={icons.id}
-      imgURL={icons.imgURL}
-      description={icons.description}
+      key={Icons.id}
+      imgURL={Icons.imgURL}
+      description={Icons.description}
     />
   );
 }

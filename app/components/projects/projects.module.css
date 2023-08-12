@@ -1,0 +1,11 @@
+.projectsMenu {
+  display: inline-flex;
+}
+
+.projectTitleMenu {
+  padding: 10px 10px 10px;
+}
+
+.projectTitleMenu:hover {
+  font-weight: 600;
+}

@@ -3,13 +3,13 @@ const SERVICES = [
     id: 1,
     title: "Consultoria Complementar",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1131.JPG)",
+      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG)",
     description:
-      "Quantas vezes já olhou para as fotos das revistas de decoração e sonhou ter uma casa igual? Já pensou que, por vezes, a diferença pode estar nos detalhes, nos complementos? Pretende dar apenas aquele toque especial à sua casa mas não sabe por onde começar? Já comprou toda a mobília para a sua casa nova (sofá, mesa, cadeiras) mas não sabe que objetos decorativos pode escolher ou conjugar? Não quer/pode investir em mobiliário novo mas quer dar um refresh naquela divisão da sua casa?",
+      "Pretende dar apenas aquele toque especial à sua casa mas não sabe por onde começar? Já comprou toda a mobília para a sua casa nova (sofá, mesa, cadeiras) mas não sabe que objetos decorativos pode escolher ou conjugar?",
     detail1:
       "Sugestão de uma paleta de cores (totalmente nova ou a partir de uma cor já existente no espaço e que o cliente pretenda mesmo manter);",
     detail2:
-      "Consoante o espaço a trabalhar e orçamento disponível, sugestão ao nível de todo o tipo de artigos decorativos (ex.almofadas, tapetes,etc) e, se a designer achar relevante, pequenas peças de mobiliário (ex.puff ou mesa de apoio);",
+      "Consoante o espaço a trabalhar e orçamento disponível, sugestão ao nível de todo o tipo de artigos decorativos ou ate mobiliario (ex.almofadas, tapetes,etc);",
     detail3:
       "Conselhos sobre como integrar estes elementos na decoração - ex. forma correta de colocar os tapetes ou cortinados, conjugação de almofadas, entre outros;",
     detail4: "Lista detalhada dos artigos propostos a adquirir.",
@@ -19,8 +19,6 @@ const SERVICES = [
       "o cliente fica responsável pela compra de todas as peças e pela colocação das mesmas no espaço,",
     step3:
       "a gestão das compras e encomendas fica a nosso cargo, assim como a montagem final do espaço - poupança de tempo e dinheiro! (válido apenas para a região da Grande Lisboa).",
-    step4: "NA",
-    step5: "NA",
   },
   {
     id: 2,
@@ -47,9 +45,9 @@ const SERVICES = [
   },
   {
     id: 3,
-    title: "Projetos Design Interiores",
+    title: "Projetos de Design Interiores",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/Servicos/remodelacao/moradia-mezzanine/cozinha/render8.png)",
+      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1460.JPG)",
     description:
       "Este serviço destina-se a quem quer um projeto para um espaço novo (em fase de construção) ou a remodelar.",
     detail1:
@@ -72,9 +70,9 @@ const SERVICES = [
   },
   {
     id: 4,
-    title: "Projeto de Decoracao de Interiores",
+    title: "Projetos de Decoracao de Interiores",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/Servicos/remodelacao/moradia-tv/1.jpg)",
+      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1148.JPG)",
     description:
       "Este serviço destina-se a quem pretende apenas uma melhoria estética e funcional do seu espaço, com pouca ou nenhuma necessidade de execução de obra.",
     detail1:
@@ -98,18 +96,9 @@ const SERVICES = [
     id: 5,
     title: "Home Staging",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/wcsuite1.png)",
+      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4135.JPG)",
     description:
       "O serviço de Home Staging destina-se a quem quer vender ou arrendar (arrendamento de longa duração ou temporário) um imóvel. Este serviço proporciona uma valorização do imóvel, tornando-o mais atractivo e funcional para quem o procura. Contacte-nos para saber como podemos ajudá-lo, consoante as suas necessidades e orçamento.",
-    detail1: "NA",
-    detail2: "NA",
-    detail3: "NA",
-    detail4: "NA",
-    step1: "NA",
-    step2: "NA",
-    step3: "NA",
-    step4: "NA",
-    step5: "NA",
   },
 ];
 

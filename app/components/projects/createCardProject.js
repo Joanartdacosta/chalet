@@ -1,4 +1,3 @@
-import services from "../services/services";
 import CardProject from "./CardProject";
 
 export default function createCardProject(services) {

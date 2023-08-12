@@ -1,37 +1,30 @@
-.servicesList {
+.serviceSection {
   display: flex;
 }
 
-.servicesSection {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-gap: 20px;
+.serviceText {
+  list-style-type: circle;
+  padding: 40px 40px 40px 40px;
+  text-align: justify;
 }
 
-.serviceSection {
-  background-image: urllinear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+.serviceDescription {
+  font-size: 17px;
+}
+
+.serviceBullets {
+  padding-left: 40px;
+  font-size: 15px;
+}
+
+.serviceImage {
+  height: 400px;
+  width: 90%;
   background-size: cover;
   background-position: center;
-  height: 300px;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  align-items: right;
+  margin-right: 0;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-.serviceSection:hover {
-  transition-duration: 0.3s;
-  transform: scale(1.05);
-  text-decoration-color: black;
-  color: whitesmoke;
-  justify-content: center;
-  text-shadow: 1px 1px 2px black, 0 0 0.9em black;
-  font-weight: bolder;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
-  opacity: 0.85;
+  padding: 20px 20px;
 }

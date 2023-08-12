@@ -1,4 +1,4 @@
-const sections = [
+const Sections = [
   {
     id: 2,
     title: "Sobre",
@@ -24,4 +24,4 @@ const sections = [
   },
 ];
 
-export default sections;
+export default Sections;

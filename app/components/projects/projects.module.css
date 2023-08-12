@@ -2,10 +2,10 @@
   display: inline-flex;
 }
 
-.projectMenu {
+.projectTitleMenu {
   padding: 10px 10px 10px;
 }
 
-.projectMenu:hover {
+.projectTitleMenu:hover {
   font-weight: 600;
 }

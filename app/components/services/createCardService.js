@@ -1,11 +1,11 @@
 import CardService from "./CardService";
 
-export default function createCardService(services) {
+export default function createCardService(Services) {
   return (
     <CardService
-      id={services.id}
-      imgURL={services.imgURL}
-      title={services.title}
+      id={Services.id}
+      imgURL={Services.imgURL}
+      title={Services.title}
     />
   );
 }

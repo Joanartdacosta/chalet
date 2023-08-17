@@ -1,4 +1,4 @@
-import layoutStyles from "../../components/layout.module.css";
+import layoutStyles from "../../components/layout/layout.module.css";
 import ProjectMenu from "../../components/projects/ProjectMenu";
 
 export default function Projects() {

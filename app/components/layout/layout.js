@@ -1,10 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
-
-import layoutStyles from "./layout.module.css";
-import NavBar from "./navbar/NavBar";
-import Footer from "./footer/Footer";
-import LinkHome from "./LinkHome";
+import NavBar from "../navbar/NavBar";
+import Footer from "../footer/Footer";
+import LinkHome from "../link/LinkHome";
+import Search from "../UI/modal/Search";
 
 const name = "CHALET";
 export const siteTitle = "Chalet - Atelier de Design de Interiores";
@@ -33,6 +31,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div>
           <LinkHome />
+          <Search />
           <Footer />
         </div>
       )}

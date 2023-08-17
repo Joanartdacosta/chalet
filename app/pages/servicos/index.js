@@ -1,4 +1,4 @@
-import layoutStyles from "../../components/layout.module.css";
+import layoutStyles from "../../components/layout/layout.module.css";
 import ServiceList from "../../components/services/ServicesList";
 
 export default function Services() {

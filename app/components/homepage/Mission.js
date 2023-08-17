@@ -1,5 +1,5 @@
 import homeStyles from "./home.module.css";
-import layoutStyles from "../layout.module.css";
+import layoutStyles from "../layout/layout.module.css";
 
 export default function Mission() {
   return (

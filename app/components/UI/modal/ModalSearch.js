@@ -5,7 +5,6 @@ export default function ModalSearch() {
   const [value, setValue] = useState("");
 
   function catchValue(event) {
-    console.log(event.target.value);
     setValue(event.target.value);
   }
 

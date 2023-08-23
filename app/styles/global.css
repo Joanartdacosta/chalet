@@ -9,6 +9,9 @@
 /* Windsogn regular 400 */
 @import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   font-family: "Poppins", sans-serif;
   padding: 0;

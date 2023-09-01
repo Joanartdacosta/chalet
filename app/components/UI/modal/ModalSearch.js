@@ -9,8 +9,14 @@ export default function ModalSearch() {
   }
 
   return (
-    <div className={searchStyle.searchSection}>
-      <input type="text" placeholder="Servico" onChange={catchValue} />;
+    <div>
+      <input
+        className={searchStyle.searchInput}
+        type="text"
+        placeholder="Procure pelo servico que pretende"
+        onChange={catchValue}
+      />
+      <button className={searchStyle.searchButton}>Procurar Servico</button>
     </div>
   );
 }

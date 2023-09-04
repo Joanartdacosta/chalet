@@ -6,6 +6,31 @@
   padding: 10px 10px 10px;
 }
 
-.projectTitleMenu:hover {
+.projectTitle {
+  color: black;
+  text-decoration: none;
+}
+
+.projectTitle:hover {
+  text-decoration: underline;
   font-weight: 600;
+}
+
+.buttonPlace {
+  color: #856343;
+  border: none;
+  width: 190px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  font-family: poppins;
+  background: #e9dccf;
+  margin: 5px;
+}
+
+.buttonMenu {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
 }

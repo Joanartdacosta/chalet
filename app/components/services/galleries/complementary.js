@@ -1,28 +1,30 @@
 const COMPLEMENTARY = [
   {
-    id: 1,
+    id: 60,
+    href: "#complementar",
+    title: "Consultoria Complementar",
+    category1: "concept board",
+    category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/IMG_20220121_200925_361.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel1.jpg",
   },
   {
-    id: 2,
+    id: 70,
+    href: "#complementar",
+    title: "Consultoria Complementar",
+    category1: "concept board",
+    category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/IMG_20220121_200925_431.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel3.jpg",
   },
   {
-    id: 3,
+    id: 80,
+    href: "#complementar",
+
+    title: "Consultoria Complementar",
+    category: "sala",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/IMG_20220121_200925_473.jpg",
-  },
-  {
-    id: 4,
-    imgURL:
-      "hhttps://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/IMG-20220821-WA0005.jpg",
-  },
-  {
-    id: 5,
-    imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/IMG-20220821-WA0006.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel2.jpg",
   },
 ];
 

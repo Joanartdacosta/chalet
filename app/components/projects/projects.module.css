@@ -1,11 +1,38 @@
 .projectsMenu {
   display: inline-flex;
+  margin-bottom: 50px;
 }
 
 .projectTitleMenu {
   padding: 10px 10px 10px;
 }
 
+.projectTitle {
+  text-decoration: none;
+  color: black;
+}
+
+.projectTitle:hover {
+  text-decoration: underline;
+}
+
 .projectTitleMenu:hover {
   font-weight: 600;
+}
+
+.galleryTitle {
+  font-size: 25px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: lighter;
+  color: #b7997b;
+}
+
+.galleryMasonry {
+  padding: 10px;
+}
+
+.galleryMasonry:hover {
+  transition-duration: 0.8s;
+  transform: scale(2);
 }

@@ -41,4 +41,29 @@
 .galleryMasonry:hover {
   transition-duration: 0.8s;
   transform: scale(2);
+  font-weight: 600;
+}
+
+.buttonPlace {
+  color: #856343;
+  border: none;
+  width: 190px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  font-family: poppins;
+  background: #e9dccf;
+  margin: 5px;
+}
+
+.buttonMenu {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
 }

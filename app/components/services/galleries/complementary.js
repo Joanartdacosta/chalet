@@ -1,6 +1,6 @@
 const COMPLEMENTARY = [
   {
-    id: 60,
+    id: 10,
     href: "#complementar",
     title: "Consultoria Complementar",
     category1: "concept board",
@@ -9,7 +9,7 @@ const COMPLEMENTARY = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel1.jpg",
   },
   {
-    id: 70,
+    id: 20,
     href: "#complementar",
     title: "Consultoria Complementar",
     category1: "concept board",
@@ -18,9 +18,10 @@ const COMPLEMENTARY = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel3.jpg",
   },
   {
-    id: 80,
+    id: 30,
     href: "#complementar",
-
+    title: "Consultoria Complementar",
+    category1: "concept board",
     title: "Consultoria Complementar",
     category: "sala",
     imgURL:

@@ -5,6 +5,7 @@ import ONLINE from "../../services/galleries/online";
 import DESIGN from "../../services/galleries/design";
 import HOME_STANGING from "../../services/galleries/homeStaging";
 import DECOR from "../../services/galleries/decor";
+import CONCEPT_BOARD from "../../services/galleries/concept_board";
 import projectStyles from "../projects.module.css";
 
 export default function ProjectsGallery() {
@@ -83,6 +84,21 @@ export default function ProjectsGallery() {
                 className={projectStyles.galleryMasonry}
                 src={photo.imgURL}
                 alt="home-staging-photo"
+              />
+            ))}
+          </Masonry>
+        </ResponsiveMasonry>
+      </div>
+
+      <div id={"concept-board"}>
+        <h1 className={projectStyles.galleryTitle}>Concept Boards</h1>
+        <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+          <Masonry>
+            {CONCEPT_BOARD.map((photo) => (
+              <img
+                className={projectStyles.galleryMasonry}
+                src={photo.imgURL}
+                alt="concept-board"
               />
             ))}
           </Masonry>

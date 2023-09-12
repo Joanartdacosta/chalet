@@ -11,6 +11,11 @@ export default function createCardService(services) {
       detail2={services.detail2}
       detail3={services.detail3}
       detail4={services.detail4}
+      step1={services.step1}
+      step2={services.step2}
+      step3={services.step3}
+      step4={services.step4}
+      step5={services.step5}
     />
   );
 }

@@ -13,9 +13,9 @@ export default function ModalService(props) {
       <button className={serviceStyle.buttonModal} onClick={props.onClose}>
         Close
       </button>
-      <button className={serviceStyle.buttonModal} onClick={props.onClose}>
-        Pedir orcamento
-      </button>
+      <a href="/contactos">
+        <button className={serviceStyle.buttonModal}>Pedir orcamento</button>
+      </a>
     </div>
   );
 }

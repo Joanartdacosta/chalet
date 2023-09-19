@@ -15,9 +15,10 @@ export default function Layout({ children, home }) {
           rel="icon"
           href="https://chalet-webapp.s3.amazonaws.com/Logotipo.png"
         />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Atelier de Design de Interiores" />
         <meta name="name" content={siteTitle} />
-
         <meta name="keywords" content="Atelier, Design, Decoracao" />
         <meta name="author" content="Chalet" />
       </Head>

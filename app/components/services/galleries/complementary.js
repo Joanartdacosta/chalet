@@ -20,7 +20,6 @@ const COMPLEMENTARY = [
   {
     id: 80,
     href: "#complementar",
-
     title: "Consultoria Complementar",
     category: "sala",
     imgURL:

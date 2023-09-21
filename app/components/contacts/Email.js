@@ -5,14 +5,11 @@ import layoutStyle from "../layout/layout.module.css";
 
 function EmailJs() {
   const [color, setColor] = useState("#e9dccf");
-  const [textColor, setTextColor] = useState();
+  const [label, setLabel] = useState("Enviar");
 
   function changeStyle() {
     setColor("#a89582");
-    setTextColor();
-    alert(
-      "The message was sent to Mariana Batista. She will answer you as soon as possible."
-    );
+    setLabel("Enviado");
   }
 
   const form = useRef();
@@ -46,7 +43,7 @@ function EmailJs() {
       ></img>
       <div className={contactsStyle.contactsForm}>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="hidden" name="contact_number" />
+          <input type="hidden" name="contact_number" required />
           <label>Nome</label>
           <input
             className={contactsStyle.formName}
@@ -59,6 +56,7 @@ function EmailJs() {
             className={contactsStyle.formEmail}
             type="email"
             name="user_email"
+            required
           />
           <label>Messagem de contacto</label>
           <textarea
@@ -67,12 +65,12 @@ function EmailJs() {
           ></textarea>
           <button
             onClick={changeStyle}
-            style={{ background: color, color: textColor }}
+            style={{ background: color }}
             className={layoutStyle.button}
             type="submit"
             value="Send"
           >
-            Enviar
+            {label}
           </button>
         </form>
       </div>

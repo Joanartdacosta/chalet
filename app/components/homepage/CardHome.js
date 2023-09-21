@@ -19,9 +19,11 @@ export default function CardHome(props) {
           <div>
             <h1 className={homeStyles.cardHomeServicesTitle}>{props.title}</h1>
 
-            <p className={homeStyles.cardHomeServicesDescription}>
-              {props.description}
-            </p>
+            <button className={homeStyles.buttonService}>
+              <p className={homeStyles.cardHomeServicesDescription}>
+                {props.description}
+              </p>
+            </button>
           </div>
         </div>
       </Link>

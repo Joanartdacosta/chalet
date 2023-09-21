@@ -2,6 +2,7 @@ const SERVICES = [
   {
     id: 1,
     title: "Consultoria Complementar",
+    href: "#complementar",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG)",
     description:
@@ -23,6 +24,7 @@ const SERVICES = [
   {
     id: 2,
     title: "Consultoria Online",
+    href: "#online",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/moodboards/Moodboard+cozinha1.png)",
     description:
@@ -46,6 +48,7 @@ const SERVICES = [
   {
     id: 3,
     title: "Projetos de Design Interiores",
+    href: "#design",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1460.JPG)",
     description:
@@ -71,6 +74,7 @@ const SERVICES = [
   {
     id: 4,
     title: "Projetos de Decoracao de Interiores",
+    href: "#decor",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1148.JPG)",
     description:
@@ -95,10 +99,17 @@ const SERVICES = [
   {
     id: 5,
     title: "Home Staging",
+    href: "#staging",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4135.JPG)",
     description:
-      "O serviço de Home Staging destina-se a quem quer vender ou arrendar (arrendamento de longa duração ou temporário) um imóvel. Este serviço proporciona uma valorização do imóvel, tornando-o mais atractivo e funcional para quem o procura. Contacte-nos para saber como podemos ajudá-lo, consoante as suas necessidades e orçamento.",
+      "O serviço de Home Staging destina-se a quem quer vender ou arrendar (arrendamento de longa duração ou temporário) um imóvel. Este serviço proporciona:",
+    detail1: "uma valorização do imóvel",
+    detail2: "torna-o mais atractivo",
+    detail3: "mais funcional",
+    detail4: "maior potencial de negocio",
+    step1:
+      "Contacte-nos para saber como podemos ajudá-lo, consoante as suas necessidades e orçamento.",
   },
 ];
 

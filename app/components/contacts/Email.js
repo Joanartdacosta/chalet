@@ -1,9 +1,20 @@
 import emailjs from "@emailjs/browser";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import contactsStyle from "./contacts.module.css";
 import layoutStyle from "../layout/layout.module.css";
 
 function EmailJs() {
+  const [color, setColor] = useState("#e9dccf");
+  const [textColor, setTextColor] = useState();
+
+  function changeStyle() {
+    setColor("#a89582");
+    setTextColor();
+    alert(
+      "The message was sent to Mariana Batista. She will answer you as soon as possible."
+    );
+  }
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -54,7 +65,13 @@ function EmailJs() {
             className={contactsStyle.formTextArea}
             name="message"
           ></textarea>
-          <button className={layoutStyle.button} type="submit" value="Send">
+          <button
+            onClick={changeStyle}
+            style={{ background: color, color: textColor }}
+            className={layoutStyle.button}
+            type="submit"
+            value="Send"
+          >
             Enviar
           </button>
         </form>

@@ -15,11 +15,6 @@ export default function CardService(props) {
 
   return (
     <div>
-      <img
-        className={serviceStyles.serviceLine}
-        src="https://chalet-webapp.s3.amazonaws.com/line-icon/1.png"
-        alt="line"
-      />
       <div className={serviceStyles.serviceSection}>
         <div className={serviceStyles.serviceText}>
           <div className={serviceStyles.serviceColumn}></div>

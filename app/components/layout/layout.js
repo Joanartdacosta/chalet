@@ -46,6 +46,10 @@ export default function Layout({ children, home }) {
 
           <meta name="keywords" content="Atelier, Design, Decoracao" />
           <meta name="author" content="Chalet" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
         </NextHead>
       </Head>
 

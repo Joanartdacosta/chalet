@@ -45,15 +45,6 @@ const CONCEPT_BOARD = [
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/1.png",
   },
-  // {
-  //   id: 110,
-  //   href: "#concept-board",
-  //   title: "Concept Board",
-  //   category1: "concept board",
-  //   category2: "cozinha",
-  //   imgURL:
-  //     "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/2.png",
-  // },
   {
     id: 120,
     href: "#concept-board",

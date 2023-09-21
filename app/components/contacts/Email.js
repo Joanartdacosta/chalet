@@ -49,7 +49,7 @@ function EmailJs() {
             type="email"
             name="user_email"
           />
-          <label>Messagem de contacto</label>
+          <label>Mensagem de contacto</label>
           <textarea
             className={contactsStyle.formTextArea}
             name="message"

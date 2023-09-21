@@ -1,4 +1,5 @@
 import "@testing-library/jest-dom";
+import ChaletEntrance from "../pages/index";
 import {
   fireEvent,
   render,
@@ -9,7 +10,7 @@ import {
 
 describe("Chalet App", () => {
   it("renders the chalet app", () => {
-    render(<Home />);
+    render(<ChaletEntrance />);
 
     expect(screen.getByTestId("chalet-entrance")).toBeInTheDocument();
     expect(screen.getByTestId("mission")).toBeInTheDocument();

@@ -4,7 +4,11 @@ import homeStyles from "./home.module.css";
 export default function CardHome(props) {
   return (
     <div className={homeStyles.cardHomeServices}>
-      <Link className={homeStyles.cardHomeServicesLink} href={props.href}>
+      <Link
+        className={homeStyles.cardHomeServicesLink}
+        href={props.href}
+        key={props.id}
+      >
         {" "}
         <img
           className={homeStyles.cardHomeServicesImage}

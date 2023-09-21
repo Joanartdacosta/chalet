@@ -1,6 +1,6 @@
 const SECTIONS = [
   {
-    id: 2,
+    id: 1,
     title: "Sobre",
     imgURL: "https://chalet-webapp.s3.amazonaws.com/icons/Chalet-logo.jpg",
     href: "/sobre",

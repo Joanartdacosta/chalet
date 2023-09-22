@@ -29,7 +29,8 @@
 }
 
 .galleryMasonry {
-  padding: 10px;
+  padding: 5px;
+  width: 350px;
 }
 
 .galleryMasonry:hover {

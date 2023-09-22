@@ -43,24 +43,4 @@ const CONCEPT_BOARD = [
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel6.jpg",
   },
-  // {
-  //   id: 5,
-  //   imgURL:
-  //     "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/1.png",
-  // },
-  // {
-  //   id: 5,
-  //   imgURL:
-  //     "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/1.png",
-  // },
-  // {
-  //   id: 5,
-  //   imgURL:
-  //     "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/2.png",
-  // },
-  // {
-  //   id: 5,
-  //   imgURL:
-  //     "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/3.png",
-  // },
 ];

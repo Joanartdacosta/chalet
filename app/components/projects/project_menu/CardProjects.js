@@ -1,4 +1,4 @@
-import projectStyles from "./projects.module.css";
+import projectStyles from "../projects.module.css";
 import Link from "next/link";
 
 export default function CardProjects(props) {

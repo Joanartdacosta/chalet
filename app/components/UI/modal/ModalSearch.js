@@ -9,7 +9,7 @@ export default function ModalSearch(props) {
       category.title.toLowerCase().includes(LOWER_CASE_SEARCH)
     );
 
-    props.setProjects(filtered);
+    props.setServices(filtered);
   }
 
   return (

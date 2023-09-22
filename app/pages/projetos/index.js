@@ -1,6 +1,7 @@
 import layoutStyles from "../../components/layout/layout.module.css";
 import ProjectMenu from "../../components/projects/project_menu/ProjectMenu";
 import ProjectsGallery from "../../components/projects/gallery/ProjectsGallery";
+import ProjectMenu from "../../components/projects/ProjectMenu";
 
 export default function Projects() {
   return (

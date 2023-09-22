@@ -7,12 +7,34 @@
 }
 
 .projectTitle {
-  color: black;
   text-decoration: none;
+  color: black;
 }
 
 .projectTitle:hover {
   text-decoration: underline;
+}
+
+.projectTitleMenu:hover {
+  font-weight: 600;
+}
+
+.galleryTitle {
+  font-size: 25px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: lighter;
+  color: #b7997b;
+}
+
+.galleryMasonry {
+  padding: 5px;
+  width: 350px;
+}
+
+.galleryMasonry:hover {
+  transition-duration: 0.8s;
+  transform: scale(2);
   font-weight: 600;
 }
 
@@ -38,4 +60,25 @@
 .category {
   display: flex;
   flex-direction: column;
+}
+
+.categorySection {
+  display: inline-flex;
+  margin-bottom: 50px;
+  margin-left: 0.5rem;
+}
+
+.categoryElement {
+  padding-right: 10px;
+}
+
+.inputRadio {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  filter: grayscale();
+}
+
+.inputLabel {
+  padding: 5px;
 }

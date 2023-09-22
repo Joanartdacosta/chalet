@@ -35,7 +35,8 @@
 }
 
 .galleryMasonry {
-  padding: 10px;
+  padding: 5px;
+  width: 350px;
 }
 
 .galleryMasonry:hover {
@@ -66,4 +67,25 @@
 .category {
   display: flex;
   flex-direction: column;
+}
+
+.categorySection {
+  display: inline-flex;
+  margin-bottom: 50px;
+  margin-left: 0.5rem;
+}
+
+.categoryElement {
+  padding-right: 10px;
+}
+
+.inputRadio {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  filter: grayscale();
+}
+
+.inputLabel {
+  padding: 5px;
 }

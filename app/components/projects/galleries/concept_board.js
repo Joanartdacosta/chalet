@@ -23,7 +23,7 @@ const CONCEPT_BOARD = [
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
-    category: "cozinha",
+    category2: "cozinha",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel5.jpg",
   },

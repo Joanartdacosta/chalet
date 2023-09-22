@@ -4,10 +4,8 @@ import createCardHome from "./createCardHome";
 
 export default function HomeSections() {
   return (
-    <div>
-      <div className={homeStyles.homeSections}>
-        {SECTIONS.map(createCardHome)}
-      </div>
+    <div className={homeStyles.homeSections}>
+      {SECTIONS.map(createCardHome)}
     </div>
   );
 }

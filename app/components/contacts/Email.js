@@ -58,7 +58,7 @@ function EmailJs() {
             name="user_email"
             required
           />
-          <label>Messagem de contacto</label>
+          <label>Mensagem de contacto</label>
           <textarea
             className={contactsStyle.formTextArea}
             name="message"

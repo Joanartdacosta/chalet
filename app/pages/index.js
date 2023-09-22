@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <div>
       <Head />
-      <div className={homeStyles.background}>
+      <div className={homeStyles.background} data-testid="chalet-entrance">
         <ChaletEntrance />
       </div>
-      <div className={layoutStyles.informationSection}>
+      <div className={layoutStyles.informationSection} data-testid="mission">
         <Mission />
         <HomeSections />
       </div>

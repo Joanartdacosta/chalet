@@ -4,27 +4,6 @@ import Footer from "../footer/Footer";
 import LinkHome from "../link/LinkHome";
 import { GoogleFonts } from "next-google-fonts";
 import NextHead from "next/head";
-import { Poppins } from "@next/font/google";
-import { Roboto } from "@next/font/google";
-import { WindSong } from "@next/font/google";
-
-const POPPINS = Poppins({
-  variable: "--poppins-font",
-  subsets: ["latin"],
-  weight: "200",
-});
-
-const ROBOTO = Roboto({
-  variable: "--roboto-font",
-  subsets: ["latin"],
-  weight: "100",
-});
-
-const WINDSONG = WindSong({
-  variable: "--windsong-font",
-  subsets: ["latin"],
-  weight: "400",
-});
 
 const NAME = "CHALET";
 export const DESCRIPTION = "Chalet - Atelier de Design de Interiores";

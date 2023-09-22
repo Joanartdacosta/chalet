@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 80px;
 }
 
 .image {
@@ -33,6 +34,7 @@
   height: 35px;
   font-size: 12px;
   border: #cdcfc4;
+  border-radius: 5px;
   font-weight: 400;
   font-family: poppins;
   background: #e9dccf;

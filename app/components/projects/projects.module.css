@@ -71,3 +71,14 @@
 .categoryElement {
   padding-right: 10px;
 }
+
+.inputRadio {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  filter: grayscale();
+}
+
+.inputLabel {
+  padding: 5px;
+}

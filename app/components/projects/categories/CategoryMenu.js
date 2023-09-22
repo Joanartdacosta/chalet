@@ -19,13 +19,16 @@ export default function CategoryMenu(props) {
         return (
           <div className={projectsStyles.categoryElement} key={category.id}>
             <input
+              className={projectsStyles.inputRadio}
               value={category.category}
               id={category.id}
               type="radio"
               name="option"
               onChange={filterCategory}
             />
-            <label>{category.category}</label>
+            <label className={projectsStyles.inputLabel}>
+              {category.category}
+            </label>
           </div>
         );
       })}

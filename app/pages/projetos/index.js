@@ -5,6 +5,7 @@ import CategoryMenu from "../../components/projects/categories/CategoryMenu";
 import { useState } from "react";
 import ALL from "../../components/projects/galleries/all";
 import GalleryFiltered from "../../components/projects/gallery/GalleryFiltered";
+import ProjectMenu from "../../components/projects/ProjectMenu";
 
 export default function Projects() {
   const [projects, setProjects] = useState(ALL);

@@ -39,6 +39,7 @@
 }
 
 .cardHomeServicesLink:hover {
+  transition-duration: 0.5s;
   opacity: 0.7;
 }
 
@@ -82,4 +83,20 @@
 .missionSentenceBlock {
   text-align: justify;
   padding-top: 20px;
+}
+
+.buttonService {
+  text-align: center;
+  font-family: poppins;
+  width: 280px;
+  height: 30px;
+  border-style: none;
+  opacity: 0%;
+  font-size: 20px;
+}
+
+.buttonService:hover {
+  transition-duration: 0.5s;
+  opacity: 100%;
+  background: #dfc9b3;
 }

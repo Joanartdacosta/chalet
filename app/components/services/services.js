@@ -103,7 +103,13 @@ const SERVICES = [
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4135.JPG)",
     description:
-      "O serviço de Home Staging destina-se a quem quer vender ou arrendar (arrendamento de longa duração ou temporário) um imóvel. Este serviço proporciona uma valorização do imóvel, tornando-o mais atractivo e funcional para quem o procura. Contacte-nos para saber como podemos ajudá-lo, consoante as suas necessidades e orçamento.",
+      "O serviço de Home Staging destina-se a quem quer vender ou arrendar (arrendamento de longa duração ou temporário) um imóvel. Este serviço proporciona:",
+    detail1: "uma valorização do imóvel",
+    detail2: "torna-o mais atractivo",
+    detail3: "mais funcional",
+    detail4: "maior potencial de negocio",
+    step1:
+      "Contacte-nos para saber como podemos ajudá-lo, consoante as suas necessidades e orçamento.",
   },
 ];
 

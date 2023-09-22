@@ -15,11 +15,6 @@ export default function CardService(props) {
 
   return (
     <div>
-      <img
-        className={serviceStyles.serviceLine}
-        src="https://chalet-webapp.s3.amazonaws.com/line-icon/1.png"
-        alt="line"
-      />
       <div className={serviceStyles.serviceSection}>
         <div className={serviceStyles.serviceText}>
           <div className={serviceStyles.serviceColumn}></div>
@@ -36,7 +31,16 @@ export default function CardService(props) {
           <button className={serviceStyles.button} onClick={handleSeeMore}>
             Saber mais
           </button>
-          {modalIsOpen && <ModalService onClose={handleClose} />}
+          {modalIsOpen && (
+            <ModalService
+              step1={props.step1}
+              step2={props.step2}
+              step3={props.step3}
+              step4={props.step4}
+              step5={props.step5}
+              onClose={handleClose}
+            />
+          )}
         </div>
 
         <div

@@ -10,7 +10,5 @@ test("Contacts renders correctly with a form", () => {
     </MemoryRouter>
   );
 
-  const form = document.createElement("form");
-  expect(form).not.toBeNull();
   expect(screen.getByText("Mensagem de contacto")).toBeInTheDocument();
 });

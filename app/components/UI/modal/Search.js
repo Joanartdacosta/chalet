@@ -2,7 +2,7 @@ import { useState } from "react";
 import searchStyles from "./search.module.css";
 import ModalSearch from "./ModalSearch";
 
-export default function Search() {
+export default function Search(props) {
   const [searchIsOpen, setSearchIsOpen] = useState(false);
 
   function handleSearch() {
@@ -21,7 +21,9 @@ export default function Search() {
         className={searchStyles.image}
         onClick={handleSearch}
       />
-      {searchIsOpen && <ModalSearch onClose={handleClose} />}
+      {searchIsOpen && (
+        <ModalSearch setServices={props.setServices} onClick={handleClose} />
+      )}
     </div>
   );
 }

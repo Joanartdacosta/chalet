@@ -1,22 +1,25 @@
-import searchStyle from "./search.module.css";
-import { useState } from "react";
+import searchStyles from "./search.module.css";
+import SERVICES from "../../services/services";
 
-export default function ModalSearch() {
-  const [value, setValue] = useState("");
+export default function ModalSearch(props) {
+  function filterServices(event) {
+    const LOWER_CASE_SEARCH = event.target.value.toLowerCase();
 
-  function catchValue(event) {
-    setValue(event.target.value);
+    const filtered = SERVICES.filter((category) =>
+      category.title.toLowerCase().includes(LOWER_CASE_SEARCH)
+    );
+
+    props.setServices(filtered);
   }
 
   return (
-    <div>
+    <div className={searchStyles.searchSection}>
       <input
-        className={searchStyle.searchInput}
+        className={searchStyles.searchInput}
         type="text"
         placeholder="Procure pelo servico que pretende"
-        onChange={catchValue}
+        onChange={filterServices}
       />
-      <button className={searchStyle.searchButton}>Procurar Servico</button>
     </div>
   );
 }

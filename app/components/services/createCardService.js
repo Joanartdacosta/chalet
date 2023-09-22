@@ -3,6 +3,7 @@ import CardService from "./CardService";
 export default function createCardService(services) {
   return (
     <CardService
+      key={services.id}
       id={services.id}
       imgURL={services.imgURL}
       title={services.title}

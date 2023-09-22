@@ -21,7 +21,7 @@ const CONCEPT_BOARD = [
     href: "#complementar",
     title: "Consultoria Complementar",
     category1: "concept board",
-    category: "cozinha",
+    category2: "cozinha",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel4.jpg",
   },
@@ -30,7 +30,7 @@ const CONCEPT_BOARD = [
     href: "#complementar",
     title: "Consultoria Complementar",
     category1: "concept board",
-    category: "cozinha",
+    category2: "cozinha",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel5.jpg",
   },

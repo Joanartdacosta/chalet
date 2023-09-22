@@ -1,6 +1,5 @@
 .projectsMenu {
   display: inline-flex;
-  margin-bottom: 50px;
 }
 
 .projectTitleMenu {
@@ -61,4 +60,14 @@
 .category {
   display: flex;
   flex-direction: column;
+}
+
+.categorySection {
+  display: inline-flex;
+  margin-bottom: 50px;
+  margin-left: 0.5rem;
+}
+
+.categoryElement {
+  padding-right: 10px;
 }

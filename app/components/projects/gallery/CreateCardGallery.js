@@ -8,6 +8,8 @@ export default function createCardGallery(galleries) {
       title={galleries.title}
       imgURL={galleries.imgURL}
       gallery={galleries.gallery}
+      category1={galleries.category1}
+      category2={galleries.category2}
     />
   );
 }

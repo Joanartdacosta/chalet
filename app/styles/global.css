@@ -9,6 +9,9 @@
 /* Windsogn regular 400 */
 @import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -27,4 +30,38 @@ h2 {
 
 p {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menu,
+  .main,
+  .right,
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .main {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }

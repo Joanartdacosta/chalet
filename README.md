@@ -9,7 +9,9 @@ In the website it will be possible to find detailed information about the design
 
 At the moment, it is under-construction.
 
-[Chalet Interior Design page](https://www.instagram.com/chalet_designinteriores/)
+[Website](https://www.chaletdesigninteriores.com)
+
+[Instagram](https://www.instagram.com/chalet_designinteriores/)
 
 ## Github Workflow Steps
 
@@ -33,3 +35,9 @@ At the moment, it is under-construction.
   - git checkout main && git pull origin main
   - cd app
   - npx vercel --prod
+
+## Domain
+
+Domain in www.namecheap.com.
+
+Hosted in Vercel.

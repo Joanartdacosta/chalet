@@ -1,6 +1,6 @@
-import ProjectMenu from "../components/projects/ProjectMenu";
+import ProjectMenu from "../components/projects/project_menu/ProjectMenu";
 import React from "react";
-import { render, fireEvent, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 jest.mock("react-router");
 
 describe("NavBar", () => {

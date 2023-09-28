@@ -4,8 +4,8 @@ import CardGallery from "./CardGallery";
 export default function GalleryFiltered(props) {
   const NEW_GALLERY = [];
 
-  for (let i = 0; i < props.projects.length; i++) {
-    NEW_GALLERY.push(props.projects[i]);
+  for (let i = 0; i < props.categories.length; i++) {
+    NEW_GALLERY.push(props.categories[i]);
   }
 
   return (

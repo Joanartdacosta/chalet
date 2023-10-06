@@ -13,16 +13,16 @@
 
 .cardHomeServicesTitle {
   font-size: 20px;
-  font-weight: bold;
+  text-align: center;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway";
 }
 
 .cardHomeServicesDescription {
   font-size: 14px;
   opacity: 0.8;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway";
 }
 
 .cardHomeServicesInfos {
@@ -88,12 +88,13 @@
 
 .buttonService {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway";
   width: 280px;
   height: 30px;
   border-style: none;
   opacity: 0%;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 .buttonService:hover {

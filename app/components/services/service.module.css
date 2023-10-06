@@ -51,7 +51,7 @@
   height: 35px;
   font-size: 14px;
   border-radius: 12px;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
   background: #e9dccf;
   margin-top: 50px;
 }
@@ -63,7 +63,7 @@
   height: 30px;
   font-size: 14px;
   border-radius: 12px;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
   background: #e9e4e0;
   margin-top: 20px;
   margin-right: 10px;

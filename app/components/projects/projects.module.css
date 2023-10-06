@@ -29,7 +29,7 @@
 .galleryTitle {
   font-size: 25px;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
   color: #b7997b;
 }
@@ -53,7 +53,7 @@
   font-size: 16px;
   font-weight: 500;
   border-radius: 12px;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
   background: #e9dccf;
   margin: 5px;
 }

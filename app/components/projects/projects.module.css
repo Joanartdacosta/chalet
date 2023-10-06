@@ -8,12 +8,13 @@
 }
 
 .projectTitle {
+  font-size: 15px;
   text-decoration: none;
   color: black;
 }
 
 .projectTitle:hover {
-  text-decoration: underline;
+  color: #856343;
 }
 
 .conceptBoard {
@@ -23,13 +24,13 @@
 }
 
 .projectTitleMenu:hover {
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .galleryTitle {
   font-size: 25px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+
   font-weight: lighter;
   color: #b7997b;
 }
@@ -53,7 +54,7 @@
   font-size: 16px;
   font-weight: 500;
   border-radius: 12px;
-  font-family: "Poppins", sans-serif;
+
   background: #e9dccf;
   margin: 5px;
 }

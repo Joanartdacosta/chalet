@@ -23,12 +23,12 @@
 }
 
 .serviceDescription {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .serviceBullets {
   padding-left: 40px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .serviceImage {
@@ -51,7 +51,7 @@
   height: 35px;
   font-size: 14px;
   border-radius: 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway";
   background: #e9dccf;
   margin-top: 50px;
 }
@@ -63,7 +63,6 @@
   height: 30px;
   font-size: 14px;
   border-radius: 12px;
-  font-family: "Poppins", sans-serif;
   background: #e9e4e0;
   margin-top: 20px;
   margin-right: 10px;

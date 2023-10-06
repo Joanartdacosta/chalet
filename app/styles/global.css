@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/raleway/Raleway.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
 /* Poppins thin */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 /* Poppins thin-italic */
@@ -13,14 +20,15 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 body {
-  font-family: "Poppins", sans-serif;
-  padding: 0;
+  font-family: "Raleway";
+  font-weight: lighter;
+
   margin: 0;
 }
 
 h1 {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 23px;
+  font-weight: normal;
 }
 
 h2 {
@@ -29,7 +37,7 @@ h2 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 800px) {

@@ -9,8 +9,7 @@ export default function CategoryMenu(props) {
     const filtered = ALL.filter((category) =>
       category.category2.includes(CATEGORY_CHECKED)
     );
-
-    props.setProjects(filtered);
+    props.setCategories(filtered);
   }
 
   return (

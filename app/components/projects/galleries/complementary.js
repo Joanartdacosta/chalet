@@ -22,7 +22,7 @@ const COMPLEMENTARY = [
     href: "#complementar",
     title: "Consultoria Complementar",
     category1: "concept board",
-    category2: "sala",
+    category2: "Sala",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel2.jpg",
   },

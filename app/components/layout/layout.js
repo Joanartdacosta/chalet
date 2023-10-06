@@ -1,7 +1,7 @@
 import Head from "next/head";
-import NavBar from "../navbar/NavBar";
-import Footer from "../footer/Footer";
-import LinkHome from "../link/LinkHome";
+import NavBar from "../UI/navbar/NavBar";
+import Footer from "../UI/footer/Footer";
+import LinkHome from "../UI/link/LinkHome";
 import { GoogleFonts } from "next-google-fonts";
 import NextHead from "next/head";
 

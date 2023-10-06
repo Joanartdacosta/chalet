@@ -1,4 +1,4 @@
-import layoutStyles from "../layout/layout.module.css";
+import layoutStyles from "../../layout/layout.module.css";
 import Link from "next/link";
 
 export default function LinkHome() {

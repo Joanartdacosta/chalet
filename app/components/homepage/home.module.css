@@ -13,16 +13,14 @@
 
 .cardHomeServicesTitle {
   font-size: 20px;
-  font-weight: bold;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .cardHomeServicesDescription {
   font-size: 14px;
   opacity: 0.8;
   margin: 0;
-  font-family: roboto;
 }
 
 .cardHomeServicesInfos {
@@ -93,6 +91,7 @@
   border-style: none;
   opacity: 0%;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 .buttonService:hover {

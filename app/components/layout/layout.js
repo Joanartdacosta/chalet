@@ -1,4 +1,3 @@
-import Head from "next/head";
 import NavBar from "../navbar/NavBar";
 import Footer from "../footer/Footer";
 import LinkHome from "../link/LinkHome";

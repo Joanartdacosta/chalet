@@ -4,10 +4,10 @@ import layoutStyles from "../layout/layout.module.css";
 export default function Mission() {
   return (
     <div>
-      <div className={homeStyles.missionSentence}>
-        <h1 className={layoutStyles.differentTitle}>Missao</h1>
+      <div>
+        <h1>Missao</h1>
         <h2>Cada projeto é o início de uma nova história!</h2>
-        <div className={homeStyles.missionSentenceBlock}>
+        <div>
           <p>
             O Chalet - Design de Interiores nasce com a finalidade de trazer
             ideias e soluções aos espaços dos seus clientes, quer sejam eles

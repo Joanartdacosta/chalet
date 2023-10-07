@@ -1,12 +1,6 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Raleway Dots', cursive;
-font-family: 'WindSong', cursive; */
-
 body {
   font-family: "Montserrat", sans-serif;
   padding: 0;

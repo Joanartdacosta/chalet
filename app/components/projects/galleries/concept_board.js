@@ -54,6 +54,24 @@ const CONCEPT_BOARD = [
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/3.png",
   },
+  {
+    id: 130,
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "Espacos Comerciais",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/Projeto+T%C3%ADpica+Imobili%C3%A1ria+-+Sala+de+Espera.png",
+  },
+  {
+    id: 140,
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "Espacos Comerciais",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/Projeto+T%C3%ADpica+Imobili%C3%A1ria+-+Sala+Reuni%C3%B5es.png",
+  },
 ];
 
 export default CONCEPT_BOARD;

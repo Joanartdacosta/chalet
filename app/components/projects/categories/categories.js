@@ -5,18 +5,23 @@ const CATEGORIES = [
   },
   {
     id: 2,
-    category: "Sala",
-  },
-  {
-    id: 3,
-    category: "Quarto",
-  },
-  {
-    id: 4,
     category: "WC",
   },
   {
+    id: 3,
+    category: "Sala",
+  },
+  {
+    id: 4,
+    category: "Quarto",
+  },
+
+  {
     id: 5,
+    category: "Escritorio",
+  },
+  {
+    id: 6,
     category: "Espacos Comerciais",
   },
 ];

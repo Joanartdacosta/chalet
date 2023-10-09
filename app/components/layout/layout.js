@@ -1,7 +1,7 @@
 import NavBar from "../navbar/NavBar";
 import Footer from "../footer/Footer";
 import LinkHome from "../link/LinkHome";
-import NextHead from "next/head";
+import Head from "next/head";
 
 const NAME = "CHALET";
 export const DESCRIPTION = "Chalet - Atelier de Design de Interiores";

@@ -2,45 +2,87 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 body {
-  font-family: "Montserrat", sans-serif;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
-h1 {
-  font-size: 20px;
+.container {
+  background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vmax;
+  width: 100vmax;
+  justify-items: center;
 }
 
-h2 {
-  font-size: 20px;
+.title-chalet {
+  color: black;
 }
 
-p {
-  font-size: 17px;
+.black-border {
+  border: 2px solid black;
+  width: 500px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.background {
+  background-color: #b7997b;
+  width: 100vmax;
+}
+
+.display {
+  display: inline-flex;
 }
 
 @media only screen and (max-width: 800px) {
-  .main {
-    width: 80%;
-    padding: 0;
+  .background {
+    width: 800vh;
   }
-  .right {
-    width: 100%;
+
+  .display {
+    display: flex;
+  }
+  .container {
+    width: 800vh;
+    background-repeat: repeat-x;
+    /* background-attachment: fixed; */
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .menu,
-  .main,
-  .right,
-  img {
-    width: 100%;
+  .background {
+    width: 500vh;
+    height: 100%;
+  }
+  .display {
+    display: flex;
+  }
+
+  .container {
+    width: 500vh;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 @media (min-width: 701px) and (max-width: 1120px) {
-  .main {
-    grid-template-columns: repeat(2, 50%);
+  .background {
+    width: 1120vh;
+  }
+  .display {
+    display: flex;
+  }
+
+  .container {
+    width: 1120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 

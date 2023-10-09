@@ -1,35 +1,22 @@
-/* Poppins thin */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-/* Poppins thin-italic */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
-/* Roboto thin-italic */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
-/* Roboto thin */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-/* Windsogn regular 400 */
-@import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
-
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 h1 {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
 }
 
 h2 {
   font-size: 20px;
-  font-weight: bold;
 }
 
 p {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 @media only screen and (max-width: 800px) {

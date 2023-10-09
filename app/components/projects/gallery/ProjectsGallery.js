@@ -6,6 +6,7 @@ import HOME_STANGING from "../galleries/homeStaging";
 import DECOR from "../galleries/decor";
 import CONCEPT_BOARDS from "../galleries/concept_board";
 import CardGallery from "./CardGallery";
+import COMERCIALS from "../galleries/comercials";
 
 export default function ProjectsGallery() {
   return (
@@ -35,6 +36,12 @@ export default function ProjectsGallery() {
         gallery={HOME_STANGING}
         title={"Home Staging"}
         id={"staging"}
+      />
+
+      <CardGallery
+        gallery={COMERCIALS}
+        title={"Espacos Comerciais"}
+        id={"comercial"}
       />
       <CardGallery
         gallery={CONCEPT_BOARDS}

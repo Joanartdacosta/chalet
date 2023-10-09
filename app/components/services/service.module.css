@@ -8,7 +8,7 @@
   border-style: solid;
   border-width: 0px 5px 0px 0px;
   border-left: 1px;
-  height: 350px;
+  height: 18vw;
   border-color: #e9dccf;
   border-radius: 25%;
   opacity: 40%;
@@ -28,7 +28,7 @@
 
 .serviceBullets {
   padding-left: 40px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .serviceImage {
@@ -81,3 +81,4 @@
   background-color: rgb(250, 245, 238);
   border-radius: 5%;
 } */
+/* width: 90%; */

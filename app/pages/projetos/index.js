@@ -4,7 +4,6 @@ import ProjectsGallery from "../../components/projects/gallery/ProjectsGallery";
 import CategoryMenu from "../../components/projects/categories/CategoryMenu";
 import { useState } from "react";
 import ALL from "../../components/projects/galleries/all";
-import GalleryFiltered from "../../components/projects/gallery/GalleryFiltered";
 
 export default function Projects() {
   const [categories, setCategories] = useState(ALL);
@@ -13,8 +12,7 @@ export default function Projects() {
     <div className={layoutStyles.informationSection}>
       <h1 className={layoutStyles.subtitles}>PROJECTOS</h1>
       <ProjectMenu />
-      <CategoryMenu setCategories={setCategories} />
-      <GalleryFiltered categories={categories} />
+      <CategoryMenu setCategories={setCategories} categories={categories} />
       <ProjectsGallery />
     </div>
   );

@@ -9,7 +9,7 @@ export const DESCRIPTION = "Chalet - Atelier de Design de Interiores";
 export default function Layout({ children, home }) {
   return (
     <div>
-      <NextHead>
+      <Head>
         <title id="title">{NAME}</title>
         <link
           rel="icon"
@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
         <meta name="keywords" content="Atelier, Design, Decoracao" />
         <meta name="author" content={NAME} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </NextHead>
+      </Head>
 
       <main>
         {" "}

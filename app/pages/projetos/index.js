@@ -7,6 +7,7 @@ export default function Projects() {
     <div className={layoutStyles.informationSection}>
       <h1 className={layoutStyles.subtitles}>PROJECTOS</h1>
       <ProjectMenu />
+      <CategoryMenu setCategories={setCategories} categories={categories} />
       <ProjectsGallery />
     </div>
   );

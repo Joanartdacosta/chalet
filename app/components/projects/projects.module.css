@@ -4,7 +4,7 @@
 }
 
 .projectTitleMenu {
-  padding: 10px 10px 10px;
+  padding: 8px 8px 8px;
 }
 
 .projectTitle {
@@ -70,7 +70,6 @@
 }
 
 .categorySection {
-  display: inline-flex;
   margin-bottom: 50px;
   margin-left: 0.5rem;
 }

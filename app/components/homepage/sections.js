@@ -18,7 +18,7 @@ const SECTIONS = [
     id: 3,
     title: "Projetos",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/remodelacao/moradia-mezzanine/sala/10.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room2.png",
     href: "/projetos",
     description: "Cada projecto, uma nova historia.",
   },

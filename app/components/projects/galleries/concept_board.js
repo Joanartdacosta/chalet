@@ -1,6 +1,6 @@
-const CONCEPT_BOARD = [
+const CONCEPT_BOARDS = [
   {
-    id: 40,
+    id: 100,
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
@@ -10,7 +10,7 @@ const CONCEPT_BOARD = [
   },
 
   {
-    id: 50,
+    id: 110,
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
@@ -19,7 +19,7 @@ const CONCEPT_BOARD = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/%5Bkitchen_mariana_pedro2%5D.jpg",
   },
   {
-    id: 70,
+    id: 120,
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
@@ -28,7 +28,7 @@ const CONCEPT_BOARD = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel5.jpg",
   },
   {
-    id: 80,
+    id: 130,
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
@@ -37,41 +37,50 @@ const CONCEPT_BOARD = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel6.jpg",
   },
   {
-    id: 90,
-    href: "#concept-board",
-    title: "Concept Board",
-    category1: "concept board",
-    category2: "cozinha",
-    imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/1.png",
-  },
-  {
-    id: 120,
-    href: "#concept-board",
-    title: "Concept Board",
-    category1: "concept board",
-    category2: "cozinha",
-    imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/3.png",
-  },
-  {
-    id: 130,
-    href: "#concept-board",
-    title: "Concept Board",
-    category1: "concept board",
-    category2: "Espacos Comerciais",
-    imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/Projeto+T%C3%ADpica+Imobili%C3%A1ria+-+Sala+de+Espera.png",
-  },
-  {
     id: 140,
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
+    category2: "cozinha",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/netherlands/concept-board/netherland-concept-board1.png",
+  },
+  {
+    id: 150,
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "sala",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/netherlands/concept-board/netherland-concept-board2.png",
+  },
+  {
+    id: 151,
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "sala",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/netherlands/concept-board/netherland-concept-board3.png",
+  },
+  {
+    id: 160,
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
     category2: "Espacos Comerciais",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/Projeto+T%C3%ADpica+Imobili%C3%A1ria+-+Sala+Reuni%C3%B5es.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/imobiliaria2.png",
+  },
+  {
+    id: 170,
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "Espacos Comerciais",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/imobiliaria1.png",
   },
 ];
 
-export default CONCEPT_BOARD;
+export default CONCEPT_BOARDS;

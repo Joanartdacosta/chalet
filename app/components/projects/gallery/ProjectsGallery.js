@@ -24,7 +24,7 @@ export default function ProjectsGallery() {
       />
       <CardGallery
         gallery={HOUSE_TV}
-        title={"Moradia"}
+        title={"Moradia TV"}
         category1={"Projeto de Design e Remodelacao de Interiores"}
       />
 
@@ -41,14 +41,14 @@ export default function ProjectsGallery() {
       />
       <CardGallery
         gallery={OFFICE_S}
-        title={"Escritorio"}
+        title={"Escritorio S"}
         category1={"Projeto de Decoracao de Interiores"}
         id={"decor"}
       />
 
       <CardGallery
         gallery={STUDIO}
-        title={"Sala"}
+        title={"Sala Studio"}
         category1={"Projeto de Decoracao de Interiores"}
       />
 

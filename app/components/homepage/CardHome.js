@@ -3,15 +3,15 @@ import Link from "next/link";
 export default function CardHome(props) {
   return (
     <div>
-      <Link href={props.href} key={props.id}>
+      <Link className="link" href={props.href} key={props.id}>
         {" "}
-        <img src={props.imgURL} alt={props.title} />
+        <img className="image-service" src={props.imgURL} alt={props.title} />
         <div>
           <div>
-            <h1>{props.title}</h1>
+            <h1 className="font-subtitle">{props.title}</h1>
 
-            <button>
-              <p>{props.description}</p>
+            <button className="button button-green">
+              <p className="font-text">{props.description}</p>
             </button>
           </div>
         </div>

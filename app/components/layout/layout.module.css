@@ -14,7 +14,7 @@
 }
 
 .differentTitle {
-  font-family: windsong;
+  font-family: "Windsong", cursive;
   font-weight: lighter;
   font-size: 40px;
 }
@@ -26,10 +26,19 @@
 
 .subtitles {
   font-size: 30px;
-  font-style: italic;
   margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 7px;
   font-weight: lighter;
   text-align: center;
+  margin-bottom: 0;
+}
+
+.hrSubtitle {
+  border: 0.001rem solid #856343;
+  opacity: 30%;
+  width: 200px;
+  margin-bottom: 90px;
 }
 
 .button {
@@ -39,7 +48,7 @@
   font-size: 20px;
   border: #cdcfc4;
   font-weight: 400;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
   background: #e9dccf;
   font-weight: bold;
   margin-bottom: 45px;

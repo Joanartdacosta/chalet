@@ -8,6 +8,7 @@ export default function CardAdvantage(props) {
         src={props.imgURL}
         alt={props.alt}
       />
+      <h2 className={aboutStyles.titleAdvantage}>{props.title}</h2>
       <p>{props.description}</p>
     </div>
   );

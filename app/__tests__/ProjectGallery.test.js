@@ -1,15 +1,15 @@
 import ProjectGallery from "../components/projects/gallery/ProjectsGallery";
 import React from "react";
-import { getByTitle, render, screen } from "@testing-library/react";
+import { getByText, render, screen } from "@testing-library/react";
 jest.mock("react-router");
 
-describe("NavBar", () => {
+describe("ProjectGallery", () => {
   test("should render correnctly", () => {
     render(<ProjectGallery />);
 
-    screen.getByTitle("Home Staging");
+    screen.getByText("Consultoria Complementar");
 
-    const homeStagingId = document.querySelector("#staging");
-    getByTitle(homeStagingId, "Home Staging");
+    const textId = document.querySelector("#complementar");
+    getByText(textId, "Consultoria Complementar");
   });
 });

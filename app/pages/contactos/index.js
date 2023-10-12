@@ -8,6 +8,7 @@ export default function Contacts() {
     <div className={layoutStyles.informationSection}>
       <h1 className={layoutStyles.subtitles}>CONTACTOS</h1>
       <TableServices />
+      <hr className={layoutStyles.hrSubtitle} />
       <Email />
     </div>
   );

@@ -1,6 +1,13 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+:root {
+  --light-green: #cdcfc4;
+  --light-brown: #e9dccf;
+  --medium-brown: #b7997b;
+  --dark-brown: #856343;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   padding: 0;
@@ -67,4 +74,19 @@ p {
   to {
     transform: rotate(0deg);
   }
+}
+
+.table-border {
+  border: 1px solid var(--light-brown);
+  display: inline-table;
+  margin: 10px;
+}
+
+.list {
+  list-style-type: none;
+}
+.text-align-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }

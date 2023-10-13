@@ -1,6 +1,12 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+:root {
+  --font-paragraph: "Raleway", sans-serif;
+  --font-titles: "Montserrat", sans-serif;
+  --font-special: "Windsong", cursive;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,17 +14,17 @@ body {
 }
 
 .font-text {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-paragraph);
   font-size: 18px;
 }
 
 .font-subtitle {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-titles)
   font-size: 20px;
 }
 
 .font-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-titles)
   font-size: 25px;
 }
 
@@ -27,7 +33,7 @@ body {
 }
 
 .windsong-subtitle {
-  font-family: "Windsong", cursive;
+  font-family: var(--font-special)
 }
 
 .hr {

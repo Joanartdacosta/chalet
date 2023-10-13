@@ -35,13 +35,9 @@ export default function Layout({ children, home }) {
         {" "}
         <NavBar />
         {children}
+        <LinkHome />
+        <Footer />
       </main>
-      {!home && (
-        <div>
-          <LinkHome />
-          <Footer />
-        </div>
-      )}
     </div>
   );
 }

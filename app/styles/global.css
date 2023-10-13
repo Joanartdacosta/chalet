@@ -7,10 +7,19 @@
   --font-special: "Windsong", cursive;
 }
 
-body {
-  margin: 0;
+* {
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  min-height: 320px;
+  max-height: 2560px;
+}
+
+body {
+  font-family: var(--font-paragraph);
 }
 
 .font-text {
@@ -19,12 +28,12 @@ body {
 }
 
 .font-subtitle {
-  font-family: var(--font-titles)
+  font-family: var(--font-titles);
   font-size: 20px;
 }
 
 .font-title {
-  font-family: var(--font-titles)
+  font-family: var(--font-titles);
   font-size: 25px;
 }
 
@@ -33,7 +42,7 @@ body {
 }
 
 .windsong-subtitle {
-  font-family: var(--font-special)
+  font-family: var(--font-special);
 }
 
 .hr {

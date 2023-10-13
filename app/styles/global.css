@@ -19,6 +19,22 @@ p {
   font-size: 17px;
 }
 
+.table-border {
+  border: 1px solid var(--light-brown);
+  display: inline-table;
+  margin: 10px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.text-align-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 800px) {
   .main {
     width: 80%;

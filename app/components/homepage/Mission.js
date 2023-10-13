@@ -1,14 +1,13 @@
-import homeStyles from "./home.module.css";
-import layoutStyles from "../layout/layout.module.css";
-
 export default function Mission() {
   return (
-    <div>
+    <div className="wrap-section justify-center text-center">
       <div>
-        <h1>Missao</h1>
-        <h2>Cada projeto é o início de uma nova história!</h2>
-        <div>
-          <p>
+        <h1 className="windsong-subtitle padding-top-section">Missao</h1>
+        <h2 className="font-text font-bold padding-top-element">
+          Cada projeto é o início de uma nova história!
+        </h2>
+        <div className="padding-top-element margin-auto">
+          <p className="font-text">
             O Chalet - Design de Interiores nasce com a finalidade de trazer
             ideias e soluções aos espaços dos seus clientes, quer sejam eles
             residenciais ou comerciais, que combinem três premissas essenciais -

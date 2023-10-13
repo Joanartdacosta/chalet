@@ -1,8 +1,8 @@
 /* .cardHomeServices {
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 3px rgba(98, 81, 64, 0.2);
-  padding: 40px 40px 20px;
+  box-shadow: 0 0 30px rgba(98, 81, 64, 0.2);
+  padding: 30px 30px 30px;
 }
 
 .cardHomeServicesImage {
@@ -44,6 +44,7 @@
 .homeSections {
   display: inline-flex;
   margin-top: 60px;
+  gap: 50px;
 }
 
 .designerName {
@@ -79,18 +80,17 @@
 }
 
 .missionSentenceBlock {
-  text-align: justify;
+  text-align: center;
   padding-top: 20px;
 }
 
 .buttonService {
   text-align: center;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
   width: 280px;
-  height: 30px;
+  height: 40px;
   border-style: none;
   opacity: 0%;
-  font-size: 20px;
   margin-top: 10px;
 }
 
@@ -98,4 +98,8 @@
   transition-duration: 0.5s;
   opacity: 100%;
   background: #dfc9b3;
+} */
+/* background: #cdcfc4;
+  font-weight: 400;
+  font-size: 40px;
 } */

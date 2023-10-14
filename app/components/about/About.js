@@ -1,28 +1,26 @@
-import aboutStyles from "./aboutme.module.css";
-
+import Carousel from "../UI/carousel/Carousel";
+import DESIGNER from "../about/designer";
 export default function AboutMe() {
   return (
     <div>
-      <div className={aboutStyles.aboutIntroduction}>
-        <h2 className={aboutStyles.slogan}>
-          'Cada projeto é o início de uma nova história.'
+      <div className="text-center">
+        <h2 className="font-title padding-top-section">
+          Cada projeto é o início de uma nova história.'
         </h2>
-        <p className={aboutStyles.designerName}>Mariana Batista Ramadas</p>
-        <p className={aboutStyles.designerIntroduction}>
+        <p className="font-subtitle font-italic padding-bottom-element">
+          Mariana Batista Ramadas
+        </p>
+        <p className="font-text font-italic padding-top-element padding-bottom-section">
           O Chalet nasce da paixão de Mariana Batista Ramadas pela arquitetura e
           decoração, aliada ao conforto, estética e funcionalidade.{" "}
         </p>
       </div>
 
-      <div className={aboutStyles.aboutMe}>
-        <div className={aboutStyles.aboutMeBlock}>
-          <img
-            className={aboutStyles.designerPhoto}
-            src="https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_0970+(2).JPG"
-            alt="designer-profile"
-          />
+      <div>
+        <div>
+          <Carousel slides={DESIGNER} />
 
-          <p>
+          <p className="font-text text-center">
             <br />
             "Chamo-me Mariana e desde pequena que sempre fui apaixonada por
             arquitetura e decoração. Sabem aquela pessoa que vai na rua ou no
@@ -57,10 +55,10 @@ export default function AboutMe() {
             desafio e aprendizagem constantes!"
           </p>
         </div>
-        <h2>
+        <p className="font-subtitle font-bold text-center padding-top-element padding-bottom-section">
           "Agradeço a todos os que, até agora, já confiaram no meu trabalho e
           conto com vocês para que venham por aí muitos bons e novos projetos!"{" "}
-        </h2>
+        </p>
       </div>
     </div>
   );

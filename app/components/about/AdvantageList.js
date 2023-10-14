@@ -6,12 +6,8 @@ import ICONS_2 from "./icons_2";
 export default function AdvantagesList() {
   return (
     <div>
-      <div className={aboutStyles.advantagesSections}>
-        {ICONS_1.map(createCard)}
-      </div>
-      <div className={aboutStyles.advantagesSections}>
-        {ICONS_2.map(createCard)}
-      </div>
+      <div>{ICONS_1.map(createCard)}</div>
+      <div>{ICONS_2.map(createCard)}</div>
     </div>
   );
 }

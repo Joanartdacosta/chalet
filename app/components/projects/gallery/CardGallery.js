@@ -17,11 +17,7 @@ export default function CardGallery(props) {
           {GALLERY.map((photo) => {
             return (
               <div key={photo.id}>
-                <img
-                  className={projectStyles.galleryMasonry}
-                  src={photo.imgURL}
-                  alt={props.title}
-                />
+                <img className="gallery" src={photo.imgURL} alt={props.title} />
               </div>
             );
           })}

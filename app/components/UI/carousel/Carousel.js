@@ -1,19 +1,20 @@
 import React from "react";
 import Slider from "react-slick";
-import carouselStyles from "./carousel.module.css";
 
 export default function Carousel(props) {
+  const SLIDES = [];
+
+  for (let i = 0; i < props.slides.length; i++) {
+    SLIDES.push(props.slides[i]);
+  }
+
   return (
     <div>
-      <Slider {...props.settings}>
-        {props.slides.map((slide) => {
+      <Slider>
+        {SLIDES.map((slide) => {
           return (
             <div key={slide.id}>
-              <img
-                className={carouselStyles.Image}
-                src={slide.imgURL}
-                alt="slide"
-              />
+              <img className="gallery" src={slide.imgURL} alt={slide.title} />
             </div>
           );
         })}

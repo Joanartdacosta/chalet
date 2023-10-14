@@ -177,9 +177,10 @@ body {
   background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 900px;
+  height: 1000px;
   width: 100%;
   text-align: center;
+  background-attachment: fixed;
 }
 
 .navbar-background {
@@ -227,7 +228,55 @@ body {
   height: 75%;
 }
 
-@media screen and (min-width: 200px) and (max-width: 679px) {
+.table-border {
+  border: 1px solid var(--light-brown);
+  display: inline-table;
+  margin: 10px;
+}
+
+.list {
+  list-style-type: none;
+}
+.display-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* responsive design */
+
+/* 800px - 1460px */
+@media screen and (min-width: 800px) and (max-width: 1460px) {
+  .entrance-background {
+    height: 700px;
+  }
+  h2,
+  h3 {
+    padding: 4px;
+  }
+}
+
+/* 700px - 800px */
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .entrance-background {
+    height: 700px;
+    background-size: 120%;
+  }
+  h2,
+  h3 {
+    padding: 4px;
+  }
+
+  .title-chalet {
+    font-size: 3.5em;
+  }
+
+  .hr-chalet {
+    display: none;
+  }
+}
+
+/* 200px - 700px */
+@media screen and (min-width: 200px) and (max-width: 700px) {
   .title-chalet {
     display: flex;
     justify-content: center;
@@ -257,26 +306,16 @@ body {
   }
 
   .entrance-background {
-    height: 350px;
+    height: 560px;
+    background-size: 130%;
   }
 
   .navbar-back {
     display: grid;
     font-size: 15px;
   }
-}
 
-.table-border {
-  border: 1px solid var(--light-brown);
-  display: inline-table;
-  margin: 10px;
-}
-
-.list {
-  list-style-type: none;
-}
-.text-align-center {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  .navbar-menu {
+    display: grid;
+  }
 }

@@ -5,6 +5,10 @@
   --font-paragraph: "Raleway", sans-serif;
   --font-titles: "Montserrat", sans-serif;
   --font-special: "Windsong", cursive;
+  --light-green: #cdcfc4;
+  --light-brown: #e9dccf;
+  --medium-brown: #b7997b;
+  --dark-brown: #856343;
 }
 
 * {
@@ -260,4 +264,19 @@ body {
     display: grid;
     font-size: 15px;
   }
+}
+
+.table-border {
+  border: 1px solid var(--light-brown);
+  display: inline-table;
+  margin: 10px;
+}
+
+.list {
+  list-style-type: none;
+}
+.text-align-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }

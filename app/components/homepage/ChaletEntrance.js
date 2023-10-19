@@ -1,11 +1,15 @@
 export default function ChaletBackground() {
   return (
     <div className="entrance-background">
-      <h1 className="title-chalet">CHALET</h1>
+      <p className="title-chalet padding-bottom-element">CHALET</p>
       <hr className="hr-chalet" />
-      <h2 className="font-bold padding-top-element">DESIGN de INTERIORES</h2>
-      <h3>by</h3>
-      <h3 className="font-italic">Mariana Batista Ramadas</h3>
+      <h1 className="font-subtitle font-bold padding-top-element">
+        DESIGN de INTERIORES
+      </h1>
+      <h2 className="font-subtitle padding-text">by</h2>
+      <h2 className="font-subtitle font-italic padding-text">
+        Mariana Batista Ramadas
+      </h2>
     </div>
   );
 }

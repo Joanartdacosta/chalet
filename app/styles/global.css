@@ -49,6 +49,10 @@ body {
   padding-bottom: 20px;
 }
 
+.padding-text {
+  padding: 10px;
+}
+
 .padding-icon {
   padding: 0 20px;
 }
@@ -60,12 +64,15 @@ body {
   gap: 50px;
 }
 
+.max-width {
+  max-width: 900px;
+}
+
 /* fonts */
 
 .font-text {
   font-family: var(--font-paragraph);
   font-size: 20px;
-  max-width: 900px;
 }
 
 .font-subtitle {
@@ -96,6 +103,15 @@ body {
 
 .font-italic {
   font-style: italic;
+}
+
+/* text */
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 /* hrs */
@@ -178,7 +194,7 @@ body {
   background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 1000px;
+  height: 100%;
   width: 100%;
   text-align: center;
   background-attachment: fixed;
@@ -194,11 +210,10 @@ body {
   background-color: #e9dccf;
   padding-top: 2%;
   padding-bottom: 2%;
+  background-position: fixed;
 }
 
-.text-center {
-  text-align: center;
-}
+/* flex */
 
 .justify-center {
   justify-content: center;
@@ -208,20 +223,30 @@ body {
   justify-content: flex-end;
 }
 
+.wrap-section {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* width */
 .width-100 {
   min-width: 100%;
 }
+
+/* cards */
 
 .width-card {
   width: 300px;
   height: 400px;
 }
 
-.wrap-section {
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
-}
+/* pictures */
 
 .image-service {
   object-fit: cover;
@@ -234,6 +259,12 @@ body {
   border-radius: 2%;
 }
 
+.gallery {
+  width: 250px;
+  max-width: 900px;
+}
+
+/* table */
 .table-border {
   border: 1px solid var(--light-brown);
   display: inline-table;
@@ -243,43 +274,104 @@ body {
 .list {
   list-style-type: none;
 }
-.display-column {
-  display: flex;
-  flex-direction: column;
-}
 
-.gallery {
-  padding: 5px;
-  width: 350px;
+.border-card {
+  border: 5px double #cdcfc4;
+  border-radius: 5%;
 }
-
-.gallery:hover {
-  transition-duration: 0.8s;
-  transform: scale(2);
-  font-weight: 600;
-}
-
 /* responsive design */
+
+/* 1000px - 3500px */
+@media screen and (min-width: 2000px) and (max-width: 3500px) {
+  .entrance-background {
+    height: 1600px;
+  }
+
+  .padding-top-section {
+    margin-top: 200px;
+  }
+
+  .padding-bottom-section {
+    margin-bottom: 200px;
+  }
+
+  .max-width {
+    max-width: 800px;
+  }
+  .title-chalet {
+    font-size: 250px;
+  }
+
+  .hr-chalet {
+    width: 1200px;
+  }
+  .font-subtitle {
+    font-size: 45px;
+  }
+
+  .windsong-subtitle {
+    font-size: 100px;
+  }
+
+  .font-text {
+    font-size: 45px;
+  }
+
+  .max-width {
+    max-width: 2000px;
+  }
+
+  .width-card {
+    width: 600px;
+    height: 600px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .padding-text {
+    padding: 20px;
+  }
+
+  .padding-icon {
+    padding: 0 50px;
+  }
+
+  .gallery {
+    width: 500px;
+  }
+}
 
 /* 800px - 1460px */
 @media screen and (min-width: 800px) and (max-width: 1460px) {
   .entrance-background {
     height: 700px;
+    background-size: 100%;
   }
-  h2,
-  h3 {
+  .padding-text {
     padding: 4px;
+  }
+
+  .hr-chalet {
+    display: none;
+  }
+  .max-width {
+    max-width: 800px;
+  }
+
+  .padding-cards {
+    padding: 70px;
   }
 }
 
 /* 700px - 800px */
-@media screen and (min-width: 700px) and (max-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 800px) {
   .entrance-background {
-    height: 700px;
+    height: 800px;
     background-size: 120%;
   }
-  h2,
-  h3 {
+  .padding-text {
     padding: 4px;
   }
 
@@ -290,6 +382,14 @@ body {
   .hr-chalet {
     display: none;
   }
+
+  .max-width {
+    max-width: 600px;
+  }
+
+  .gallery {
+    width: 200px;
+  }
 }
 
 /* 200px - 700px */
@@ -297,7 +397,11 @@ body {
   .title-chalet {
     display: flex;
     justify-content: center;
-    font-size: 2.5em;
+    font-size: 60px;
+  }
+
+  .title-chalet {
+    font-size: 70px;
   }
 
   .windsong-subtitle {
@@ -309,30 +413,21 @@ body {
     display: none;
   }
 
-  p {
-    font-size: 15px;
-  }
-  h2,
-  h3 {
-    font-size: 0.7em;
-    padding: 3px;
-  }
-
-  .font-text {
-    max-width: 300px;
+  .font-subtitle {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .entrance-background {
-    height: 560px;
-    background-size: 130%;
+    height: 900px;
+    background-size: 180%;
   }
-
-  .navbar-back {
-    display: grid;
-    font-size: 15px;
-  }
-
   .navbar-menu {
     display: grid;
+  }
+
+  .max-width {
+    max-width: 300px;
   }
 }

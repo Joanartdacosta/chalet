@@ -4,7 +4,7 @@ const SERVICES = [
     title: "Projeto de Design Interiores",
     href: "#design",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1460.JPG)",
+      "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1460.JPG",
     description:
       "Este serviço destina-se a quem quer um projeto para um espaço novo (em fase de construção) ou a remodelar.",
     detail1:
@@ -30,7 +30,7 @@ const SERVICES = [
     title: "Projeto de Decoracao de Interiores",
     href: "#decor",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1148.JPG)",
+      "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1148.JPG",
     description:
       "Este serviço destina-se a quem pretende apenas uma melhoria estética e funcional do seu espaço, com pouca ou nenhuma necessidade de execução de obra.",
     detail1:
@@ -55,7 +55,7 @@ const SERVICES = [
     title: "Consultoria Online de Decoracao de Interiores",
     href: "#online",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/moodboards/Moodboard+cozinha1.png)",
+      "https://chalet-webapp.s3.amazonaws.com/moodboards/Moodboard+cozinha1.png",
     description:
       "O serviço de Consultoria Online de Decoracao de Interiores destina-se a quem pretende apenas apoio e sugestões de melhoria ao nível funcional e/ou estético de um ou mais espaços da sua casa, não incluindo assim um projeto técnico detalhado. Não estão incluídos projetos de cozinhas e instalações sanitárias.",
     detail1: "Paleta de cores, Texturas e Materiais escolhida;",
@@ -80,7 +80,7 @@ const SERVICES = [
     title: "Consultoria Complementar de Decoracao de Interiores",
     href: "#complementar",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG)",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/netherlands/concept-board/Moodboard+Sala+Holanda.png",
     description:
       "Pretende dar apenas aquele toque especial à sua casa mas não sabe por onde começar? Já comprou toda a mobília para a sua casa nova (sofá, mesa, cadeiras) mas não sabe que objetos decorativos pode escolher ou conjugar?",
     detail1:
@@ -103,7 +103,7 @@ const SERVICES = [
     title: "Home Staging",
     href: "#staging",
     imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4135.JPG)",
+      "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4135.JPG",
     description:
       "O serviço de Home Staging destina-se a quem quer vender ou arrendar (arrendamento de longa duração ou temporário) um imóvel. Este serviço proporciona:",
     detail1: "uma valorização do imóvel",

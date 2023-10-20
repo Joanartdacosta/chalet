@@ -12,7 +12,7 @@ export default function ModalSearch(props) {
   }
 
   return (
-    <div className="padding-top-element margin-auto max-width padding-bottom-element">
+    <div className="padding-top-section margin-auto max-width padding-bottom-element">
       <input
         className="width-100 padding-10 font-text border-radius"
         type="text"

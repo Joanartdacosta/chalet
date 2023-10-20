@@ -8,7 +8,7 @@ export default function ServicesList(props) {
   }
 
   return (
-    <div className="wrap-section margin-auto max-width padding-top-section padding-bottom-section">
+    <div className="margin-auto max-width padding-top-section padding-bottom-section">
       {NEW_SERVICES.map(createCardService)}
     </div>
   );

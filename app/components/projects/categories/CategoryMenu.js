@@ -1,4 +1,3 @@
-import projectsStyles from "../projects.module.css";
 import CATEGORIES from "./categories";
 import ALL from "../galleries/all";
 import GalleryFiltered from "../gallery/GalleryFiltered";
@@ -19,24 +18,27 @@ export default function CategoryMenu(props) {
 
   return (
     <div>
-      <div className={projectsStyles.categorySection}>
+      <div className="display-flex padding-bottom-section margin-auto justify-center">
         {CATEGORIES.map((category) => {
           return (
-            <div className={projectsStyles.categoryElement} key={category.id}>
+            <div key={category.id}>
               <input
-                className={projectsStyles.inputRadio}
+                className="font-subtitle border-radius"
                 value={category.category}
                 id={category.id}
                 type="radio"
                 name="option"
                 onChange={filterCategory}
               />
-              <label className={projectsStyles.inputLabel}>
+              <label className="font-text padding-10">
                 {category.category}
               </label>
             </div>
           );
         })}
+      </div>
+
+      <div>
         <GalleryFiltered categories={props.categories} show={show} />
       </div>
     </div>

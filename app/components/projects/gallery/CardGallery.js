@@ -12,20 +12,19 @@ export default function CardGallery(props) {
     <div
       id={props.id}
       key={props.id}
-      className="text-center margin-auto max-width padding-bottom-section"
+      className="text-center margin-auto max-width padding-bottom-section padding-top-section"
     >
       <h1 className="font-subtitle padding-bottom-element">{props.title}</h1>
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
-        <Masonry>
-          {GALLERY.map((photo) => {
-            return (
-              <div key={photo.id}>
-                <img className="gallery" src={photo.imgURL} alt={props.title} />
-              </div>
-            );
-          })}
-        </Masonry>
-      </ResponsiveMasonry>
+
+      <Masonry>
+        {GALLERY.map((photo) => {
+          return (
+            <div key={photo.id}>
+              <img className="gallery" src={photo.imgURL} alt={props.title} />
+            </div>
+          );
+        })}
+      </Masonry>
     </div>
   );
 }

@@ -19,8 +19,15 @@ export default function CardGallery(props) {
       <Masonry>
         {GALLERY.map((photo) => {
           return (
-            <div key={photo.id}>
-              <img className="gallery" src={photo.imgURL} alt={props.title} />
+            <div
+              key={photo.id}
+              className="wrap-section justify-center padding-50"
+            >
+              <img
+                className="gallery wrap-section"
+                src={photo.imgURL}
+                alt={props.title}
+              />
             </div>
           );
         })}

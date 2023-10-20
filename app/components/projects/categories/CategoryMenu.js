@@ -18,12 +18,12 @@ export default function CategoryMenu(props) {
 
   return (
     <div>
-      <div className="display-flex padding-bottom-section margin-auto justify-center">
+      <div className="wrap-section display-flex justify-center padding-bottom-section margin-auto justify-center">
         {CATEGORIES.map((category) => {
           return (
             <div key={category.id}>
               <input
-                className="font-subtitle border-radius"
+                className="font-text  border-radius"
                 value={category.category}
                 id={category.id}
                 type="radio"
@@ -38,7 +38,7 @@ export default function CategoryMenu(props) {
         })}
       </div>
 
-      <div>
+      <div className="wrap-section">
         <GalleryFiltered categories={props.categories} show={show} />
       </div>
     </div>

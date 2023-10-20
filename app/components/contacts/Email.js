@@ -43,7 +43,7 @@ export default function EmailJs() {
         <div className="wrap-section margin-auto max-width">
           <div className="margin-auto">
             <img
-              className="image"
+              className="gallery border-radius"
               src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
               alt="details"
             />

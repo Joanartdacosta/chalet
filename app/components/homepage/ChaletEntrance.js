@@ -6,8 +6,8 @@ export default function ChaletBackground() {
       <h1 className="font-subtitle font-bold padding-top-element">
         DESIGN de INTERIORES
       </h1>
-      <h2 className="font-subtitle padding-text">by</h2>
-      <h2 className="font-subtitle font-italic padding-text">
+      <h2 className="font-subtitle padding-10">by</h2>
+      <h2 className="font-subtitle font-italic padding-10">
         Mariana Batista Ramadas
       </h2>
     </div>

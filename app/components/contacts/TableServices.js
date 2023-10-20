@@ -1,11 +1,11 @@
 export default function TableServices() {
   return (
-    <div className="display-column text-center">
-      <p>
+    <div className="display-column text-center max-width margin-auto padding-top-section padding-bottom-section">
+      <p className="padding-bottom-element">
         Se pretende solicitar um orcamento, são necessários os seguintes dados:
       </p>
 
-      <table className="table-border">
+      <table className="table-border padding-cards">
         <tr>
           <th>Projeto de Design e Remodelacao de Interiores</th>
         </tr>
@@ -20,7 +20,7 @@ export default function TableServices() {
         </td>
       </table>
 
-      <table className="table-border">
+      <table className="table-border padding-cards">
         <tr>
           <th>Projeto de Decoracao de Interiores</th>
         </tr>
@@ -35,7 +35,7 @@ export default function TableServices() {
         </td>
       </table>
 
-      <table className="table-border">
+      <table className="table-border padding-cards">
         <tr>
           <th>Consultoria Online de Decoracao de Interiores</th>
         </tr>
@@ -48,12 +48,6 @@ export default function TableServices() {
           </ul>
         </td>
       </table>
-
-      <p>
-        Para mais informações ou dúvidas, entre em contacto: a partir do
-        formulario abaixo; por mensagem privada no Instagram ou envie email para
-        chalet.designinteriores@gmail.com.
-      </p>
     </div>
   );
 }

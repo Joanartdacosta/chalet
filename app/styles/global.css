@@ -63,8 +63,12 @@ body {
   margin: auto;
 }
 
-.gap {
+.gap-50 {
   gap: 50px;
+}
+
+.gap-10 {
+  gap: 10px;
 }
 
 .max-width {
@@ -283,10 +287,15 @@ body {
 }
 
 .gallery {
-  width: 250px;
+  width: 280px;
   max-width: 900px;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
+}
+
+.gallery:hover {
+  transition-duration: 0.8s;
+  transform: scale(2);
 }
 
 /* table */

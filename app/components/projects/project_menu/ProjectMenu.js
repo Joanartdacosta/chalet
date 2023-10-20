@@ -1,10 +1,9 @@
 import createCardProject from "./createCardProject";
 import SERVICES from "../../services/services";
-import projectStyles from "../projects.module.css";
 
 export default function ProjectMenu() {
   return (
-    <div className={projectStyles.projectsMenu}>
+    <div className="wrap-section gap-10 max-width justify-center margin-auto padding-top-section padding-bottom-section">
       {SERVICES.map(createCardProject)}
     </div>
   );

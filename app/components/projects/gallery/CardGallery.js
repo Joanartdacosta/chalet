@@ -1,4 +1,3 @@
-import projectStyles from "../projects.module.css";
 import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
@@ -10,8 +9,12 @@ export default function CardGallery(props) {
   }
 
   return (
-    <div id={props.id} key={props.id}>
-      <h1 className={projectStyles.galleryTitle}>{props.title}</h1>
+    <div
+      id={props.id}
+      key={props.id}
+      className="text-center margin-auto max-width padding-bottom-section"
+    >
+      <h1 className="font-subtitle padding-bottom-element">{props.title}</h1>
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
         <Masonry>
           {GALLERY.map((photo) => {

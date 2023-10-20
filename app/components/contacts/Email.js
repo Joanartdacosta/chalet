@@ -59,19 +59,20 @@ export default function EmailJs() {
                   className="width-100 font-subtitle"
                   type="text"
                   name="user_name"
+                  size="30"
+                  min-length="2"
                 />
               </div>
 
               <div className="padding-bottom-element">
-                <label className="wrap-section font-subtitle width-100 ">
-                  Email
-                </label>
+                <label className="wrap-section font-subtitle">Email</label>
                 <input
                   className="width-100 font-subtitle"
                   type="email"
                   name="user_email"
                   size="30"
                   required
+                  min-length="9"
                 />
               </div>
 
@@ -82,8 +83,9 @@ export default function EmailJs() {
                 <textarea
                   className="width-100 font-subtitle"
                   name="message"
-                  size="200"
-                ></textarea>
+                  min-length="1"
+                  required
+                />
               </div>
 
               <div>

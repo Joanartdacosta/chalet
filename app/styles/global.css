@@ -274,10 +274,8 @@ body {
 }
 
 .gallery {
-  /* width: 400px; */
-  /* max-width: 900px; */
-  background-size: cover;
-  background-position: center;
+  width: 250px;
+  max-width: 900px;
 }
 
 /* table */
@@ -293,11 +291,16 @@ body {
 
 .border-card {
   border: 5px double #cdcfc4;
-  border-radius: 5%;
 }
 
 .border-none {
   border-radius: 0%;
+}
+
+.border-radius {
+  border-radius: 5px;
+  border-color: lightgray;
+  opacity: 80%;
 }
 /* responsive design */
 

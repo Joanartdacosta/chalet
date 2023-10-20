@@ -56,7 +56,7 @@ export default function EmailJs() {
                   Nome
                 </label>
                 <input
-                  className="width-100 font-subtitle"
+                  className="width-100 font-subtitle border-radius"
                   type="text"
                   name="user_name"
                 />
@@ -67,7 +67,7 @@ export default function EmailJs() {
                   Email
                 </label>
                 <input
-                  className="width-100 font-subtitle"
+                  className="width-100 font-subtitle border-radius"
                   type="email"
                   name="user_email"
                   size="30"
@@ -80,7 +80,7 @@ export default function EmailJs() {
                   Mensagem de contacto
                 </label>
                 <textarea
-                  className="width-100 font-subtitle"
+                  className="width-100 font-subtitle border-radius"
                   name="message"
                   size="200"
                 ></textarea>
@@ -90,7 +90,7 @@ export default function EmailJs() {
                 <button
                   onClick={changeStyle}
                   style={{ background: color }}
-                  className="button button-brown width-100 border-none font-text padding-10"
+                  className="button button-brown width-100 border-none font-subtitle padding-10 border-radius"
                   type="submit"
                   value="Send"
                 >

@@ -75,12 +75,12 @@ body {
 
 .font-text {
   font-family: var(--font-paragraph);
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .font-subtitle {
   font-family: var(--font-titles);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .windsong-subtitle {
@@ -122,17 +122,14 @@ body {
 .hr-chalet {
   border: 0.001rem solid black;
   width: 600px;
-  margin: auto;
 }
 
 .hr-subtitle {
   width: 300px;
   height: 90px;
-  align-items: center;
 }
 
 .hr {
-  border-style: solid;
   border-color: #cdcfc4;
   border-radius: 25%;
   opacity: 40%;
@@ -142,14 +139,15 @@ body {
   opacity: 30%;
   width: 200px;
 }
-.hr-border-vertical {
+
+.hr-vertical {
   border-width: 0px 5px 0px 0px;
   float: left;
   border-left: 1px;
   height: 18vw;
 }
 
-.hr-border-top-horizontal {
+.hr-horizontal {
   border-width: 5px 0px 0px 0px;
 }
 
@@ -229,6 +227,10 @@ body {
   justify-content: space-evenly;
 }
 
+.justify-space-around {
+  justify-content: space-between;
+}
+
 .flex-end {
   justify-content: flex-end;
 }
@@ -272,8 +274,10 @@ body {
 }
 
 .gallery {
-  width: 250px;
-  max-width: 900px;
+  /* width: 400px; */
+  /* max-width: 900px; */
+  background-size: cover;
+  background-position: center;
 }
 
 /* table */

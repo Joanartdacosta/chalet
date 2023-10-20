@@ -1,5 +1,4 @@
 import createCardService from "./createCardService";
-import serviceStyles from "./service.module.css";
 
 export default function ServicesList(props) {
   const NEW_SERVICES = [];
@@ -9,7 +8,7 @@ export default function ServicesList(props) {
   }
 
   return (
-    <div className={serviceStyles.servicesSection}>
+    <div className="wrap-section margin-auto max-width padding-top-section padding-bottom-section">
       {NEW_SERVICES.map(createCardService)}
     </div>
   );

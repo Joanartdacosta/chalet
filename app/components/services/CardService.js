@@ -1,5 +1,4 @@
 import { useState } from "react";
-import serviceStyles from "./service.module.css";
 import ModalService from "./ModalService";
 
 export default function CardService(props) {
@@ -15,20 +14,31 @@ export default function CardService(props) {
 
   return (
     <div>
-      <div className={serviceStyles.serviceSection}>
-        <div className={serviceStyles.serviceText}>
-          <div className={serviceStyles.serviceColumn}></div>
-          <h1> {props.title}</h1>
-          <p className={serviceStyles.serviceDescription}>
+      <div className="text-justify padding-bottom-section">
+        <div>
+          <hr className="hr hr-vertical" />
+        </div>
+
+        <div className="margin-auto padding-30">
+          <h1 className="font-subtitle padding-bottom-element">
+            {" "}
+            {props.title}
+          </h1>
+          <p className="font-text padding-bottom-element">
             {props.description}
           </p>
 
-          <li className={serviceStyles.serviceBullets}>{props.detail1}</li>
-          <li className={serviceStyles.serviceBullets}>{props.detail2}</li>
-          <li className={serviceStyles.serviceBullets}>{props.detail3}</li>
-          <li className={serviceStyles.serviceBullets}>{props.detail4}</li>
+          <div className="font-text padding-bottom-element">
+            <li>{props.detail1}</li>
+            <li>{props.detail2}</li>
+            <li>{props.detail3}</li>
+            <li>{props.detail4}</li>
+          </div>
 
-          <button className={serviceStyles.button} onClick={handleSeeMore}>
+          <button
+            className="button button-brown font-text"
+            onClick={handleSeeMore}
+          >
             Saber mais
           </button>
           {modalIsOpen && (
@@ -42,13 +52,6 @@ export default function CardService(props) {
             />
           )}
         </div>
-
-        <div
-          className={serviceStyles.serviceImage}
-          style={{
-            backgroundImage: props.imgURL,
-          }}
-        ></div>
       </div>
     </div>
   );

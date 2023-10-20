@@ -1,5 +1,5 @@
 import { useState } from "react";
-import layoutStyles from "../../components/layout/layout.module.css";
+
 import ServiceList from "../../components/services/ServicesList";
 import ModalSearch from "../../components/UI/modal/ModalSearch";
 import SERVICES from "../../components/services/services";
@@ -7,9 +7,9 @@ import SERVICES from "../../components/services/services";
 export default function Services() {
   const [services, setServices] = useState(SERVICES);
   return (
-    <div className={layoutStyles.informationSection}>
-      <h1 className={layoutStyles.subtitles}>SERVICOS</h1>
-      <hr className={layoutStyles.hrSubtitle} />
+    <div className="text-center margin-auto">
+      <h1 className="font-title padding-top-section">SERVICOS</h1>
+      <hr className="hr hr-sub margin-auto" />
       <ModalSearch setServices={setServices} />
       <ServiceList services={services} />
     </div>

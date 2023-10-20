@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <div className="padding-top-section">
       <h1 className="font-title text-center">PROJECTOS</h1>
-      <hr className="hr hr-sub margin-auto " />
+      <hr className="hr hr-subtitle margin-auto " />
       <ProjectMenu />
       <ProjectsGallery />
     </div>

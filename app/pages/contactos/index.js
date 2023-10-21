@@ -5,7 +5,7 @@ export default function Contacts() {
   return (
     <div className="padding-top-section">
       <h1 className="font-title text-center">CONTACTOS</h1>
-      <hr className="hr hr-sub margin-auto " />
+      <hr className="hr hr-subtitle margin-auto " />
       <TableServices />
       <Email />
       <div className="padding-top-section margin-auto text-center max-width">

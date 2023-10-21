@@ -176,9 +176,9 @@ body {
 .entrance-background {
   background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 900px;
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 

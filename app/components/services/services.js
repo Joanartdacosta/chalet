@@ -1,53 +1,7 @@
 const SERVICES = [
   {
     id: 1,
-    title: "Consultoria Complementar",
-    href: "#complementar",
-    imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG)",
-    description:
-      "Pretende dar apenas aquele toque especial à sua casa mas não sabe por onde começar? Já comprou toda a mobília para a sua casa nova (sofá, mesa, cadeiras) mas não sabe que objetos decorativos pode escolher ou conjugar?",
-    detail1:
-      "Sugestão de uma paleta de cores (totalmente nova ou a partir de uma cor já existente no espaço e que o cliente pretenda mesmo manter);",
-    detail2:
-      "Consoante o espaço a trabalhar e orçamento disponível, sugestão ao nível de todo o tipo de artigos decorativos ou ate mobiliario (ex.almofadas, tapetes,etc);",
-    detail3:
-      "Conselhos sobre como integrar estes elementos na decoração - ex. forma correta de colocar os tapetes ou cortinados, conjugação de almofadas, entre outros;",
-    detail4: "Lista detalhada dos artigos propostos a adquirir.",
-    step1:
-      "A Consultoria Complementar é um serviço maioritariamente online mas há duas formas de o finalizar:",
-    step2:
-      "o cliente fica responsável pela compra de todas as peças e pela colocação das mesmas no espaço,",
-    step3:
-      "a gestão das compras e encomendas fica a nosso cargo, assim como a montagem final do espaço - poupança de tempo e dinheiro! (válido apenas para a região da Grande Lisboa).",
-  },
-  {
-    id: 2,
-    title: "Consultoria Online",
-    href: "#online",
-    imgURL:
-      "url(https://chalet-webapp.s3.amazonaws.com/moodboards/Moodboard+cozinha1.png)",
-    description:
-      "O serviço de Consultoria Online destina-se a quem pretende apenas apoio e sugestões de melhoria ao nível funcional e/ou estético de um ou mais espaços da sua casa, não incluindo assim um projeto técnico detalhado. Não estão incluídos projetos de cozinhas e instalações sanitárias.",
-    detail1: "Paleta de cores, Texturas e Materiais escolhida;",
-    detail2:
-      "Planta Simples com a disposição das principais peças de mobiliário (layout);",
-    detail3: "ConceptBoard de composição final do espaço;",
-    detail4:
-      "Apresentação detalhada de artigos a adquirir (artigos de lojas físicas de fácil acesso ou de lojas com venda online);",
-    step1:
-      "Entre em contacto com a CHALET através do email para envio de orçamento. Para tal são necessárias: Planta(s) originais ou desenhada(s) com as medidas principais do espaço; Fotos do(s) espaço(s) a decorar.",
-    step2:
-      "Após aprovação do orçamento, entramos em contacto com o cliente e é enviado um questionário para perceber principais gostos, necessidades e funcionalidades pretendidas para o(s) espaço(s) a decorar (o cliente pode e deve enviar fotografias de inspiração).",
-    step3: "O projeto final é enviado ao cliente por email incluindo:",
-    step4:
-      "Após receber o projeto, o cliente só tem de o implementar, ao seu ritmo.",
-    step5:
-      "Para mais informações ou dúvidas, enviar mensagem privada no Instagram ou enviar email para chalet.designinteriores@gmail.com",
-  },
-  {
-    id: 3,
-    title: "Projetos de Design Interiores",
+    title: "Projeto de Design Interiores",
     href: "#design",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1460.JPG)",
@@ -72,8 +26,8 @@ const SERVICES = [
       "O serviço de acompanhamento e assistência à obra pode ser incluído, caso seja do interesse do cliente.",
   },
   {
-    id: 4,
-    title: "Projetos de Decoracao de Interiores",
+    id: 2,
+    title: "Projeto de Decoracao de Interiores",
     href: "#decor",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1148.JPG)",
@@ -96,6 +50,54 @@ const SERVICES = [
     step5:
       "Montagem final do espaço. O cliente pode optar por não usufruir do serviço de montagem final, ficando com toda a lista de artigos, fazendo ele próprio a aquisição e montagem dos mesmos.",
   },
+  {
+    id: 3,
+    title: "Consultoria Online de Decoracao de Interiores",
+    href: "#online",
+    imgURL:
+      "url(https://chalet-webapp.s3.amazonaws.com/moodboards/Moodboard+cozinha1.png)",
+    description:
+      "O serviço de Consultoria Online de Decoracao de Interiores destina-se a quem pretende apenas apoio e sugestões de melhoria ao nível funcional e/ou estético de um ou mais espaços da sua casa, não incluindo assim um projeto técnico detalhado. Não estão incluídos projetos de cozinhas e instalações sanitárias.",
+    detail1: "Paleta de cores, Texturas e Materiais escolhida;",
+    detail2:
+      "Planta Simples com a disposição das principais peças de mobiliário (layout);",
+    detail3: "ConceptBoard de composição final do espaço;",
+    detail4:
+      "Apresentação detalhada de artigos a adquirir (artigos de lojas físicas de fácil acesso ou de lojas com venda online);",
+    step1:
+      "Entre em contacto com a CHALET através do email para envio de orçamento. Para tal são necessárias: Planta(s) originais ou desenhada(s) com as medidas principais do espaço; Fotos do(s) espaço(s) a decorar.",
+    step2:
+      "Após aprovação do orçamento, entramos em contacto com o cliente e é enviado um questionário para perceber principais gostos, necessidades e funcionalidades pretendidas para o(s) espaço(s) a decorar (o cliente pode e deve enviar fotografias de inspiração).",
+    step3: "O projeto final é enviado ao cliente por email incluindo:",
+    step4:
+      "Após receber o projeto, o cliente só tem de o implementar, ao seu ritmo.",
+    step5:
+      "Para mais informações ou dúvidas, enviar mensagem privada no Instagram ou enviar email para chalet.designinteriores@gmail.com",
+  },
+
+  {
+    id: 4,
+    title: "Consultoria Complementar de Decoracao de Interiores",
+    href: "#complementar",
+    imgURL:
+      "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG)",
+    description:
+      "Pretende dar apenas aquele toque especial à sua casa mas não sabe por onde começar? Já comprou toda a mobília para a sua casa nova (sofá, mesa, cadeiras) mas não sabe que objetos decorativos pode escolher ou conjugar?",
+    detail1:
+      "Sugestão de uma paleta de cores (totalmente nova ou a partir de uma cor já existente no espaço e que o cliente pretenda mesmo manter);",
+    detail2:
+      "Consoante o espaço a trabalhar e orçamento disponível, sugestão ao nível de todo o tipo de artigos decorativos ou ate mobiliario (ex.almofadas, tapetes,etc);",
+    detail3:
+      "Conselhos sobre como integrar estes elementos na decoração - ex. forma correta de colocar os tapetes ou cortinados, conjugação de almofadas, entre outros;",
+    detail4: "Lista detalhada dos artigos propostos a adquirir.",
+    step1:
+      "A Consultoria Complementar é um serviço maioritariamente online mas há duas formas de o finalizar:",
+    step2:
+      "o cliente fica responsável pela compra de todas as peças e pela colocação das mesmas no espaço,",
+    step3:
+      "a gestão das compras e encomendas fica a nosso cargo, assim como a montagem final do espaço - poupança de tempo e dinheiro! (válido apenas para a região da Grande Lisboa).",
+  },
+
   {
     id: 5,
     title: "Home Staging",

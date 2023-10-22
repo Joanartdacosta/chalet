@@ -6,7 +6,7 @@ const CONCEPT_BOARDS = [
     category1: "concept board",
     category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/%5Bkitchen_mariana_pedro1%5D.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/concept-board-MP1.png",
   },
 
   {
@@ -16,7 +16,7 @@ const CONCEPT_BOARDS = [
     category1: "concept board",
     category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/%5Bkitchen_mariana_pedro2%5D.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/concept-board-MP2.png",
   },
   {
     id: "CONCEPTB120",
@@ -25,16 +25,34 @@ const CONCEPT_BOARDS = [
     category1: "concept board",
     category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel5.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/concept-board-MP3.png",
   },
   {
     id: "CONCEPTB130",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
-    category2: "cozinha",
+    category2: "escritorio",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel6.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/CB+Home+Office.png",
+  },
+  {
+    id: "CONCEPTB180",
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "sala",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/CB+Zona+Estar.png",
+  },
+  {
+    id: "CONCEPTB190",
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "sala",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/CB+Zona+Jantar.png",
   },
   {
     id: "CONCEPTB140",

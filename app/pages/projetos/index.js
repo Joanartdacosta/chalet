@@ -10,7 +10,8 @@ export default function Projects() {
   return (
     <div className={layoutStyles.informationSection}>
       <h1 className={layoutStyles.subtitles}>PROJECTOS</h1>
-
+      <hr className={layoutStyles.hrSubtitle} />
+      <ProjectMenu />
       <ProjectsGallery />
     </div>
   );

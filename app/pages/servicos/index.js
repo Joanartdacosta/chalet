@@ -9,6 +9,7 @@ export default function Services() {
   return (
     <div className={layoutStyles.informationSection}>
       <h1 className={layoutStyles.subtitles}>SERVICOS</h1>
+      <hr className={layoutStyles.hrSubtitle} />
       <ModalSearch setServices={setServices} />
       <ServiceList services={services} />
     </div>

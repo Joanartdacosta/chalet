@@ -35,9 +35,16 @@
   color: #b7997b;
 }
 
+.galleryDescription {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .galleryMasonry {
-  padding: 5px;
+  padding: 10px;
   width: 350px;
+  gap: 20px;
 }
 
 .galleryMasonry:hover {

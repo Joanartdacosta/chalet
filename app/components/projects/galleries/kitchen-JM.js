@@ -1,6 +1,6 @@
 const KITCHEN_JM = [
   {
-    id: 200,
+    id: "kichenJM-200",
     href: "#design",
     title: "Cozinha JM",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -9,7 +9,7 @@ const KITCHEN_JM = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/project-B/kitchen/Project-B-kitchen1.jpg",
   },
   {
-    id: 210,
+    id: "kichenJM-210",
     href: "#design",
     title: "Cozinha JM",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -18,7 +18,7 @@ const KITCHEN_JM = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/project-B/kitchen/Project-B-kitchen2.jpg",
   },
   {
-    id: 220,
+    id: "kichenJM-220",
     href: "#design",
     title: "Cozinha JM",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -27,7 +27,7 @@ const KITCHEN_JM = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/project-B/kitchen/Project-B-kitchen3.jpg",
   },
   {
-    id: 230,
+    id: "kichenJM-230",
     href: "#design",
     title: "Cozinha JM",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -36,7 +36,7 @@ const KITCHEN_JM = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/project-B/kitchen/Project-B-kitchen4.jpg",
   },
   {
-    id: 240,
+    id: "kichenJM-240",
     href: "#design",
     title: "Cozinha JM",
     category1: "Projeto de Design e Remodelacao de Interiores",

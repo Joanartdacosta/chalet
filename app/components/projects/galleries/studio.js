@@ -1,6 +1,6 @@
 const STUDIO = [
   {
-    id: 800,
+    id: "studio800",
     href: "#decor",
     title: "Escritorio S",
     category1: "Projeto de Decoracao de Interiores",
@@ -9,7 +9,7 @@ const STUDIO = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/studio/studio1.png",
   },
   {
-    id: 810,
+    id: "studio810",
     href: "#decor",
     title: "Escritorio S",
     category1: "Projeto de Decoracao de Interiores",
@@ -18,7 +18,7 @@ const STUDIO = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/studio/studio2.png",
   },
   {
-    id: 820,
+    id: "studio820",
     href: "#decor",
     title: "Studio",
     category1: "Projeto de Decoracao de Interiores",
@@ -27,7 +27,7 @@ const STUDIO = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/studio/studio3.png",
   },
   {
-    id: 830,
+    id: "studio830",
     href: "#decor",
     title: "Studio",
     category1: "Projeto de Decoracao de Interiores",
@@ -36,7 +36,7 @@ const STUDIO = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/studio/studio4.png",
   },
   {
-    id: 840,
+    id: "studio840",
     href: "#decor",
     title: "Studio",
     category1: "Projeto de Decoracao de Interiores",
@@ -45,7 +45,7 @@ const STUDIO = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/studio/studio5.png",
   },
   {
-    id: 850,
+    id: "studio850",
     href: "#decor",
     title: "Studio",
     category1: "Projeto de Decoracao de Interiores",
@@ -54,7 +54,7 @@ const STUDIO = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/studio/studio6.png",
   },
   {
-    id: 860,
+    id: "studio860",
     href: "#decor",
     title: "Studio",
     category1: "Projeto de Decoracao de Interiores",

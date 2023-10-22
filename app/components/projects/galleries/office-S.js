@@ -1,6 +1,6 @@
 const OFFICE_S = [
   {
-    id: 700,
+    id: "officeS-700",
     href: "#decor",
     title: "Escritorio S",
     category1: "Projeto de Decoracao de Interiores",
@@ -9,7 +9,7 @@ const OFFICE_S = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/office-S/project-S1.png",
   },
   {
-    id: 710,
+    id: "officeS-710",
     href: "#decor",
     title: "Escritorio S",
     category1: "Projeto de Decoracao de Interiores",
@@ -18,7 +18,7 @@ const OFFICE_S = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/office-S/project-S2.png",
   },
   {
-    id: 720,
+    id: "officeS-720",
     href: "#decor",
     title: "Escritorio S",
     category1: "Projeto de Decoracao de Interiores",

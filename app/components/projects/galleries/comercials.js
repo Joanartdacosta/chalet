@@ -1,6 +1,6 @@
 const COMERCIALS = [
   {
-    id: 10,
+    id: "COMERCIALS10",
     href: "#comercial",
     title: "Espacos Comerciais",
     category1: "Espacos Comerciais",
@@ -9,7 +9,7 @@ const COMERCIALS = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant1.png",
   },
   {
-    id: 10,
+    id: "COMERCIALS20",
     href: "#comercial",
     title: "Espacos Comerciais",
     category1: "Espacos Comerciais",
@@ -18,7 +18,7 @@ const COMERCIALS = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant2.png",
   },
   {
-    id: 10,
+    id: "COMERCIALS30",
     href: "#comercial",
     title: "Espacos Comerciais",
     category1: "Espacos Comerciais",
@@ -27,7 +27,7 @@ const COMERCIALS = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant3.png",
   },
   {
-    id: 10,
+    id: "COMERCIALS40",
     href: "#comercial",
     title: "Espacos Comerciais",
     category1: "Espacos Comerciais",
@@ -36,7 +36,7 @@ const COMERCIALS = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant4.png",
   },
   {
-    id: 10,
+    id: "COMERCIALS50",
     href: "#comercial",
     title: "Espacos Comerciais",
     category1: "Espacos Comerciais",

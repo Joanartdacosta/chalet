@@ -1,6 +1,6 @@
 const MEZANINE = [
   {
-    id: 600,
+    id: "mezanine600",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -9,7 +9,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall1.png",
   },
   {
-    id: 610,
+    id: "mezanine610",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -18,7 +18,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall2.png",
   },
   {
-    id: 620,
+    id: "mezanine620",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -28,7 +28,7 @@ const MEZANINE = [
   },
 
   {
-    id: 630,
+    id: "mezanine630",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -37,7 +37,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall4.png",
   },
   {
-    id: 640,
+    id: "mezanine640",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -46,7 +46,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall5.png",
   },
   {
-    id: 650,
+    id: "mezanine650",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -55,7 +55,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall6.png",
   },
   {
-    id: 660,
+    id: "mezanine660",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -64,7 +64,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall7.png",
   },
   {
-    id: 670,
+    id: "mezanine670",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -73,7 +73,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen1.png",
   },
   {
-    id: 680,
+    id: "mezanine680",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -82,7 +82,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen2.png",
   },
   {
-    id: 690,
+    id: "mezanine690",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -91,7 +91,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen3.png",
   },
   {
-    id: 700,
+    id: "mezanine700",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -100,7 +100,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen4.png",
   },
   {
-    id: 601,
+    id: "mezanine601",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -109,7 +109,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen5.png",
   },
   {
-    id: 602,
+    id: "mezanine602",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -118,7 +118,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room1.png",
   },
   {
-    id: 603,
+    id: "mezanine603",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -127,7 +127,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room2.png",
   },
   {
-    id: 604,
+    id: "mezanine604",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -136,7 +136,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room3.png",
   },
   {
-    id: 605,
+    id: "mezanine605",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -145,7 +145,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room4.png",
   },
   {
-    id: 606,
+    id: "mezanine606",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -154,7 +154,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room5.png",
   },
   {
-    id: 607,
+    id: "mezanine607",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -163,7 +163,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-wc-0.jpg",
   },
   {
-    id: 608,
+    id: "mezanine608",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -172,7 +172,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-wc-11.jpg",
   },
   {
-    id: 609,
+    id: "mezanine609",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -181,7 +181,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-wc-12.jpg",
   },
   {
-    id: 610,
+    id: "mezanine610",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -190,7 +190,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-wc-13.jpg",
   },
   {
-    id: 620,
+    id: "mezanine620",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -199,7 +199,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine1.png",
   },
   {
-    id: 630,
+    id: "mezanine630",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -208,7 +208,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine2.png",
   },
   {
-    id: 640,
+    id: "mezanine640",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",
@@ -217,7 +217,7 @@ const MEZANINE = [
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine3.png",
   },
   {
-    id: 650,
+    id: "mezanine650",
     href: "#design",
     title: "Mezanine",
     category1: "Projeto de Design e Remodelacao de Interiores",

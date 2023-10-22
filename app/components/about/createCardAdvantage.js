@@ -5,6 +5,7 @@ export default function createCardAdvantage(icons) {
     <CardAdvantage
       key={icons.id}
       imgURL={icons.imgURL}
+      title={icons.title}
       description={icons.description}
     />
   );

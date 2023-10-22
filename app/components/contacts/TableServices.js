@@ -1,6 +1,6 @@
 export default function TableServices() {
   return (
-    <div className="text-align-center">
+    <div className="display-column text-center">
       <p>
         Se pretende solicitar um orcamento, são necessários os seguintes dados:
       </p>

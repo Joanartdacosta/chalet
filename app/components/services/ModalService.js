@@ -1,5 +1,3 @@
-import serviceStyle from "./service.module.css";
-
 export default function ModalService(props) {
   return (
     <div>
@@ -14,6 +12,7 @@ export default function ModalService(props) {
       <a href="/contactos">
         <button>Pedir orcamento</button>
       </a>
+      <hr />
     </div>
   );
 }

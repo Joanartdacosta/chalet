@@ -1,77 +1,104 @@
-const CONCEPT_BOARD = [
+const CONCEPT_BOARDS = [
   {
-    id: 40,
+    id: "CONCEPTB100",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
     category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/%5Bkitchen_mariana_pedro1%5D.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/concept-board-MP1.png",
   },
 
   {
-    id: 50,
+    id: "CONCEPTB110",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
     category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/%5Bkitchen_mariana_pedro2%5D.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/concept-board-MP2.png",
   },
   {
-    id: 70,
+    id: "CONCEPTB120",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
     category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel5.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/concept-board-MP3.png",
   },
   {
-    id: 80,
+    id: "CONCEPTB130",
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "escritorio",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/CB+Home+Office.png",
+  },
+  {
+    id: "CONCEPTB180",
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "sala",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/CB+Zona+Estar.png",
+  },
+  {
+    id: "CONCEPTB190",
+    href: "#concept-board",
+    title: "Concept Board",
+    category1: "concept board",
+    category2: "sala",
+    imgURL:
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/concept-board/CB+Zona+Jantar.png",
+  },
+  {
+    id: "CONCEPTB140",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
     category2: "cozinha",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/consultoria-complementar/cozinha_joana_miguel6.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/netherlands/concept-board/netherland-concept-board1.png",
   },
   {
-    id: 90,
+    id: "CONCEPTB150",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
-    category2: "cozinha",
+    category2: "sala",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/netherlands/concept-board/netherland-concept-board2.png",
   },
   {
-    id: 120,
+    id: "CONCEPTB151",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
-    category2: "cozinha",
+    category2: "sala",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/decoracao/Sala+de+Jantar+Holanda/3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/netherlands/concept-board/netherland-concept-board3.png",
   },
   {
-    id: 130,
+    id: "CONCEPTB160",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
     category2: "Espacos Comerciais",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/Projeto+T%C3%ADpica+Imobili%C3%A1ria+-+Sala+de+Espera.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/imobiliaria2.png",
   },
   {
-    id: 140,
+    id: "CONCEPTB170",
     href: "#concept-board",
     title: "Concept Board",
     category1: "concept board",
     category2: "Espacos Comerciais",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/Projeto+T%C3%ADpica+Imobili%C3%A1ria+-+Sala+Reuni%C3%B5es.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/imobiliaria1.png",
   },
 ];
 
-export default CONCEPT_BOARD;
+export default CONCEPT_BOARDS;

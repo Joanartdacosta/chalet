@@ -24,7 +24,7 @@ export default function AboutMe() {
 
           <p className="padding-2 text-justify media-text-size">
             "Chamo-me Mariana e desde pequena que sempre fui apaixonada por
-            arquitetura e decoração! Sabem aquela pessoa que vai na rua ou no
+            arquitetura e decoração. Sabem aquela pessoa que vai na rua ou no
             carro, a obervar as casas e edifícios e fica a imaginar como será
             cada detalhe, a sua decoração, quem lá vive? Sim, eu sempre fui essa
             pessoa! <br />
@@ -45,12 +45,12 @@ export default function AboutMe() {
             o apoio de familiares e amigos (sobretudo do marido que é engenheiro
             civil)! <br />
             Em plena pandemia, senti que não podia adiar mais este objetivo e
-            inscrevi-me no curso de Design de Interiores da Lisbon School
-            Design, que iniciei em Setembro de 2020. A formação foi uma
-            experiência enriquecedora, de muito trabalho e aprendizagem, onde
-            conheci pessoas incríveis que me ajudaram a concretizar este meu
-            sonho! Terminado o curso em Julho de 2021 e prestes a completar 30
-            anos, senti que era então altura de arriscar e iniciar um projeto
+            inscrevi-me no curso de Design de Interiores da
+            @lisbonschoolofdesign, que iniciei em Setembro de 2020. A formação
+            foi uma experiência enriquecedora, de muito trabalho e aprendizagem,
+            onde conheci pessoas incríveis que me ajudaram a concretizar este
+            meu sonho! Terminado o curso em Julho de 2021 e prestes a completar
+            30 anos, senti que era então altura de arriscar e iniciar um projeto
             que realmente me realizasse e fizesse feliz! Foi aí que me despedi
             do meu emprego a full time e criei este meu Chalet, que tem sido um
             desafio e aprendizagem constantes!"

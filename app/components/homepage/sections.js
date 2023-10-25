@@ -1,13 +1,13 @@
 const SECTIONS = [
   {
-    id: 1,
+    id: "section1",
     title: "Sobre",
     imgURL: "https://chalet-webapp.s3.amazonaws.com/icons/Chalet-logo.jpg",
     href: "/about",
     description: "Saber mais",
   },
   {
-    id: 2,
+    id: "section2",
     title: "Servicos",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG",
@@ -15,7 +15,7 @@ const SECTIONS = [
     description: "Mais informacoes.",
   },
   {
-    id: 3,
+    id: "section3",
     title: "Projetos",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/remodelacao/moradia-mezzanine/sala/10.png",

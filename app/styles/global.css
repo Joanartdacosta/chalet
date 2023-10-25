@@ -1,54 +1,536 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-body {
-  font-family: "Montserrat", sans-serif;
+:root {
+  --font-paragraph: "Raleway", sans-serif;
+  --font-title: "Montserrat", sans-serif;
+  --font-special: "Windsong", cursive;
+  --light-green: #cdcfc4;
+  --light-brown: #e9dccf;
+  --medium-brown: #b7997b;
+  --dark-brown: #856343;
+  --grey: rgba(98, 81, 64, 0.2);
+}
+
+* {
   padding: 0;
   margin: 0;
 }
 
-h1 {
-  font-size: 20px;
+main {
+  margin: auto;
+  min-width: 10rem;
+  max-width: 600rem;
 }
 
-h2 {
-  font-size: 20px;
+body {
+  font-family: var(--font-paragraph);
 }
 
-p {
-  font-size: 17px;
+/* padding */
+
+.text-color-brown {
+  color: var(--dark-brown);
 }
 
-@media only screen and (max-width: 800px) {
-  .main {
-    width: 80%;
-    padding: 0;
+.padding-2 {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.padding-05 {
+  padding: 0.5rem;
+}
+.padding-1 {
+  padding: 1rem;
+}
+/* padding between sections */
+.padding-top-5 {
+  padding-top: 5rem;
+}
+
+.padding-bottom-5 {
+  padding-bottom: 5rem;
+}
+
+/* padding between elements */
+.padding-top-1-25 {
+  padding-top: 1.25rem;
+}
+
+.padding-bottom-1-25 {
+  padding-bottom: 1.25rem;
+}
+
+/* padding for icons */
+.padding-right-1-25 {
+  padding: 0 1.25rem;
+}
+
+/* margins */
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-08 {
+  margin: 0.8rem;
+}
+
+.gap-3 {
+  gap: 2rem;
+}
+
+/* width and height */
+/* background */
+.max-width-100 {
+  min-width: 100%;
+}
+
+.max-width {
+  max-width: 60rem;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.height-100 {
+  height: 6.25rem;
+}
+
+/* heights */
+
+.height-40 {
+  height: 2.5rem;
+}
+.height-60 {
+  height: 60rem;
+}
+
+/* hr of background */
+.width-37-5 {
+  width: 37.5rem;
+}
+
+/* width cards */
+
+.width-18 {
+  width: 18rem;
+}
+.width-15 {
+  width: 15rem;
+}
+
+.height-18 {
+  height: 21.2rem;
+}
+.height-75 {
+  height: 80%;
+}
+.height-15 {
+  height: 15rem;
+}
+
+/* logos */
+.width-5 {
+  width: 5rem;
+}
+/* icons */
+.width-3 {
+  width: 3rem;
+}
+
+/* buttons */
+.min-width-fit-content {
+  min-width: fit-content;
+}
+/* fonts */
+
+.font-text {
+  font-family: var(--font-paragraph);
+}
+
+.font-title {
+  font-family: var(--font-title);
+}
+
+.font-windsong {
+  font-family: var(--font-special);
+}
+
+/* font-size */
+
+.text-size {
+  font-size: 1.1rem;
+}
+
+.text-size-08 {
+  font-size: 0.8rem;
+}
+
+.title-size {
+  font-size: 2rem;
+}
+
+.font-size-6-25 {
+  font-size: 6.25rem;
+}
+
+/* letter-spacing */
+
+.letter-space {
+  letter-spacing: 2rem;
+}
+
+.letter-space-1 {
+  letter-spacing: 0.2rem;
+}
+/* font-style */
+
+.font-bold {
+  font-weight: 600;
+}
+
+.font-light {
+  font-weight: lighter;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+/* borders */
+
+.border-black {
+  border: 0.001rem solid black;
+}
+
+.border-double {
+  border: 5px double var(--light-green);
+}
+.border-light-green {
+  border-style: solid var(--light-green);
+}
+
+.border-radius-25 {
+  border-radius: 25%;
+}
+.border-light-brown {
+  border: 1px solid var(--light-brown);
+}
+/* horizontal border */
+.border-width-0-3 {
+  border-width: 0.3rem 0px 0px 0px;
+}
+
+/* vertical border */
+.border-vertical {
+  border-width: 0px 0.3rem 0px 0px;
+}
+
+/* shadow */
+.shadow-dark {
+  box-shadow: 0 0 1.25rem var(--grey);
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.opacity-40 {
+  opacity: 40%;
+}
+
+/* link, icons, logo */
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+/* button style */
+.border-radius-12 {
+  border-radius: 0.75rem;
+}
+.no-border {
+  border: none;
+}
+
+.background-size-100 {
+  background-size: 100% 100%;
+}
+
+.background-green {
+  background: var(--light-green);
+}
+
+.background-brown {
+  background: var(--light-brown);
+  color: var(--dark-brown);
+}
+
+/* background */
+
+.background-norepeat {
+  background-repeat: no-repeat;
+}
+
+.background-cover {
+  background-size: cover;
+}
+
+.background-fixed {
+  background-attachment: fixed;
+}
+.background-chalet {
+  background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
+}
+
+/* navbar */
+.background-medium-brown {
+  background-color: var(--medium-brown);
+}
+
+/* footer */
+.background-light-brown {
+  background-color: var(--light-brown);
+}
+
+.object-cover {
+  object-fit: cover;
+}
+/* text position */
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+/* position */
+.align-center {
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.display-flex {
+  display: flex;
+}
+.wrap-section {
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.display-inline-table {
+  display: inline-table;
+}
+
+.list {
+  list-style-type: none;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+@media screen and (min-width: 200px) and (max-width: 280px) {
+  /* chalet title */
+  .font-size-6-25 {
+    font-size: 3rem;
   }
-  .right {
-    width: 100%;
+
+  /* hr chalet */
+  .width-37-5 {
+    display: none;
+  }
+
+  .subtitle-size,
+  .text-size {
+    font-size: 0.8rem;
+  }
+
+  /* subtitles */
+  .letter-space-1 {
+    letter-spacing: normal;
+  }
+
+  /* chalet title */
+  .letter-space {
+    letter-spacing: 0.7rem;
+  }
+
+  .padding-bottom-1-25 {
+    padding-bottom: 0.8rem;
+  }
+
+  .padding-top-1-25 {
+    padding-top: 0.8rem;
+  }
+
+  /* cards */
+  .width-18 {
+    width: 10rem;
+  }
+  .width-50 {
+    width: 10rem;
+  }
+
+  .max-width {
+    max-width: 15rem;
+  }
+
+  .media-text-size {
+    font-size: 0.8rem;
+  }
+
+  .media-display-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.2rem;
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .menu,
-  .main,
-  .right,
-  img {
-    width: 100%;
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  /* chalet title */
+  .font-size-6-25 {
+    font-size: 2.5rem;
+  }
+
+  .subtitle-size {
+    font-size: 0.8rem;
+  }
+
+  .letter-space {
+    letter-spacing: 1.5rem;
+  }
+
+  .letter-space-1 {
+    letter-spacing: 0.05rem;
+  }
+
+  .padding-top-1-25 {
+    padding-top: 0.7rem;
+  }
+
+  .height-60 {
+    height: 55rem;
+  }
+
+  .width-37-5 {
+    display: none;
+  }
+  .width-50 {
+    width: 20rem;
+  }
+
+  .max-width {
+    max-width: 20rem;
+  }
+
+  .media-display-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.2rem;
+  }
+
+  .media-padding-top {
+    padding-top: 8rem;
   }
 }
 
-@media (min-width: 701px) and (max-width: 1120px) {
-  .main {
-    grid-template-columns: repeat(2, 50%);
+@media screen and (min-width: 500px) and (max-width: 782px) {
+  .font-size-6-25 {
+    font-size: 5.5rem;
+  }
+
+  .subtitle-size {
+    font-size: 1rem;
+  }
+
+  .width-37-5 {
+    width: 17rem;
+  }
+
+  .max-width {
+    max-width: 28rem;
+  }
+
+  .width-18 {
+    width: 19rem;
   }
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .font-size-6-25 {
+    font-size: 6.5rem;
   }
-  to {
-    transform: rotate(0deg);
+
+  .letter-space {
+    letter-spacing: 2.8rem;
+  }
+
+  .max-width {
+    max-width: 40rem;
+  }
+
+  .width-18 {
+    width: 22.5rem;
+  }
+
+  .height-60 {
+    height: 70rem;
+  }
+
+  .media-padding-top {
+    padding-top: 18rem;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .font-size-6-25 {
+    font-size: 8rem;
+  }
+
+  .width-18 {
+    width: 12rem;
+  }
+
+  .height-3 {
+    height: 2.8rem;
+  }
+
+  .text-size {
+    font-size: 0.9rem;
+  }
+
+  .height-60 {
+    height: 85rem;
+  }
+
+  .media-padding-top {
+    padding-top: 18rem;
+  }
+
+  .max-width {
+    max-width: 48rem;
   }
 }

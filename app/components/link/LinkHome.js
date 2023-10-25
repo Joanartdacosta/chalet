@@ -1,14 +1,13 @@
-import layoutStyles from "../layout/layout.module.css";
 import Link from "next/link";
 
 export default function LinkHome() {
   return (
-    <div className={layoutStyles.backToHome}>
+    <div className="wrap-section display-flex justify-center padding-bottom-5 padding-top-5">
       <Link href="/">
         <img
           src="https://chalet-webapp.s3.amazonaws.com/Logotipo.png"
           alt="chalet-logo"
-          className={layoutStyles.logo}
+          className="width-5"
         ></img>
       </Link>
     </div>

@@ -3,7 +3,7 @@ const SECTIONS = [
     id: 1,
     title: "Sobre",
     imgURL: "https://chalet-webapp.s3.amazonaws.com/icons/Chalet-logo.jpg",
-    href: "/sobre",
+    href: "/about",
     description: "Saber mais",
   },
   {
@@ -11,7 +11,7 @@ const SECTIONS = [
     title: "Servicos",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG",
-    href: "/servicos",
+    href: "/services",
     description: "Mais informacoes.",
   },
   {
@@ -19,7 +19,7 @@ const SECTIONS = [
     title: "Projetos",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/remodelacao/moradia-mezzanine/sala/10.png",
-    href: "/projetos",
+    href: "/projects",
     description: "Cada projecto, uma nova historia.",
   },
 ];

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import serviceStyles from "./service.module.css";
+
 import ModalService from "./ModalService";
 
 export default function CardService(props) {
@@ -15,22 +15,18 @@ export default function CardService(props) {
 
   return (
     <div>
-      <div className={serviceStyles.serviceSection}>
-        <div className={serviceStyles.serviceText}>
-          <div className={serviceStyles.serviceColumn}></div>
+      <div>
+        <div>
+          <div></div>
           <h1> {props.title}</h1>
-          <p className={serviceStyles.serviceDescription}>
-            {props.description}
-          </p>
+          <p>{props.description}</p>
 
-          <li className={serviceStyles.serviceBullets}>{props.detail1}</li>
-          <li className={serviceStyles.serviceBullets}>{props.detail2}</li>
-          <li className={serviceStyles.serviceBullets}>{props.detail3}</li>
-          <li className={serviceStyles.serviceBullets}>{props.detail4}</li>
+          <li>{props.detail1}</li>
+          <li>{props.detail2}</li>
+          <li>{props.detail3}</li>
+          <li>{props.detail4}</li>
 
-          <button className={serviceStyles.button} onClick={handleSeeMore}>
-            Saber mais
-          </button>
+          <button onClick={handleSeeMore}>Saber mais</button>
           {modalIsOpen && (
             <ModalService
               step1={props.step1}
@@ -44,7 +40,6 @@ export default function CardService(props) {
         </div>
 
         <div
-          className={serviceStyles.serviceImage}
           style={{
             backgroundImage: props.imgURL,
           }}

@@ -1,5 +1,4 @@
 import createCardService from "./createCardService";
-import serviceStyles from "./service.module.css";
 
 export default function ServicesList(props) {
   const NEW_SERVICES = [];
@@ -8,9 +7,5 @@ export default function ServicesList(props) {
     NEW_SERVICES.push(props.services[i]);
   }
 
-  return (
-    <div className={serviceStyles.servicesSection}>
-      {NEW_SERVICES.map(createCardService)}
-    </div>
-  );
+  return <div>{NEW_SERVICES.map(createCardService)}</div>;
 }

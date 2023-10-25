@@ -9,19 +9,27 @@ export default function CardGallery(props) {
   }
 
   return (
-    <div id={props.id} key={props.id}>
-      <h1>{props.title}</h1>
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
-        <Masonry>
-          {GALLERY.map((photo) => {
-            return (
-              <div key={photo.id}>
-                <img src={photo.imgURL} alt={props.title} />
-              </div>
-            );
-          })}
-        </Masonry>
-      </ResponsiveMasonry>
+    <div id={props.id} key={props.id} className="padding-top-1-25">
+      <h1 className="font-text font-light title-size text-color-brown opacity">
+        {props.title}
+      </h1>
+      <p className="font-text text-size-08 font-bold padding-bottom-1-25 padding-1">
+        {props.category1}
+      </p>
+
+      <Masonry className="margin-auto">
+        {GALLERY.map((photo) => {
+          return (
+            <div key={photo.id}>
+              <img
+                className="hover-scale width-18 padding-1"
+                src={photo.imgURL}
+                alt={props.title}
+              />
+            </div>
+          );
+        })}
+      </Masonry>
     </div>
   );
 }

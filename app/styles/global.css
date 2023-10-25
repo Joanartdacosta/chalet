@@ -313,6 +313,11 @@ body {
 .object-cover {
   object-fit: cover;
 }
+
+.hover-scale:hover {
+  transition-duration: 0.8s;
+  transform: scale(2.5);
+}
 /* text position */
 .text-center {
   text-align: center;

@@ -1,4 +1,3 @@
-import ProjectMenu from "../../components/projects/project_menu/ProjectMenu";
 import ProjectsGallery from "../../components/projects/gallery/ProjectsGallery";
 
 export default function Projects() {
@@ -8,7 +7,7 @@ export default function Projects() {
         PROJECTOS
       </h1>
       <hr className="border-light-brown margin-auto opacity width-15" />
-      <ProjectMenu />
+
       <ProjectsGallery />
     </div>
   );

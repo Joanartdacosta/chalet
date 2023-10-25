@@ -8,7 +8,7 @@ export default function Home() {
       <div data-testid="chalet-entrance">
         <ChaletEntrance />
       </div>
-      <div data-testid="mission">
+      <div data-testid="mission" className="text-center margin-auto max-width">
         <Mission />
         <HomeSections />
       </div>

@@ -12,7 +12,7 @@ export default function ModalSearch(props) {
   }
 
   return (
-    <div>
+    <div className="padding-top-5 margin-auto text-center width-60">
       <input
         type="text"
         placeholder="Procure pelo servico que pretende"

@@ -1,7 +1,5 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef, useState } from "react";
-import contactsStyle from "./contacts.module.css";
-import layoutStyle from "../layout/layout.module.css";
 
 function EmailJs() {
   const [color, setColor] = useState("#e9dccf");
@@ -35,38 +33,25 @@ function EmailJs() {
   };
 
   return (
-    <div className={contactsStyle.contactsSection}>
+    <div className="display-flex height-18 padding-top-5">
       <img
-        className={contactsStyle.detailImg}
+        className="width-50  object-fit"
         src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
         alt="details"
       ></img>
-      <div className={contactsStyle.contactsForm}>
+      <div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="hidden" name="contact_number" required />
           <label>Nome</label>
-          <input
-            className={contactsStyle.formName}
-            type="text"
-            name="user_name"
-          />
+          <input type="text" name="user_name" />
 
           <label>Email</label>
-          <input
-            className={contactsStyle.formEmail}
-            type="email"
-            name="user_email"
-            required
-          />
+          <input type="email" name="user_email" required />
           <label>Mensagem de contacto</label>
-          <textarea
-            className={contactsStyle.formTextArea}
-            name="message"
-          ></textarea>
+          <textarea name="message"></textarea>
           <button
             onClick={changeStyle}
             style={{ background: color }}
-            className={layoutStyle.button}
             type="submit"
             value="Send"
           >

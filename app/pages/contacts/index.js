@@ -1,5 +1,5 @@
 import Email from "../../components/contacts/Email";
-import TableServices from "../../components/contacts/TableService";
+import TableServices from "../../components/contacts/TableServices";
 
 export default function Contacts() {
   return (
@@ -7,9 +7,10 @@ export default function Contacts() {
       <h1 className="font-title title-size font-light letter-space-1">
         CONTACTOS
       </h1>
+
       <hr className="border-light-brown margin-auto opacity width-15" />
-      <Email />
       <TableServices />
+      <Email />
     </div>
   );
 }

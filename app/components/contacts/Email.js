@@ -33,32 +33,52 @@ function EmailJs() {
   };
 
   return (
-    <div className="display-flex height-18 padding-top-5">
+    <div className="margin-auto">
       <img
-        className="width-50  object-fit"
+        className="width-50 border-radius-12 transform180 media-width-size"
         src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
         alt="details"
       ></img>
-      <div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="hidden" name="contact_number" required />
-          <label>Nome</label>
-          <input type="text" name="user_name" />
 
-          <label>Email</label>
-          <input type="email" name="user_email" required />
-          <label>Mensagem de contacto</label>
-          <textarea name="message"></textarea>
-          <button
-            onClick={changeStyle}
-            style={{ background: color }}
-            type="submit"
-            value="Send"
-          >
-            {label}
-          </button>
-        </form>
-      </div>
+      <form ref={form} onSubmit={sendEmail}>
+        <input type="hidden" name="contact_number" required />
+        <div className="padding-bottom-1-25">
+          <label className="padding-05">Nome</label>
+          <input
+            className="width-18 text-size font-text"
+            type="text"
+            name="user_name"
+          />
+        </div>
+
+        <div className="padding-bottom-1-25">
+          <label className="padding-05">Email</label>
+          <input
+            className="width-18 text-size font-text"
+            type="email"
+            name="user_email"
+            required
+          />
+        </div>
+
+        <div className=" padding-bottom-1-25">
+          <label className="padding-05">Mensagem</label>
+          <textarea
+            className="width-18 text-size font-text"
+            name="message"
+          ></textarea>
+        </div>
+
+        <button
+          className="width-18 padding-05 border-light-brown text-color-brown text-size font-text"
+          onClick={changeStyle}
+          style={{ background: color }}
+          type="submit"
+          value="Send"
+        >
+          {label}
+        </button>
+      </form>
     </div>
   );
 }

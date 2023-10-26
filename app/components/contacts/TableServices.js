@@ -1,6 +1,6 @@
 export default function TableServices() {
   return (
-    <div className="display-flex gap-3 text-align-center padding-top-5 padding-bottom-1-25">
+    <div className="text-align-center padding-top-5 padding-bottom-1-25">
       <div className="padding-bottom-1-25">
         <p>
           Se pretende solicitar um orcamento, são necessários os seguintes
@@ -8,7 +8,7 @@ export default function TableServices() {
         </p>
       </div>
 
-      <div className="border-light-brown shadow-dark padding-1">
+      <div className="border-light-brown shadow-dark padding-1 margin-08">
         <h1 className="font-text text-size font-bold padding-bottom-1-25">
           Projeto de Design e Remodelacao de Interiores
         </h1>
@@ -21,12 +21,12 @@ export default function TableServices() {
         </ul>
       </div>
 
-      <div className="border-light-brown shadow-dark padding-1">
+      <div className="border-light-brown shadow-dark padding-1 margin-08">
         <h1 className="font-text text-size font-bold padding-bottom-1-25">
           Projeto de Decoracao de Interiores
         </h1>
 
-        <ul className="list">
+        <ul className="list text-justify">
           <li>Breve descrição do que é pretendido.</li>
           <li>Medidas gerais do espaço.</li>
           <li>Fotografias do espaço.</li>
@@ -34,24 +34,16 @@ export default function TableServices() {
         </ul>
       </div>
 
-      <div className="border-light-brown shadow-dark padding-1 gap-3">
+      <div className="border-light-brown shadow-dark padding-1 gap-3 margin-08">
         <h1 className="font-text text-size font-bold padding-bottom-1-25">
           Consultoria Online de Decoracao de Interiores
         </h1>
 
-        <ul className="list">
+        <ul className="list text-justify">
           <li>Plantas originais ou desenhadas.</li>
           <li>Medidas gerais do espaço.</li>
           <li>Fotografias do espaço.</li>
         </ul>
-      </div>
-
-      <div>
-        <p>
-          Para mais informações ou dúvidas, entre em contacto: a partir do
-          formulario abaixo; por mensagem privada no Instagram ou envie email
-          para chalet.designinteriores@gmail.com.
-        </p>
       </div>
     </div>
   );

@@ -9,8 +9,9 @@ export default function Contacts() {
       </h1>
 
       <hr className="border-light-brown margin-auto opacity width-15" />
-      <TableServices />
+
       <Email />
+      <TableServices />
     </div>
   );
 }

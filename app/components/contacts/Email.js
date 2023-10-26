@@ -33,52 +33,67 @@ function EmailJs() {
   };
 
   return (
-    <div className="margin-auto">
-      <img
-        className="width-50 border-radius-12 transform180 media-width-size"
-        src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
-        alt="details"
-      ></img>
+    <div className="padding-top-5">
+      <p>
+        Para mais informações ou dúvidas, entre em contacto: a partir do
+        formulario abaixo; por mensagem privada no Instagram ou envie email para
+        chalet.designinteriores@gmail.com.
+      </p>
+      <div className="display-flex margin-auto justify-center padding-top-1-25">
+        <img
+          className="width-15 border-radius-12 media-width-size media-display-none transform180"
+          src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
+          alt="details"
+        ></img>
 
-      <form ref={form} onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" required />
-        <div className="padding-bottom-1-25">
-          <label className="padding-05">Nome</label>
-          <input
-            className="width-18 text-size font-text"
-            type="text"
-            name="user_name"
-          />
+        <div className="width-50 padding-2">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="text-justify margin-auto"
+          >
+            <input type="hidden" name="contact_number" required />
+            <div className="padding-bottom-1-25 display-flex flex-column">
+              <label className="padding-05">Nome</label>
+              <input
+                className="max-width  text-size font-text padding-05"
+                type="text"
+                name="user_name"
+              />
+            </div>
+
+            <div className="padding-bottom-1-25 display-flex flex-column">
+              <label className="padding-05">Email</label>
+              <input
+                className="max-width text-size font-text padding-05"
+                type="email"
+                name="user_email"
+                required
+              />
+            </div>
+
+            <div className=" padding-bottom-1-25 display-flex flex-column">
+              <label className="padding-05">Mensagem</label>
+              <textarea
+                className="max-width text-size font-text  padding-05"
+                name="message"
+              ></textarea>
+            </div>
+
+            <div>
+              <button
+                className="width-100 padding-05 border-light-brown text-color-brown text-size font-text align-self"
+                onClick={changeStyle}
+                style={{ background: color }}
+                type="submit"
+                value="Send"
+              >
+                {label}
+              </button>
+            </div>
+          </form>
         </div>
-
-        <div className="padding-bottom-1-25">
-          <label className="padding-05">Email</label>
-          <input
-            className="width-18 text-size font-text"
-            type="email"
-            name="user_email"
-            required
-          />
-        </div>
-
-        <div className=" padding-bottom-1-25">
-          <label className="padding-05">Mensagem</label>
-          <textarea
-            className="width-18 text-size font-text"
-            name="message"
-          ></textarea>
-        </div>
-
-        <button
-          className="width-18 padding-05 border-light-brown text-color-brown text-size font-text"
-          onClick={changeStyle}
-          style={{ background: color }}
-          type="submit"
-          value="Send"
-        >
-          {label}
-        </button>
-      </form>
+      </div>
     </div>
   );
 }

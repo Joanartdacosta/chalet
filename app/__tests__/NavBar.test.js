@@ -20,8 +20,8 @@ test("Navbar renders correctly with links", () => {
   expect(contactsLink).toBeInTheDocument();
   expect(servicesLink).toBeInTheDocument();
 
-  expect(aboutLink).toHaveAttribute("href", "/sobre");
-  expect(projectsLink).toHaveAttribute("href", "/projetos");
-  expect(contactsLink).toHaveAttribute("href", "/contactos");
-  expect(servicesLink).toHaveAttribute("href", "/servicos");
+  expect(aboutLink).toHaveAttribute("href", "/about");
+  expect(projectsLink).toHaveAttribute("href", "/projects");
+  expect(contactsLink).toHaveAttribute("href", "/contacts");
+  expect(servicesLink).toHaveAttribute("href", "/services");
 });

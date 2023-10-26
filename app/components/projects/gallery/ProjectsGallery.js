@@ -15,7 +15,7 @@ import STUDIO from "../galleries/studio";
 
 export default function ProjectsGallery() {
   return (
-    <div>
+    <div className="padding-top-5">
       <CardGallery
         gallery={MEZANINE}
         title={"Mezanine"}

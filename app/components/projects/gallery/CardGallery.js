@@ -1,5 +1,4 @@
 import React from "react";
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 export default function CardGallery(props) {
   const GALLERY = [];
@@ -17,19 +16,21 @@ export default function CardGallery(props) {
         {props.category1}
       </p>
 
-      <Masonry className="margin-auto">
-        {GALLERY.map((photo) => {
-          return (
-            <div key={photo.id}>
-              <img
-                className="hover-scale width-18 padding-1"
-                src={photo.imgURL}
-                alt={props.title}
-              />
-            </div>
-          );
-        })}
-      </Masonry>
+      <div>
+        <div className="masonry">
+          {GALLERY.map((photo) => {
+            return (
+              <div key={photo.id}>
+                <img
+                  className="width-15 height-12 hover-scale media-image-gallery"
+                  src={photo.imgURL}
+                  alt={props.title}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 }

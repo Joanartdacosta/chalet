@@ -394,6 +394,21 @@ body {
   flex-direction: column;
 }
 
+.height-12 {
+  height: 12rem;
+}
+
+.masonry {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-rows: repeat(auto-fill);
+  grid-template-columns: repeat(auto-fill, minmax(14.3rem, 3fr));
+  /* no more wonky bottom */
+}
+.list {
+  list-style-type: none;
+}
+
 @media screen and (min-width: 200px) and (max-width: 280px) {
   /* chalet title */
   .font-size-6-25 {
@@ -454,6 +469,9 @@ body {
     align-items: center;
     padding-bottom: 0.2rem;
   }
+  .media-image-gallery {
+    width: 12rem;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
@@ -509,8 +527,8 @@ body {
   }
 }
 @media screen and (min-width: 280px) and (max-width: 780px) {
-  .media-display-none {
-    display: none;
+  .hover-scale:hover {
+    transform: scale(1.5);
   }
 }
 
@@ -590,19 +608,4 @@ body {
   .max-width {
     max-width: 48rem;
   }
-}
-
-.table-border {
-  border: 1px solid var(--light-brown);
-  display: inline-table;
-  margin: 10px;
-}
-
-.list {
-  list-style-type: none;
-}
-.text-align-center {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
 }

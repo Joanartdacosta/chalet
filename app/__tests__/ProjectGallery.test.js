@@ -7,9 +7,6 @@ describe("ProjectGallery", () => {
   test("should render correnctly", () => {
     render(<ProjectGallery />);
 
-    screen.getByText("Home Staging");
-
-    const text = document.querySelector("staging");
-    getByText(text, "Home Staging");
+    screen.getByText("Mezanine");
   });
 });

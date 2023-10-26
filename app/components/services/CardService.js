@@ -17,33 +17,50 @@ export default function CardService(props) {
     <div className="padding-top-5">
       <div>
         <div>
-          <div></div>
-          <h1> {props.title}</h1>
-          <p>{props.description}</p>
+          <div className="display-flex flex-end">
+            <hr className="border-light-green border-vertical opacity-40 height-15 media-display-none" />
+            <div className="padding-1">
+              <h1 className="font-title text-size padding-bottom-1-25">
+                {" "}
+                {props.title}
+              </h1>
+              <p className="font-text text-size padding-bottom-1-25">
+                {props.description}
+              </p>
 
-          <li>{props.detail1}</li>
-          <li>{props.detail2}</li>
-          <li>{props.detail3}</li>
-          <li>{props.detail4}</li>
+              <li className="font-text text-size">{props.detail1}</li>
+              <li className="font-text text-size">{props.detail2}</li>
+              <li className="font-text text-size">{props.detail3}</li>
+              <li className="font-text text-size">{props.detail4}</li>
+            </div>
+            <div
+              className="margin-08 width-18 height-15 object-cover background-cover background-norepeat border-radius-12 padding-2 media-display-none"
+              style={{
+                backgroundImage: props.imgURL,
+              }}
+            ></div>
+          </div>
 
-          <button onClick={handleSeeMore}>Saber mais</button>
-          {modalIsOpen && (
-            <ModalService
-              step1={props.step1}
-              step2={props.step2}
-              step3={props.step3}
-              step4={props.step4}
-              step5={props.step5}
-              onClose={handleClose}
-            />
-          )}
+          <div className="padding-1">
+            <button
+              className="border-light-brown background-brown border-radius-12 font-text text-size-08 font-bold text-color-brown padding-05 width-8"
+              onClick={handleSeeMore}
+            >
+              {" "}
+              Saber mais
+            </button>
+            {modalIsOpen && (
+              <ModalService
+                step1={props.step1}
+                step2={props.step2}
+                step3={props.step3}
+                step4={props.step4}
+                step5={props.step5}
+                onClose={handleClose}
+              />
+            )}
+          </div>
         </div>
-
-        <div
-          style={{
-            backgroundImage: props.imgURL,
-          }}
-        ></div>
       </div>
     </div>
   );

@@ -73,7 +73,7 @@ function EmailJs() {
             </div>
 
             <div className=" padding-bottom-1-25 display-flex flex-column">
-              <label className="padding-05">Mensagem</label>
+              <label className="padding-05">Mensagem de contacto</label>
               <textarea
                 className="max-width text-size font-text  padding-05"
                 name="message"

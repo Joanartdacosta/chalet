@@ -7,9 +7,9 @@ describe("ProjectGallery", () => {
   test("should render correnctly", () => {
     render(<ProjectGallery />);
 
-    screen.getByText("Consultoria Complementar");
+    screen.getByText("Home Staging");
 
-    const textId = document.querySelector("#complementar");
-    getByText(textId, "Consultoria Complementar");
+    const text = document.querySelector("staging");
+    getByText(text, "Home Staging");
   });
 });

@@ -9,7 +9,7 @@ export default function CardGallery(props) {
 
   return (
     <div id={props.id} key={props.id} className="padding-top-1-25">
-      <h1 className="font-text font-light title-size text-color-brown opacity">
+      <h1 className="font-text font-light font-size-2 text-color-brown opacity">
         {props.title}
       </h1>
       <p className="font-text text-size-08 font-bold padding-bottom-1-25 padding-1">

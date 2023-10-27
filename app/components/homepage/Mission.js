@@ -2,7 +2,7 @@ export default function Mission() {
   return (
     <div className="wrap-section justify-center text-center max-width margin-auto">
       <div>
-        <h1 className="font-windsong title-size font-light padding-top-5">
+        <h1 className="font-windsong font-size-2 font-light padding-top-5">
           Missao
         </h1>
         <h2 className="font-subtitle text-size font-bold padding-top-1-25">

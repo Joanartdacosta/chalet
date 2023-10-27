@@ -3,14 +3,14 @@ export default function TableServices() {
     <div className="text-align-center padding-top-5 padding-bottom-1-25">
       <div className="padding-bottom-1-25">
         <p>
-          Se pretende solicitar um orcamento, são necessários os seguintes
+          Se pretende solicitar um orçamento, são necessários os seguintes
           dados:
         </p>
       </div>
 
       <div className="border-light-brown shadow-dark padding-1 margin-08">
         <h1 className="font-text text-size font-bold padding-bottom-1-25">
-          Projeto de Design e Remodelacao de Interiores
+          Projeto de Design e Remodelação de Interiores
         </h1>
 
         <ul className="list text-justify">
@@ -23,7 +23,7 @@ export default function TableServices() {
 
       <div className="border-light-brown shadow-dark padding-1 margin-08">
         <h1 className="font-text text-size font-bold padding-bottom-1-25">
-          Projeto de Decoracao de Interiores
+          Projeto de Decoração de Interiores
         </h1>
 
         <ul className="list text-justify">
@@ -36,7 +36,7 @@ export default function TableServices() {
 
       <div className="border-light-brown shadow-dark padding-1 gap-3 margin-08">
         <h1 className="font-text text-size font-bold padding-bottom-1-25">
-          Consultoria Online de Decoracao de Interiores
+          Consultoria Online de Decoração de Interiores
         </h1>
 
         <ul className="list text-justify">

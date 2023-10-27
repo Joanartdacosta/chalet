@@ -36,7 +36,7 @@ function EmailJs() {
     <div className="padding-top-5">
       <p>
         Para mais informações ou dúvidas, entre em contacto: a partir do
-        formulario abaixo; por mensagem privada no Instagram ou envie email para
+        formulário abaixo; por mensagem privada no Instagram ou envie email para
         chalet.designinteriores@gmail.com.
       </p>
       <div className="display-flex margin-auto justify-center padding-top-1-25">

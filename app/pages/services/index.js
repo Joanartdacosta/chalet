@@ -9,7 +9,7 @@ export default function Services() {
   return (
     <div className="margin-auto max-width padding-top-5">
       <h1 className="text-center font-title title-size font-light letter-space-1">
-        SERVICOS
+        SERVIÇOS
       </h1>
       <hr className="border-light-brown margin-auto opacity width-15" />
       <ModalSearch setServices={setServices} />

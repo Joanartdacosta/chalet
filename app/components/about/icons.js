@@ -26,7 +26,7 @@ const ICONS = [
       "https://chalet-webapp.s3.amazonaws.com/icons/advantages/9310104_star_sparkles_stars_sparkle_icon.png",
     title: "O meu espaço vai ter um estilo e refletir a minha personalidade!",
     description:
-      "O DI avalia os gostos e preferências do cliente, ajudando a desenvolver um espaço coerente no estilo mas que ao mesmo tempo eflete a identidade de quem vai usufruir deste.",
+      "O DI avalia os gostos e preferências do cliente, ajudando a desenvolver um espaço coerente no estilo mas que ao mesmo tempo reflete a identidade de quem vai usufruir deste.",
   },
   {
     id: "icon4",
@@ -44,7 +44,7 @@ const ICONS = [
       "https://chalet-webapp.s3.amazonaws.com/icons/advantages/9122144_help_message_question_mark_question+mark_icon.png",
     title: "Consigo ter alguém que me apoie e acompanhe em todo o processo.",
     description:
-      "O DI pode ser responsavel pela gestão de todas as fases do projeto - desde a fase de iniciação à fase de execução final, coordenando até outros profissionais envolvidos, evitando perdas de tempo e dinheiro desnecessárias para o cliente.",
+      "O DI pode ser responsável pela gestão de todas as fases do projeto - desde a fase de iniciação à fase de execução final, coordenando até outros profissionais envolvidos, evitando perdas de tempo e dinheiro desnecessárias para o cliente.",
   },
   {
     id: "icon6",

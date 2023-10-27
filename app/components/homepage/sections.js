@@ -8,19 +8,19 @@ const SECTIONS = [
   },
   {
     id: "section2",
-    title: "Servicos",
+    title: "Serviços",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG",
     href: "/services",
-    description: "Mais informacoes.",
+    description: "Mais informações.",
   },
   {
     id: "section3",
     title: "Projetos",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/Servicos/remodelacao/moradia-mezzanine/sala/10.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room2.png",
     href: "/projects",
-    description: "Cada projecto, uma nova historia.",
+    description: "Cada projecto, uma nova história.",
   },
 ];
 

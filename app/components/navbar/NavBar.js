@@ -22,7 +22,7 @@ export default function NavBar() {
           className="font-title text-size  link padding-right-1-25"
           href="/services"
         >
-          SERVICOS
+          SERVIÇOS
         </Link>
         <Link
           className="font-title text-size link padding-right-1-25"

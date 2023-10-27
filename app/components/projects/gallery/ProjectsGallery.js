@@ -19,37 +19,37 @@ export default function ProjectsGallery() {
       <CardGallery
         gallery={MEZANINE}
         title={"Mezanine"}
-        category1={"Projeto de Design e Remodelacao de Interiores"}
+        category1={"Projeto de Design e Remodelação de Interiores"}
         id={"design"}
       />
       <CardGallery
         gallery={HOUSE_TV}
         title={"Moradia TV"}
-        category1={"Projeto de Design e Remodelacao de Interiores"}
+        category1={"Projeto de Design e Remodelação de Interiores"}
       />
 
       <CardGallery
         gallery={KITCHEN_JS}
         title={"Cozinha JS"}
-        category1={"Projeto de Design e Remodelacao de Interiores"}
+        category1={"Projeto de Design e Remodelação de Interiores"}
       />
 
       <CardGallery
         gallery={KITCHEN_JM}
         title={"Cozinha JM"}
-        category1={"Projeto de Design e Remodelacao de Interiores"}
+        category1={"Projeto de Design e Remodelação de Interiores"}
       />
       <CardGallery
         gallery={OFFICE_S}
         title={"Escritorio S"}
-        category1={"Projeto de Decoracao de Interiores"}
+        category1={"Projeto de Decoração de Interiores"}
         id={"decor"}
       />
 
       <CardGallery
         gallery={STUDIO}
         title={"Sala Studio"}
-        category1={"Projeto de Decoracao de Interiores"}
+        category1={"Projeto de Decoração de Interiores"}
       />
 
       <CardGallery

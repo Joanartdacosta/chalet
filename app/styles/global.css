@@ -26,12 +26,69 @@ main {
 body {
   font-family: var(--font-paragraph);
 }
+/* fonts */
+.font-text {
+  font-family: var(--font-paragraph);
+}
+.font-title {
+  font-family: var(--font-title);
+}
+.font-windsong {
+  font-family: var(--font-special);
+}
 
-/* padding */
+/* font-size */
+
+.text-size-08 {
+  font-size: 0.8rem;
+}
+.text-size {
+  font-size: 1.1rem;
+}
+.title-size {
+  font-size: 2rem;
+}
+.font-size-6-25 {
+  font-size: 6.25rem;
+}
+
+/* letter-spacing */
+
+.letter-space-2 {
+  letter-spacing: 2rem;
+}
+.letter-space-02 {
+  letter-spacing: 0.2rem;
+}
+/* font-style */
+
+.font-bold {
+  font-weight: 600;
+}
+
+.font-light {
+  font-weight: lighter;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+/* text position */
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/* text color */
 
 .text-color-brown {
   color: var(--dark-brown);
 }
+
+/* paddings */
 
 .padding-2 {
   padding: 2rem 2rem 2rem 2rem;
@@ -43,11 +100,6 @@ body {
 
 .padding-1 {
   padding: 1rem;
-}
-
-/* service button */
-.width-8 {
-  width: 8rem;
 }
 /* padding between sections */
 .padding-top-5 {
@@ -70,6 +122,10 @@ body {
 .padding-right-1-25 {
   padding: 0 1.25rem;
 }
+/* icon */
+.padding {
+  padding: 0.2rem;
+}
 
 /* margins */
 
@@ -89,7 +145,13 @@ body {
   transform: rotate(180deg);
 }
 
-/* width and height */
+/* width */
+
+/* service button */
+.width-8 {
+  width: 8rem;
+}
+
 /* background */
 .max-width-100 {
   min-width: 100%;
@@ -107,19 +169,6 @@ body {
   width: 50%;
 }
 
-.height-100 {
-  height: 6.25rem;
-}
-
-/* heights */
-
-.height-40 {
-  height: 2.5rem;
-}
-.height-60 {
-  height: 60rem;
-}
-
 /* hr of background */
 .width-37-5 {
   width: 37.5rem;
@@ -132,16 +181,6 @@ body {
 }
 .width-15 {
   width: 15rem;
-}
-
-.height-18 {
-  height: 21.2rem;
-}
-.height-75 {
-  height: 80%;
-}
-.height-15 {
-  height: 15rem;
 }
 
 /* logos */
@@ -161,61 +200,30 @@ body {
 .min-width-fit-content {
   min-width: fit-content;
 }
-/* fonts */
+/* heights */
 
-.font-text {
-  font-family: var(--font-paragraph);
+.height-40 {
+  height: 2.5rem;
+}
+.height-60 {
+  height: 60rem;
+}
+.height-100 {
+  height: 6.25rem;
 }
 
-.font-title {
-  font-family: var(--font-title);
+.height-18 {
+  height: 21.2rem;
 }
-
-.font-windsong {
-  font-family: var(--font-special);
+.height-75 {
+  height: 80%;
 }
-
-/* font-size */
-
-.text-size {
-  font-size: 1.1rem;
+.height-15 {
+  height: 15rem;
 }
-
-.text-size-08 {
-  font-size: 0.8rem;
+.height-12 {
+  height: 12rem;
 }
-
-.title-size {
-  font-size: 2rem;
-}
-
-.font-size-6-25 {
-  font-size: 6.25rem;
-}
-
-/* letter-spacing */
-
-.letter-space {
-  letter-spacing: 2rem;
-}
-
-.letter-space-1 {
-  letter-spacing: 0.2rem;
-}
-/* font-style */
-
-.font-bold {
-  font-weight: 600;
-}
-
-.font-light {
-  font-weight: lighter;
-}
-
-.font-italic {
-  font-style: italic;
-}
-
 /* borders */
 
 .border-black {
@@ -233,9 +241,6 @@ body {
 .border-radius-80 {
   border-radius: 90%;
 }
-.padding {
-  padding: 0.2rem;
-}
 
 /* border-radius */
 .border-radius-25 {
@@ -244,15 +249,21 @@ body {
 .border-light-brown {
   border: 1px solid var(--light-brown);
 }
-
 /* horizontal border */
 .border-width-0-2 {
   border-width: 0.2rem 0px 0px 0px;
 }
-
 /* vertical border */
 .border-vertical {
   border-width: 0px 0.2rem 0px 0px;
+}
+
+/* button style */
+.border-radius-12 {
+  border-radius: 0.75rem;
+}
+.no-border {
+  border: none;
 }
 
 /* shadow */
@@ -260,15 +271,12 @@ body {
   box-shadow: 0 0 1.25rem var(--grey);
 }
 
+/* float */
 .float-left {
   float: left;
 }
 .float-right {
   float: right;
-}
-
-.opacity-40 {
-  opacity: 40%;
 }
 
 /* link, icons, logo */
@@ -282,14 +290,11 @@ body {
   opacity: 0.6;
 }
 
-/* button style */
-.border-radius-12 {
-  border-radius: 0.75rem;
-}
-.no-border {
-  border: none;
+.list {
+  list-style-type: none;
 }
 
+/* button */
 .background-size-100 {
   background-size: 100% 100%;
 }
@@ -303,7 +308,7 @@ body {
   color: var(--dark-brown);
 }
 
-/* background */
+/* background properties */
 
 .background-norepeat {
   background-repeat: no-repeat;
@@ -316,97 +321,68 @@ body {
 .background-fixed {
   background-attachment: fixed;
 }
+
+/* backgrounds */
 .background-chalet {
   background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
 }
-
-/* navbar */
 .background-medium-brown {
   background-color: var(--medium-brown);
 }
-
-/* footer */
 .background-light-brown {
   background-color: var(--light-brown);
-}
-
-.object-cover {
-  object-fit: cover;
 }
 
 .hover-scale:hover {
   transition-duration: 0.8s;
   transform: scale(2.5);
 }
-/* text position */
-.text-center {
-  text-align: center;
-}
-.text-justify {
-  text-align: justify;
-}
 
-.justify-center {
-  justify-content: center;
-}
-
-.flex-start {
-  justify-content: flex-start;
-}
 /* position */
-.align-center {
-  align-items: center;
-}
-
-.flex-end {
-  justify-content: flex-end;
-}
-
-.justify-evenly {
-  justify-content: space-between;
-}
-
-.display-flex {
-  display: flex;
-}
-
-.align-self {
-  align-self: center;
-}
 .wrap-section {
   flex: 1;
   flex-wrap: wrap;
 }
-
+.display-flex {
+  display: flex;
+}
 .display-inline-table {
   display: inline-table;
-}
-.table-border {
-  border: 1px solid var(--light-brown);
-  display: inline-table;
-  margin: 10px;
-}
-
-.list {
-  list-style-type: none;
 }
 .flex-column {
   flex-direction: column;
 }
-
-.height-12 {
-  height: 12rem;
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.justify-evenly {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-self {
+  align-self: center;
 }
 
+.object-cover {
+  object-fit: cover;
+}
+
+.opacity-40 {
+  opacity: 40%;
+}
 .masonry {
   display: grid;
   gap: 0.9rem;
   grid-template-rows: repeat(auto-fill);
   grid-template-columns: repeat(auto-fill, minmax(14.3rem, 3fr));
-  /* no more wonky bottom */
-}
-.list {
-  list-style-type: none;
 }
 
 @media screen and (min-width: 200px) and (max-width: 280px) {
@@ -426,12 +402,12 @@ body {
   }
 
   /* subtitles */
-  .letter-space-1 {
+  .letter-space-02 {
     letter-spacing: normal;
   }
 
   /* chalet title */
-  .letter-space {
+  .letter-space-2 {
     letter-spacing: 0.7rem;
   }
 
@@ -484,11 +460,11 @@ body {
     font-size: 0.8rem;
   }
 
-  .letter-space {
+  .letter-space-2 {
     letter-spacing: 1.5rem;
   }
 
-  .letter-space-1 {
+  .letter-space-2-02 {
     letter-spacing: 0.05rem;
   }
 
@@ -563,7 +539,7 @@ body {
     font-size: 6.5rem;
   }
 
-  .letter-space {
+  .letter-space-2 {
     letter-spacing: 2.8rem;
   }
 

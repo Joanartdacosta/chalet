@@ -20,7 +20,7 @@ const SERVICES = [
     step2:
       "DESENHOS TÉCNICOS - Tendo em conta o planeamento, organização e disposição do espaço novo ou a reabilitar, sao elaborados os desenhos técnicos finais",
     step3:
-      "ESCOLHA DE CORES & TEXTURA & ACABAMENTOS- Após aprovação, avançamos para a escolha de todas as cores, texturas e materiais de acabamentos (revestimentos, tetos, pavimentos), iluminacao, desenho  e selecção de mobiliário à medida, entre outros.",
+      "ESCOLHA DE CORES & TEXTURA & ACABAMENTOS- Após aprovação, avançamos para a escolha de todas as cores, texturas e materiais de acabamentos (revestimentos, tetos, pavimentos), iluminacão, desenho  e selecção de mobiliário à medida, entre outros.",
     step4:
       "ACOMPANHAMENTO DE OBRA - Caso seja do seu interesse, o serviço de acompanhamento e assistência à obra pode ser incluído.",
   },
@@ -33,7 +33,7 @@ const SERVICES = [
     description:
       "Projeto focado numa melhoria estética e funcional do espaço, com reduzida ou sem necessidade de execução de obra. Inclui:",
     detail1:
-      "Desenhos tecnicos - plantas e cortes em 2D e de mobiliário (caso haja mobiliário desenhado à medida) para visualização do resultado final. Moodboard (conceito & inspiração do Projeto).",
+      "Desenhos técnicos - plantas e cortes em 2D e de mobiliário (caso haja mobiliário desenhado à medida) para visualização do resultado final. Moodboard (conceito & inspiração do Projeto).",
     detail2: "Projeto em formato ConceptBoard ou Projeto 3D",
     detail3: "Proposta de Layout.",
     detail4: "Lista detalhada dos materiais e artigos selecionados",
@@ -45,7 +45,7 @@ const SERVICES = [
     step3:
       "ESCOLHA DE CORES & TEXTURA & ACABAMENTOS - Após aprovação do layout e moodboard, avançamos para a escolha das cores, texturas (estofos, cortinas, tapetes), mobiliário (que pode ou não ser desenhado à medida), peças decorativas, iluminação, entre outros.",
     step4:
-      "MONTAGEM FINAL DO ESPAÇO (opcional) - Caso o cliente opte por não usufruir do serviço de montagem final, ficara com toda a lista de artigos, ficando responsavel pela sua aquisição e montagem.",
+      "MONTAGEM FINAL DO ESPAÇO (opcional) - Caso o cliente opte por não usufruir do serviço de montagem final, ficará com toda a lista de artigos, ficando responsável pela sua aquisição e montagem.",
   },
   {
     id: 3,
@@ -75,7 +75,7 @@ const SERVICES = [
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG)",
     description:
-      "Projeto com o objetivo de dar um toque especial ao espaço. Projetos em que existe a maioria da mobília (ex. sofá, mesa, cadeiras) mas e necessário um suporte na escolha ou conjugação de objetos decorativos.",
+      "Projeto com o objetivo de dar um toque especial ao espaço. Projetos em que existe a maioria da mobília (ex. sofá, mesa, cadeiras) mas é necessário um suporte na escolha ou conjugação de objetos decorativos.",
     detail1:
       "Paleta de cores (totalmente nova ou a partir de uma cor já existente no espaço e que o cliente pretenda mesmo manter)",
     detail2:

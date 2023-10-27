@@ -34,7 +34,7 @@ export default function TableServices() {
         </ul>
       </div>
 
-      <div className="border-light-brown shadow-dark padding-1 gap-3 margin-08">
+      <div className="border-light-brown shadow-dark padding-1 gap-2 margin-08">
         <h1 className="font-text font-size-11 font-bold padding-bottom-1-25">
           Consultoria Online de Decoração de Interiores
         </h1>

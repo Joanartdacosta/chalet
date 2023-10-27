@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function LinkHome() {
   return (
-    <div className="wrap-section display-flex justify-center padding-bottom-5 padding-top-5">
+    <div className="wrap-section display-flex justify-center padding-bottom-5 padding-top-5 link">
       <Link href="/">
         <img
           src="https://chalet-webapp.s3.amazonaws.com/Logotipo.png"

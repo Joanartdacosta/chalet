@@ -41,7 +41,7 @@ function EmailJs() {
       </p>
       <div className="display-flex margin-auto justify-center padding-top-1-25">
         <img
-          className="width-15 border-radius-12 media-width-size media-display-none transform180"
+          className="width-15 border-radius-075 media-width-size media-display-none transform180"
           src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
           alt="details"
         ></img>
@@ -82,7 +82,7 @@ function EmailJs() {
 
             <div>
               <button
-                className="width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self"
+                className="width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self link"
                 onClick={changeStyle}
                 style={{ background: color }}
                 type="submit"

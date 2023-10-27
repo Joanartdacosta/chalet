@@ -18,7 +18,7 @@ export default function CardService(props) {
       <div>
         <div>
           <div className="display-flex flex-end">
-            <hr className="border-light-green border-vertical opacity-40 height-15 media-display-none" />
+            <hr className="border-light-green border-vertical-02 opacity-40 height-15 media-display-none" />
             <div className="padding-1">
               <h1 className="font-title font-size-11 padding-bottom-1-25">
                 {" "}
@@ -34,7 +34,7 @@ export default function CardService(props) {
               <li className="font-text font-size-11">{props.detail4}</li>
             </div>
             <div
-              className="margin-08 width-18 height-15 object-cover background-cover background-norepeat border-radius-12 padding-2 media-display-none"
+              className="margin-08 width-18 height-15 object-cover background-cover background-norepeat border-radius-075 padding-2 media-display-none"
               style={{
                 backgroundImage: props.imgURL,
               }}
@@ -43,7 +43,7 @@ export default function CardService(props) {
 
           <div className="padding-1">
             <button
-              className="border-light-brown background-brown border-radius-12 font-text font-size-08 font-bold text-color-brown padding-05 width-8"
+              className="border-light-brown background-brown border-radius-075 font-text font-size-08 font-bold text-color-brown padding-05 width-8 link"
               onClick={handleSeeMore}
             >
               {" "}

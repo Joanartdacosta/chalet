@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CardHome(props) {
   return (
-    <div className="display-flex justify-center shadow-dark padding-2 width-18 height-18">
+    <div className="display-flex justify-center shadow-dark padding-2 width-18 height-21-2">
       <Link className="link" href={props.href} key={props.id}>
         {" "}
         <img

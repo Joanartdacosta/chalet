@@ -6,7 +6,7 @@ export default function Social() {
       {SOCIALS.map((social) => (
         <a href={social.href} key={social.id}>
           <img
-            className="width-3 padding-1"
+            className="width-3 padding-1 link"
             src={social.imgURL}
             alt={social.text}
           ></img>

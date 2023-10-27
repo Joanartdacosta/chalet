@@ -1,7 +1,7 @@
-import emailjs from "@emailjs/browser";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import contactsStyle from "./contacts.module.css";
 import layoutStyle from "../layout/layout.module.css";
+import { toast } from "react-hot-toast";
 
 function EmailJs() {
   const [color, setColor] = useState("#e9dccf");
@@ -12,27 +12,26 @@ function EmailJs() {
     setLabel("Enviado");
   }
 
-  const form = useRef();
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_1wug8mb",
-        "contact_form",
-        form.current,
-        "gZCM5ZN3kriwCjMvy"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  async function sendEmail(event) {
+    event.preventDefault();
+    const response = await fetch("/api/send", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+    if (response.status === 200) {
+      setData({});
+      toast.success(`Hey ${data.name} your message was sent`);
+    }
+  }
 
   return (
     <div className={contactsStyle.contactsSection}>
@@ -42,7 +41,7 @@ function EmailJs() {
         alt="details"
       ></img>
       <div className={contactsStyle.contactsForm}>
-        <form ref={form} onSubmit={sendEmail}>
+        <form onSubmit={sendEmail}>
           <input type="hidden" name="contact_number" required />
           <label>Nome</label>
           <input

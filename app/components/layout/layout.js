@@ -2,6 +2,7 @@ import NavBar from "../navbar/NavBar";
 import Footer from "../footer/Footer";
 import LinkHome from "../link/LinkHome";
 import Head from "next/head";
+import { Toaster } from "react-hot-toast";
 
 const NAME = "CHALET";
 export const DESCRIPTION = "Chalet - Atelier de Design de Interiores";
@@ -33,6 +34,7 @@ export default function Layout({ children, home }) {
 
       <main>
         {" "}
+        <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
         <NavBar />
         {children}
       </main>

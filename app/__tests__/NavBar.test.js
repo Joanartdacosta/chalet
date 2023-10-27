@@ -13,7 +13,7 @@ test("Navbar renders correctly with links", () => {
   const aboutLink = getByText("SOBRE MIM");
   const projectsLink = getByText("PROJETOS");
   const contactsLink = getByText("CONTACTOS");
-  const servicesLink = getByText("SERVICOS");
+  const servicesLink = getByText("SERVIÇOS");
 
   expect(aboutLink).toBeInTheDocument();
   expect(projectsLink).toBeInTheDocument();

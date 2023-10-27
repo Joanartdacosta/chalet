@@ -1,12 +1,12 @@
 import ProjectGallery from "../components/projects/gallery/ProjectsGallery";
 import React from "react";
-import { getByText, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 jest.mock("react-router");
 
 describe("ProjectGallery", () => {
   test("should render correnctly", () => {
     render(<ProjectGallery />);
 
-    screen.getByText("Mezanine");
+    screen.getByText("Projeto de Design e Remodelação de Interiores");
   });
 });

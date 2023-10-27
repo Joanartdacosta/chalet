@@ -12,7 +12,7 @@ export default function CardGallery(props) {
       <h1 className="font-text font-light font-size-2 text-color-brown opacity">
         {props.title}
       </h1>
-      <p className="font-text text-size-08 font-bold padding-bottom-1-25 padding-1">
+      <p className="font-text font-size-08 font-bold padding-bottom-1-25 padding-1">
         {props.category1}
       </p>
 

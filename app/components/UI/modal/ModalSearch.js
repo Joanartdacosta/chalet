@@ -14,7 +14,7 @@ export default function ModalSearch(props) {
   return (
     <div className="padding-top-5 margin-auto text-center width-60">
       <input
-        className="font-text text-size border-radius-12 width-18 padding-05"
+        className="font-text font-size-11 border-radius-12 width-18 padding-05"
         type="text"
         placeholder="Procure pelo servico que pretende"
         onChange={filterServices}

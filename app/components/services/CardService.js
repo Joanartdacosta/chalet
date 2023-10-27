@@ -20,18 +20,18 @@ export default function CardService(props) {
           <div className="display-flex flex-end">
             <hr className="border-light-green border-vertical opacity-40 height-15 media-display-none" />
             <div className="padding-1">
-              <h1 className="font-title text-size padding-bottom-1-25">
+              <h1 className="font-title font-size-11 padding-bottom-1-25">
                 {" "}
                 {props.title}
               </h1>
-              <p className="font-text text-size padding-bottom-1-25">
+              <p className="font-text font-size-11 padding-bottom-1-25">
                 {props.description}
               </p>
 
-              <li className="font-text text-size">{props.detail1}</li>
-              <li className="font-text text-size">{props.detail2}</li>
-              <li className="font-text text-size">{props.detail3}</li>
-              <li className="font-text text-size">{props.detail4}</li>
+              <li className="font-text font-size-11">{props.detail1}</li>
+              <li className="font-text font-size-11">{props.detail2}</li>
+              <li className="font-text font-size-11">{props.detail3}</li>
+              <li className="font-text font-size-11">{props.detail4}</li>
             </div>
             <div
               className="margin-08 width-18 height-15 object-cover background-cover background-norepeat border-radius-12 padding-2 media-display-none"
@@ -43,7 +43,7 @@ export default function CardService(props) {
 
           <div className="padding-1">
             <button
-              className="border-light-brown background-brown border-radius-12 font-text text-size-08 font-bold text-color-brown padding-05 width-8"
+              className="border-light-brown background-brown border-radius-12 font-text font-size-08 font-bold text-color-brown padding-05 width-8"
               onClick={handleSeeMore}
             >
               {" "}

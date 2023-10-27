@@ -5,11 +5,11 @@ export default function Mission() {
         <h1 className="font-windsong font-size-2 font-light padding-top-5">
           Missao
         </h1>
-        <h2 className="font-subtitle text-size font-bold padding-top-1-25">
+        <h2 className="font-subtitle font-size-11 font-bold padding-top-1-25">
           Cada projeto é o início de uma nova história!
         </h2>
         <div className="padding-top-5">
-          <p className="font-text text-size max-width">
+          <p className="font-text font-size-11 max-width">
             O Chalet - Design de Interiores nasce com a finalidade de trazer
             ideias e soluções aos espaços dos seus clientes, quer sejam eles
             residenciais ou comerciais, que combinem três premissas essenciais -

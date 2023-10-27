@@ -6,10 +6,10 @@ export default function CardAdvantage(props) {
         src={props.imgURL}
         alt={props.alt}
       />
-      <p className="font-text text-size font-bold padding-bottom-1-25 text-color-brown">
+      <p className="font-text font-size-11 font-bold padding-bottom-1-25 text-color-brown">
         {props.title}
       </p>
-      <p className="font-text text-size-08">{props.description}</p>
+      <p className="font-text font-size-08">{props.description}</p>
     </div>
   );
 }

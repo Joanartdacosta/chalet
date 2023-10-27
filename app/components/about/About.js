@@ -2,13 +2,13 @@ export default function AboutMe() {
   return (
     <div>
       <div>
-        <h2 className="font-title text-size">
+        <h2 className="font-title font-size-11">
           'Cada projeto é o início de uma nova história.'
         </h2>
-        <p className="font-text text-size-08 font-italic padding-bottom-1-25">
+        <p className="font-text font-size-08 font-italic padding-bottom-1-25">
           Mariana Batista Ramadas
         </p>
-        <p className="font-text text-size padding-bottom-1-25">
+        <p className="font-text font-size-11 padding-bottom-1-25">
           O Chalet nasce da paixão de Mariana Batista Ramadas pela arquitetura e
           decoração, aliada ao conforto, estética e funcionalidade.{" "}
         </p>
@@ -22,7 +22,7 @@ export default function AboutMe() {
             alt="designer-profile"
           />
 
-          <p className="padding-2 text-justify media-text-size">
+          <p className="padding-2 text-justify media-font-size-11">
             "Chamo-me Mariana e desde pequena que sempre fui apaixonada por
             arquitetura e decoração. Sabem aquela pessoa que vai na rua ou no
             carro, a obervar as casas e edifícios e fica a imaginar como será
@@ -56,7 +56,7 @@ export default function AboutMe() {
             desafio e aprendizagem constantes!"
           </p>
         </div>
-        <h2 className="font-text text-size padding-bottom-5">
+        <h2 className="font-text font-size-11 padding-bottom-5">
           "Agradeço a todos os que, até agora, já confiaram no meu trabalho e
           conto com vocês para que venham por aí muitos bons e novos projetos!"{" "}
         </h2>

@@ -18,7 +18,7 @@ export default function ModalService(props) {
             </button>
           </div>
           <div>
-            <h3 className="padding-top-1-25 padding-bottom-1-25 font-text text-size">
+            <h3 className="padding-top-1-25 padding-bottom-1-25 font-text font-size-11">
               Mais informações
             </h3>
 
@@ -29,7 +29,7 @@ export default function ModalService(props) {
           </div>
           <div className="display-flex justify-evenly media-display-button">
             <a href="/contacts">
-              <button className="border-light-brown background-brown border-radius-12 font-text text-size-08 font-bold text-color-brown padding-05 width-8">
+              <button className="border-light-brown background-brown border-radius-12 font-text font-size-08 font-bold text-color-brown padding-05 width-8">
                 Pedir orçamento
               </button>
             </a>

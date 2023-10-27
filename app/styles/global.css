@@ -39,10 +39,10 @@ body {
 
 /* font-size */
 
-.text-size-08 {
+.font-size-08 {
   font-size: 0.8rem;
 }
-.text-size {
+.font-size-11 {
   font-size: 1.1rem;
 }
 .title-size {
@@ -397,7 +397,7 @@ body {
   }
 
   .subtitle-size,
-  .text-size {
+  .font-size-11 {
     font-size: 0.8rem;
   }
 
@@ -435,7 +435,7 @@ body {
     width: 10rem;
   }
 
-  .media-text-size {
+  .media-font-size-11 {
     font-size: 0.8rem;
   }
 
@@ -573,7 +573,7 @@ body {
     height: 2.8rem;
   }
 
-  .text-size {
+  .font-size-11 {
     font-size: 0.9rem;
   }
 

@@ -5,13 +5,13 @@ export default function ChaletBackground() {
         CHALET
       </h1>
       <hr className="border-black width-37-5 margin-auto" />
-      <h1 className="font-subtitle text-size font-bold text-center letter-space-02 padding-top-1-25">
+      <h1 className="font-subtitle font-size-11 font-bold text-center letter-space-02 padding-top-1-25">
         DESIGN de INTERIORES
       </h1>
-      <p className="font-subtitle text-size font-bold text-center padding-top-1-25">
+      <p className="font-subtitle font-size-11 font-bold text-center padding-top-1-25">
         by
       </p>
-      <h1 className="font-subtitle text-size font-italic text-center letter-space-02 padding-top-1-25 ">
+      <h1 className="font-subtitle font-size-11 font-italic text-center letter-space-02 padding-top-1-25 ">
         Mariana Batista Ramadas
       </h1>
     </div>

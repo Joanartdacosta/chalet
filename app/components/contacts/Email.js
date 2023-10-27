@@ -56,7 +56,7 @@ function EmailJs() {
             <div className="padding-bottom-1-25 display-flex flex-column">
               <label className="padding-05">Nome</label>
               <input
-                className="max-width  text-size font-text padding-05"
+                className="max-width  font-size-11 font-text padding-05"
                 type="text"
                 name="user_name"
               />
@@ -65,7 +65,7 @@ function EmailJs() {
             <div className="padding-bottom-1-25 display-flex flex-column">
               <label className="padding-05">Email</label>
               <input
-                className="max-width text-size font-text padding-05"
+                className="max-width font-size-11 font-text padding-05"
                 type="email"
                 name="user_email"
                 required
@@ -75,14 +75,14 @@ function EmailJs() {
             <div className=" padding-bottom-1-25 display-flex flex-column">
               <label className="padding-05">Mensagem de contacto</label>
               <textarea
-                className="max-width text-size font-text  padding-05"
+                className="max-width font-size-11 font-text  padding-05"
                 name="message"
               ></textarea>
             </div>
 
             <div>
               <button
-                className="width-100 padding-05 border-light-brown text-color-brown text-size font-text align-self"
+                className="width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self"
                 onClick={changeStyle}
                 style={{ background: color }}
                 type="submit"

@@ -10,10 +10,10 @@ export default function CardHome(props) {
           src={props.imgURL}
           alt={props.title}
         />
-        <h1 className="font-title text-center text-size padding-bottom-1-25 padding-top-1-25">
+        <h1 className="font-title text-center font-size-11 padding-bottom-1-25 padding-top-1-25">
           {props.title}
         </h1>
-        <button className="font-title text-center text-size-08 no-border background-green width-100 height-3 padding-05">
+        <button className="font-title text-center font-size-08 no-border background-green width-100 height-3 padding-05">
           <p>{props.description}</p>
         </button>
       </Link>

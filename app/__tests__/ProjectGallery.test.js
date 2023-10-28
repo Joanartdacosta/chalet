@@ -1,15 +1,12 @@
-import ProjectGallery from "../components/projects/gallery/ProjectsGallery";
+import ProjectsGallery from "../components/projects/gallery/ProjectsGallery";
 import React from "react";
-import { getByText, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 jest.mock("react-router");
 
-describe("ProjectGallery", () => {
+describe("ProjectsGallery", () => {
   test("should render correnctly", () => {
-    render(<ProjectGallery />);
+    render(<ProjectsGallery />);
 
-    screen.getByText("Consultoria Complementar");
-
-    const textId = document.querySelector("#complementar");
-    getByText(textId, "Consultoria Complementar");
+    screen.getAllByText("Projeto de Design e Remodelação de Interiores");
   });
 });

@@ -1,4 +1,3 @@
-import searchStyles from "./search.module.css";
 import SERVICES from "../../services/services";
 
 export default function ModalSearch(props) {
@@ -13,9 +12,9 @@ export default function ModalSearch(props) {
   }
 
   return (
-    <div className={searchStyles.searchSection}>
+    <div className="padding-top-5 margin-auto text-center width-60">
       <input
-        className={searchStyles.searchInput}
+        className="font-text font-size-11 border-radius-075 width-18 padding-05"
         type="text"
         placeholder="Procure pelo servico que pretende"
         onChange={filterServices}

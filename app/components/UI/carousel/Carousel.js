@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import carouselStyles from "./carousel.module.css";
 
 export default function Carousel(props) {
   return (
@@ -9,11 +8,7 @@ export default function Carousel(props) {
         {props.slides.map((slide) => {
           return (
             <div key={slide.id}>
-              <img
-                className={carouselStyles.Image}
-                src={slide.imgURL}
-                alt="slide"
-              />
+              <img src={slide.imgURL} alt="slide" />
             </div>
           );
         })}

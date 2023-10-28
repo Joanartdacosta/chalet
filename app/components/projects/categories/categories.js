@@ -22,7 +22,7 @@ const CATEGORIES = [
   },
   {
     id: 6,
-    category: "Espacos Comerciais",
+    category: "Espaços Comerciais",
   },
 ];
 

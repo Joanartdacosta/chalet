@@ -1,10 +1,9 @@
 import About from "../../components/about/About";
-import layoutStyles from "../../components/layout/layout.module.css";
 import Advantages from "../../components/about/Advantages";
 
-export default function SobreMim() {
+export default function AboutMe() {
   return (
-    <div className={layoutStyles.informationSection}>
+    <div className="text-center margin-auto max-width padding-top-5">
       <About />
       <Advantages />
     </div>

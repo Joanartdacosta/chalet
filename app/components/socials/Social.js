@@ -1,13 +1,12 @@
 import SOCIALS from "./socials";
-import socialStyles from "./social.module.css";
 
 export default function Social() {
   return (
-    <div className={socialStyles.socialIcons}>
+    <div className="margin-auto padding-top-1-25">
       {SOCIALS.map((social) => (
         <a href={social.href} key={social.id}>
           <img
-            className={socialStyles.socialIcon}
+            className="width-3 padding-1 link"
             src={social.imgURL}
             alt={social.text}
           ></img>

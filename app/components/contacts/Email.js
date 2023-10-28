@@ -12,27 +12,30 @@ function EmailJs() {
     setLabel("Enviado");
   }
 
-  const form = useRef();
+  const [state, setState] = useState();
 
-  const sendEmail = (e) => {
+  async function handleSubmit(e) {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_1wug8mb",
-        "contact_form",
-        form.current,
-        "gZCM5ZN3kriwCjMvy"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+    setState("loading");
+    function setTimeOut() {
+      setState("ready");
+    }
+  }
+  //     .sendForm(
+  //       "service_1wug8mb",
+  //       "contact_form",
+  //       form.current,
+  //       "gZCM5ZN3kriwCjMvy"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <div className={contactsStyle.contactsSection}>
@@ -42,7 +45,7 @@ function EmailJs() {
         alt="details"
       ></img>
       <div className={contactsStyle.contactsForm}>
-        <form ref={form} onSubmit={sendEmail}>
+        <form onSubmit={handleSubmit}>
           <input type="hidden" name="contact_number" required />
           <label>Nome</label>
           <input

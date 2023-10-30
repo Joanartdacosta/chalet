@@ -54,7 +54,7 @@ export default function CardService(props) {
               </div>
             </div>
             <div
-              className="object-cover background-cover background-norepeat border-radius-075  max-width-15 media-display-none"
+              className="object-cover background-cover background-norepeat border-radius-075 max-width-15 min-width-15 height-17 media-display-none"
               style={{
                 backgroundImage: props.imgURL,
               }}

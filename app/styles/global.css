@@ -167,12 +167,12 @@ body {
 .width-18 {
   width: 18rem;
 }
-
-.width-25 {
+.max-width-15 {
   max-width: 15rem;
   min-width: 15rem;
   height: 15rem;
 }
+
 /* hr of background */
 .width-37-5 {
   width: 37.5rem;

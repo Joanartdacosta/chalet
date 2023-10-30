@@ -2,27 +2,27 @@ export default function AboutMe() {
   return (
     <div>
       <div>
-        <h2 className="font-title font-size-11">
+        <h2 className="font-title font-size-11 media-font-text">
           'Cada projeto é o início de uma nova história.'
         </h2>
-        <p className="font-text font-size-08 font-italic padding-bottom-1-25">
+        <p className="font-text font-size-08 font-italic padding-bottom-1-25 media-padding-bottom">
           Mariana Batista Ramadas
         </p>
-        <p className="font-text font-size-11 padding-bottom-1-25">
+        <p className="font-text font-size-11 padding-bottom-1-25 media-font-text media-padding-bottom">
           O Chalet nasce da paixão de Mariana Batista Ramadas pela arquitetura e
           decoração, aliada ao conforto, estética e funcionalidade.{" "}
         </p>
       </div>
 
       <div>
-        <div className="wrap-section flex-column padding-bottom-1-25 ">
+        <div className="wrap-section flex-column padding-bottom-1-25 media-padding-bottom">
           <img
-            className="width-50 object-cover "
+            className="width-50 object-cover media-width"
             src="https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_0970+(2).JPG"
             alt="designer-profile"
           />
 
-          <p className="padding-2 text-justify media-font-size-11">
+          <p className="padding-2 text-justify media-font-text">
             "Chamo-me Mariana e desde pequena que sempre fui apaixonada por
             arquitetura e decoração. Sabem aquela pessoa que vai na rua ou no
             carro, a obervar as casas e edifícios e fica a imaginar como será
@@ -56,7 +56,7 @@ export default function AboutMe() {
             desafio e aprendizagem constantes!"
           </p>
         </div>
-        <h2 className="font-text font-size-11 padding-bottom-5">
+        <h2 className="font-text font-size-11 padding-bottom-5 media-font-text">
           "Agradeço a todos os que, até agora, já confiaram no meu trabalho e
           conto com vocês para que venham por aí muitos bons e novos projetos!"{" "}
         </h2>

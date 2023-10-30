@@ -39,50 +39,50 @@ function EmailJs() {
         formulário abaixo; por mensagem privada no Instagram ou envie email para
         chalet.designinteriores@gmail.com.
       </p>
-      <div className="display-flex margin-auto justify-center padding-top-1-25">
+      <div className="display-flex margin-auto justify-center padding-top-1-25 media-padding-top">
         <img
           className="width-15 border-radius-075 media-width-size media-display-none transform180"
           src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
           alt="details"
         ></img>
 
-        <div className="width-50 padding-2">
+        <div className="width-50 padding-2 media-width">
           <form
             ref={form}
             onSubmit={sendEmail}
             className="text-justify margin-auto"
           >
             <input type="hidden" name="contact_number" required />
-            <div className="padding-bottom-1-25 display-flex flex-column">
+            <div className="padding-bottom-1-25 display-flex flex-column media-padding-bottom">
               <label className="padding-05">Nome</label>
               <input
-                className="max-width  font-size-11 font-text padding-05"
+                className="max-width  font-size-11 font-text padding-05 media-font-text"
                 type="text"
                 name="user_name"
               />
             </div>
 
-            <div className="padding-bottom-1-25 display-flex flex-column">
+            <div className="padding-bottom-1-25 display-flex flex-column media-padding-bottom">
               <label className="padding-05">Email</label>
               <input
-                className="max-width font-size-11 font-text padding-05"
+                className="max-width font-size-11 font-text padding-05 media-font-text"
                 type="email"
                 name="user_email"
                 required
               />
             </div>
 
-            <div className=" padding-bottom-1-25 display-flex flex-column">
+            <div className=" padding-bottom-1-25 display-flex flex-column media-padding-bottom">
               <label className="padding-05">Mensagem de contacto</label>
               <textarea
-                className="max-width font-size-11 font-text  padding-05"
+                className="max-width font-size-11 font-text  padding-05 media-font-text"
                 name="message"
               ></textarea>
             </div>
 
             <div>
               <button
-                className="width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self link"
+                className="width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self link media-font-text"
                 onClick={changeStyle}
                 style={{ background: color }}
                 type="submit"

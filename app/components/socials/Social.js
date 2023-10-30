@@ -2,7 +2,7 @@ import SOCIALS from "./socials";
 
 export default function Social() {
   return (
-    <div className="margin-auto padding-top-1-25">
+    <div className="margin-auto padding-top-1-25 media-padding-top">
       {SOCIALS.map((social) => (
         <a href={social.href} key={social.id}>
           <img

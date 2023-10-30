@@ -1,7 +1,7 @@
 export default function TableServices() {
   return (
-    <div className="text-align-center padding-top-5 padding-bottom-1-25">
-      <div className="padding-bottom-1-25">
+    <div className="text-align-center padding-top-5 padding-bottom-1-25 media-padding-bottom">
+      <div className="padding-bottom-1-25 media-padding-bottom">
         <p>
           Se pretende solicitar um orçamento, são necessários os seguintes
           dados:
@@ -9,7 +9,7 @@ export default function TableServices() {
       </div>
 
       <div className="border-light-brown shadow-dark padding-1 margin-08">
-        <h1 className="font-text font-size-11 font-bold padding-bottom-1-25">
+        <h1 className="font-text font-size-11 font-bold padding-bottom-1-25 media-font-text media-padding-bottom">
           Projeto de Design e Remodelação de Interiores
         </h1>
 
@@ -22,7 +22,7 @@ export default function TableServices() {
       </div>
 
       <div className="border-light-brown shadow-dark padding-1 margin-08">
-        <h1 className="font-text font-size-11 font-bold padding-bottom-1-25">
+        <h1 className="font-text font-size-11 font-bold padding-bottom-1-25 media-font-text media-padding-bottom">
           Projeto de Decoração de Interiores
         </h1>
 
@@ -35,7 +35,7 @@ export default function TableServices() {
       </div>
 
       <div className="border-light-brown shadow-dark padding-1 gap-2 margin-08">
-        <h1 className="font-text font-size-11 font-bold padding-bottom-1-25">
+        <h1 className="font-text font-size-11 font-bold padding-bottom-1-25 media-font-text media-padding-bottom">
           Consultoria Online de Decoração de Interiores
         </h1>
 

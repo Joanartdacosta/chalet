@@ -18,14 +18,22 @@ export default function ModalService(props) {
             </button>
           </div>
           <div>
-            <h3 className="padding-top-1-25 padding-bottom-1-25 font-text font-size-11">
+            <h3 className="padding-top-1-25 padding-bottom-1-25 font-text font-size-11 media-font-text media-padding-bottom media-padding-top">
               Mais informações
             </h3>
 
-            <p className="padding-bottom-1-25">{props.step1}</p>
-            <p className="padding-bottom-1-25">{props.step2}</p>
-            <p className="padding-bottom-1-25">{props.step3}</p>
-            <p className="padding-bottom-1-25">{props.step4}</p>
+            <p className="padding-bottom-1-25 media-padding-bottom">
+              {props.step1}
+            </p>
+            <p className="padding-bottom-1-25 media-padding-bottom">
+              {props.step2}
+            </p>
+            <p className="padding-bottom-1-25 media-padding-bottom">
+              {props.step3}
+            </p>
+            <p className="padding-bottom-1-25 media-padding-bottom">
+              {props.step4}
+            </p>
           </div>
           <div className="display-flex justify-evenly media-display-button">
             <a href="/contacts">

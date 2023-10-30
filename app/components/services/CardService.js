@@ -20,21 +20,29 @@ export default function CardService(props) {
           <div className="display-flex flex-end">
             <hr className="border-light-green border-vertical-02 opacity-40 height-15 media-display-none" />
             <div className="padding-1">
-              <h1 className="font-title font-size-11 padding-bottom-1-25">
+              <h1 className="font-title font-size-11 padding-bottom-1-25 media-font-text media-padding-bottom">
                 {" "}
                 {props.title}
               </h1>
-              <p className="font-text font-size-11 padding-bottom-1-25">
+              <p className="font-text font-size-11 padding-bottom-1-25 media-font-text media-padding-bottom">
                 {props.description}
               </p>
 
-              <li className="font-text font-size-11">{props.detail1}</li>
-              <li className="font-text font-size-11">{props.detail2}</li>
-              <li className="font-text font-size-11">{props.detail3}</li>
-              <li className="font-text font-size-11">{props.detail4}</li>
+              <li className="font-text font-size-11 media-font-text">
+                {props.detail1}
+              </li>
+              <li className="font-text font-size-11 media-font-text">
+                {props.detail2}
+              </li>
+              <li className="font-text font-size-11 media-font-text">
+                {props.detail3}
+              </li>
+              <li className="font-text font-size-11 media-font-text">
+                {props.detail4}
+              </li>
             </div>
             <div
-              className="margin-08 width-18 height-15 object-cover background-cover background-norepeat border-radius-075 padding-2 media-display-none"
+              className="margin-08 width-18 height-15 object-cover background-cover background-norepeat border-radius-075 padding-2 media-display-none media-with-card"
               style={{
                 backgroundImage: props.imgURL,
               }}

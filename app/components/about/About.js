@@ -29,19 +29,19 @@ export default function AboutMe() {
             <DesignerPhotos />
           </div>
           <div className="padding-top-1-25 max-width-55 padding-1 display-flex flex-column justify-center text-center">
-            <p className=" media-font-size-11 ">
+            <p className="media-font-size-11">
               "Chamo-me Mariana e desde pequena que sempre fui apaixonada por
               arquitetura e decoração. Sabem aquela pessoa que vai na rua ou no
               carro, a obervar as casas e edifícios e fica a imaginar como será
               cada detalhe, a sua decoração, quem lá vive? Sim, eu sempre fui
               essa pessoa!
             </p>
-            <p>
+            <p className="media-font-size-11">
               Contudo, a vida não me encaminhou logo para esta área, tendo
               iniciado o meu percurso profissional na área da saúde. Sou
               licenciada em Fisioterapia, exercendo esta profissão desde 2013.
             </p>
-            <p>
+            <p className="media-font-size-11">
               Em 2017, o projeto de remodelação da minha primeira casa,
               despertou de novo em mim o fascínio pela decoração. Sabem o que é
               fazer algo e sentir uma verdadeira paixão? Pois, foi isso que me
@@ -49,7 +49,7 @@ export default function AboutMe() {
               em que me vi envolvida,uma vez que fui responsável por toda a
               escolha de materiais e disposição do espaço.{" "}
             </p>
-            <p>
+            <p className="media-font-size-11">
               Esta etapa da minha vida, aliada ao facto de não me sentir
               completamente realizada e feliz na minha área de formação base,
               fez com que surgisse a ideia e vontade para mudar de rumo, tendo
@@ -57,7 +57,7 @@ export default function AboutMe() {
               todo o apoio de familiares e amigos (sobretudo do marido que é
               engenheiro civil)!{" "}
             </p>
-            <p>
+            <p className="media-font-size-11">
               Em plena pandemia, senti que não podia adiar mais este objetivo e
               inscrevi-me no curso de Design de Interiores da Lisbon School of
               Design, que iniciei em Setembro de 2020. A formação foi uma
@@ -69,16 +69,13 @@ export default function AboutMe() {
               do meu emprego a full time e criei este meu Chalet, que tem sido
               um desafio e aprendizagem constantes!
             </p>
-            <p>
+            <p className="media-font-size-11">
               {" "}
               Agradeço a todos os que, até agora, já confiaram no meu trabalho e
               conto com vocês para que venham por aí muitos bons e novos
               projetos!"{" "}
             </p>
           </div>
-        </div>
-        <div>
-          <h2 className="font-text font-size-11 text-center padding-bottom-5"></h2>
         </div>
       </div>
     </div>

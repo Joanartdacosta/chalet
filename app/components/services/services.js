@@ -14,44 +14,42 @@ const SERVICES = [
     detail3: "Mobiliario desenhado a medida.",
     detail4:
       "Lista detalhada dos materiais e artigos selecionados (não inclui orçamento dos serviços de construção civil).",
+
     step1:
-      "Pedido de orcamento exige o envio dos seguintes dados: Localização do espaço; Breve descrição do que é pretendido; Medidas gerais do espaço; Fotografias do espaço; Estimativa do valor a investir.",
+      "REUNIÃO - Após aprovação do orçamento, é marcada uma Reunião com o cliente para definir gostos, necessidades e funcionalidade do(s) espaço(s).",
     step2:
-      "REUNIAO - Após aprovação do orçamento, é marcada uma Reunião com o cliente para definir gostos, necessidades e funcionalidade do(s) espaço(s).",
+      "DESENHOS TÉCNICOS - Tendo em conta o planeamento, organização e disposição do espaço novo ou a reabilitar, sao elaborados os desenhos técnicos finais",
     step3:
-      "DESENHOS TECNICOS - Tendo em conta o planeamento, organização e disposição do espaço novo ou a reabilitar, sao elaborados os desenhos tecnicos finais",
+      "ESCOLHA DE CORES & TEXTURA & ACABAMENTOS- Após aprovação, avançamos para a escolha de todas as cores, texturas e materiais de acabamentos (revestimentos, tetos, pavimentos), iluminacão, desenho  e selecção de mobiliário à medida, entre outros.",
     step4:
-      "ESCOLHA DE CORES & TEXTURA & ACABAMENTOS- Após aprovação, avancamos para a escolha de todas as cores, texturas e materiais de acabamentos (revestimentos, tetos, pavimentos), iluminacao, desenho  e selecção de mobiliário à medida, entre outros.",
-    step5:
       "ACOMPANHAMENTO DE OBRA - Caso seja do seu interesse, o serviço de acompanhamento e assistência à obra pode ser incluído.",
   },
   {
     id: 2,
-    title: "Projeto de Decoracao de Interiores",
+    title: "Projeto de Decoração de Interiores",
     href: "#decor",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1148.JPG)",
     description:
       "Projeto focado numa melhoria estética e funcional do espaço, com reduzida ou sem necessidade de execução de obra. Inclui:",
     detail1:
-      "Desenhos tecnicos - plantas e cortes em 2D e de mobiliário (caso haja mobiliário desenhado à medida) para visualização do resultado final. Moodboard (conceito & inspiração do Projeto).",
+      "Desenhos técnicos - plantas e cortes em 2D e de mobiliário (caso haja mobiliário desenhado à medida) para visualização do resultado final. Moodboard (conceito & inspiração do Projeto).",
     detail2: "Projeto em formato ConceptBoard ou Projeto 3D",
     detail3: "Proposta de Layout.",
     detail4: "Lista detalhada dos materiais e artigos selecionados",
+
     step1:
-      "Pedido de orcamento exige o envio dos seguintes dados: Breve descrição do que é pretendido; Medidas gerais do espaço; Fotografias do espaço; Estimativa do valor que pretende investir.",
+      "REUNIÃO - Após aprovação do orçamento, é marcada uma reunião com o cliente para definir gostos, necessidades e funcionalidade do espaço.",
     step2:
-      "REUNIAO - Após aprovação do orçamento, é marcada uma Reunião com o cliente para definir gostos, necessidades e funcionalidade do(s) espaço(s).",
+      "ELABORACÃO E ENVIO DE LAYOUT - Envio de layout tendo em conta a organização e disposição do espaço e respetivo mobiliário.",
     step3:
-      "ELABORACAO E ENVIO DE LAYOUT - Envio de layout tendo em conta a organização e disposição do(s) espaço(s) e respetivo mobiliário.",
-    step4:
       "ESCOLHA DE CORES & TEXTURA & ACABAMENTOS - Após aprovação do layout e moodboard, avançamos para a escolha das cores, texturas (estofos, cortinas, tapetes), mobiliário (que pode ou não ser desenhado à medida), peças decorativas, iluminação, entre outros.",
-    step5:
-      "MONTAGEM FINAL DO ESPACO (opcional) - Caso o cliente opte por não usufruir do serviço de montagem final, ficara com toda a lista de artigos, ficando responsavel pela sua aquisição e montagem.",
+    step4:
+      "MONTAGEM FINAL DO ESPAÇO (opcional) - Caso o cliente opte por não usufruir do serviço de montagem final, ficará com toda a lista de artigos, ficando responsável pela sua aquisição e montagem.",
   },
   {
     id: 3,
-    title: "Consultoria Online de Decoracao de Interiores",
+    title: "Consultoria Online de Decoração de Interiores",
     href: "#online",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/moodboards/Moodboard+cozinha1.png)",
@@ -63,35 +61,34 @@ const SERVICES = [
     detail3:
       "Lista detalhada dos materiais e artigos selecionados (artigos de lojas físicas de fácil acesso ou de lojas com venda online).",
     detail4: "Paleta de cores, Texturas e Materiais escolhida.",
+
     step1:
-      "Pedido de orcamento exige o envio dos seguintes dados: Planta originais ou desenhada com as medidas principais do espaço; Fotos do espaço a decorar.",
-    step2:
       "QUESTIONARIO - Após aprovação do orçamento, entramos em contacto com o cliente e é enviado um questionário para perceber principais gostos, necessidades e funcionalidades pretendidas para o espaço a decorar (o cliente pode e deve enviar fotografias de inspiração).",
-    step3:
-      "IMPLEMENTACAO - Após receber o projeto, o cliente só tem de o implementar, ao seu ritmo.",
+    step2:
+      "IMPLEMENTACÃO - Após receber o projeto, o cliente só tem de o implementar, ao seu ritmo.",
   },
 
   {
     id: 4,
-    title: "Consultoria Complementar de Decoracao de Interiores",
+    title: "Consultoria Complementar de Decoração de Interiores",
     href: "#complementar",
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG)",
     description:
-      "Projeto com o objetivo de dar um toque especial ao espaco. Projetos em que existe a maioria da mobília (ex. sofá, mesa, cadeiras) mas e necessario um suporte na escolha ou conjugacao de objetos decorativos.",
+      "Projeto com o objetivo de dar um toque especial ao espaço. Projetos em que existe a maioria da mobília (ex. sofá, mesa, cadeiras) mas é necessário um suporte na escolha ou conjugação de objetos decorativos.",
     detail1:
       "Paleta de cores (totalmente nova ou a partir de uma cor já existente no espaço e que o cliente pretenda mesmo manter)",
     detail2:
-      "Sugestao de todo o tipo de artigos decorativos ou ate mobiliario (ex. almofadas, tapetes);",
+      "Sugestão de todo o tipo de artigos decorativos ou ate mobiliário (ex. almofadas, tapetes);",
     detail3:
       "Conselhos sobre como integrar estes elementos na decoração (ex. forma correta de colocar os tapetes ou cortinados, conjugação de almofadas)",
     detail4: "Lista detalhada dos artigos propostos a adquirir.",
-    step1: "Pedido de orcamento exige o envio dos seguintes dados:",
-    step2:
+
+    step1:
       "A Consultoria Complementar é um serviço maioritariamente online mas há duas formas de o finalizar:",
-    step3:
+    step2:
       "Sem apoio do Chalet - o cliente fica responsável pela compra de todas as peças e pela colocação das mesmas no espaço,",
-    step4:
+    step3:
       "Com apoio do CHALET - Inclui gestão das compras, encomendas e montagem final do espaço - poupança de tempo e dinheiro! (Válido apenas para a região da Grande Lisboa).",
   },
 
@@ -102,9 +99,9 @@ const SERVICES = [
     imgURL:
       "url(https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4135.JPG)",
     description:
-      "Destinado a imoveis para vender ou arrendar (longa duração ou temporário). Este serviço permite uma valorizacao do seu imovel.",
-    detail1: "Imovel mais atractivo",
-    detail2: "Imovel mais funcional",
+      "Destinado a imóveis para vender ou arrendar (longa duração ou temporário). Este serviço permite uma valorização do seu imóvel.",
+    detail1: "Imóvel mais atractivo",
+    detail2: "Imóvel mais funcional",
     detail3: "Ajuda o cliente a visualizar todo o potencial do espaço.",
     detail4: "Imovel com maior potencial de negocio",
     step1:

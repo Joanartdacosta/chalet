@@ -1,26 +1,35 @@
 import Link from "next/link";
-import styles from "./navbar.module.css";
 
 export default function NavBar() {
   return (
-    <div>
-      <div className={styles.navBar}>
-        <div className={styles.menuLeft}>
-          <Link className={styles.navBarLink} href="/sobre">
-            SOBRE MIM
-          </Link>
-          <Link className={styles.navBarLink} href="/contactos">
-            CONTACTOS
-          </Link>
-        </div>
-        <div className={styles.menuRight}>
-          <Link className={styles.navBarLink} href="/servicos">
-            SERVICOS
-          </Link>
-          <Link className={styles.navBarLink} href="/projetos">
-            PROJETOS
-          </Link>
-        </div>
+    <div className="wrap-section display-flex background-medium-brown padding-top-1-25 padding-bottom-1-25 media-display-grid">
+      <div className="wrap-section display-grid media-display-grid">
+        <Link
+          className="font-title font-size-11 link padding-right-1-25"
+          href="/about"
+        >
+          SOBRE MIM
+        </Link>
+        <Link
+          className="font-title font-size-11  link padding-right-1-25"
+          href="/contacts"
+        >
+          CONTACTOS
+        </Link>
+      </div>
+      <div className="display-grid media-display-grid">
+        <Link
+          className="font-title font-size-11  link padding-right-1-25"
+          href="/services"
+        >
+          SERVIÇOS
+        </Link>
+        <Link
+          className="font-title font-size-11 link padding-right-1-25"
+          href="/projects"
+        >
+          PROJETOS
+        </Link>
       </div>
     </div>
   );

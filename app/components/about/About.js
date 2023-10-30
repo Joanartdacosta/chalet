@@ -1,29 +1,28 @@
-import aboutStyles from "./aboutme.module.css";
-
 export default function AboutMe() {
   return (
     <div>
-      <div className={aboutStyles.aboutIntroduction}>
-        <h2 className={aboutStyles.slogan}>
+      <div>
+        <h2 className="font-title font-size-11">
           'Cada projeto é o início de uma nova história.'
         </h2>
-        <p className={aboutStyles.designerName}>Mariana Batista Ramadas</p>
-        <p className={aboutStyles.designerIntroduction}>
+        <p className="font-text font-size-08 font-italic padding-bottom-1-25">
+          Mariana Batista Ramadas
+        </p>
+        <p className="font-text font-size-11 padding-bottom-1-25">
           O Chalet nasce da paixão de Mariana Batista Ramadas pela arquitetura e
           decoração, aliada ao conforto, estética e funcionalidade.{" "}
         </p>
       </div>
 
-      <div className={aboutStyles.aboutMe}>
-        <div className={aboutStyles.aboutMeBlock}>
+      <div>
+        <div className="wrap-section flex-column padding-bottom-1-25 ">
           <img
-            className={aboutStyles.designerPhoto}
+            className="width-50 object-cover "
             src="https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_0970+(2).JPG"
             alt="designer-profile"
           />
 
-          <p>
-            <br />
+          <p className="padding-2 text-justify media-font-size-11">
             "Chamo-me Mariana e desde pequena que sempre fui apaixonada por
             arquitetura e decoração. Sabem aquela pessoa que vai na rua ou no
             carro, a obervar as casas e edifícios e fica a imaginar como será
@@ -57,7 +56,7 @@ export default function AboutMe() {
             desafio e aprendizagem constantes!"
           </p>
         </div>
-        <h2>
+        <h2 className="font-text font-size-11 padding-bottom-5">
           "Agradeço a todos os que, até agora, já confiaram no meu trabalho e
           conto com vocês para que venham por aí muitos bons e novos projetos!"{" "}
         </h2>

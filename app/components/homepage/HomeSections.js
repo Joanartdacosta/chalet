@@ -1,10 +1,9 @@
-import homeStyles from "./home.module.css";
 import SECTIONS from "./sections";
 import createCardHome from "./createCardHome";
 
 export default function HomeSections() {
   return (
-    <div className={homeStyles.homeSections}>
+    <div className="wrap-section display-flex justify-center padding-top-5 gap-2">
       {SECTIONS.map(createCardHome)}
     </div>
   );

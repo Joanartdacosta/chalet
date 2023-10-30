@@ -1,18 +1,16 @@
-import styles from "./footer.module.css";
-
 export default function CurrentDate() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className={styles.footerTime}>
-      <p className={styles.namesStyle}> CHALET - Mariana Batista Ramadas</p>
+    <div>
+      <p className="font-text font-italic padding-top-1-25">
+        {" "}
+        CHALET - Mariana Batista Ramadas
+      </p>
 
-      <p>
+      <p className="padding-top-1-25 padding-bottom-1-25">
         © {currentYear} website developed by{" "}
-        <a
-          href="https://github.com/Joanartdacosta"
-          className={styles.nameStylesLink}
-        >
+        <a href="https://github.com/Joanartdacosta" className="link">
           Joana Costa
         </a>
       </p>

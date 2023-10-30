@@ -1,7 +1,5 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef, useState } from "react";
-import contactsStyle from "./contacts.module.css";
-import layoutStyle from "../layout/layout.module.css";
 
 function EmailJs() {
   const [color, setColor] = useState("#e9dccf");
@@ -35,44 +33,66 @@ function EmailJs() {
   };
 
   return (
-    <div className={contactsStyle.contactsSection}>
-      <img
-        className={contactsStyle.detailImg}
-        src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
-        alt="details"
-      ></img>
-      <div className={contactsStyle.contactsForm}>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="hidden" name="contact_number" required />
-          <label>Nome</label>
-          <input
-            className={contactsStyle.formName}
-            type="text"
-            name="user_name"
-          />
+    <div className="padding-top-5">
+      <p>
+        Para mais informações ou dúvidas, entre em contacto: a partir do
+        formulário abaixo; por mensagem privada no Instagram ou envie email para
+        chalet.designinteriores@gmail.com.
+      </p>
+      <div className="display-flex margin-auto justify-center padding-top-1-25">
+        <img
+          className="width-15 border-radius-075 media-width-size media-display-none transform180"
+          src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
+          alt="details"
+        ></img>
 
-          <label>Email</label>
-          <input
-            className={contactsStyle.formEmail}
-            type="email"
-            name="user_email"
-            required
-          />
-          <label>Mensagem de contacto</label>
-          <textarea
-            className={contactsStyle.formTextArea}
-            name="message"
-          ></textarea>
-          <button
-            onClick={changeStyle}
-            style={{ background: color }}
-            className={layoutStyle.button}
-            type="submit"
-            value="Send"
+        <div className="width-50 padding-2">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="text-justify margin-auto"
           >
-            {label}
-          </button>
-        </form>
+            <input type="hidden" name="contact_number" required />
+            <div className="padding-bottom-1-25 display-flex flex-column">
+              <label className="padding-05">Nome</label>
+              <input
+                className="max-width  font-size-11 font-text padding-05"
+                type="text"
+                name="user_name"
+              />
+            </div>
+
+            <div className="padding-bottom-1-25 display-flex flex-column">
+              <label className="padding-05">Email</label>
+              <input
+                className="max-width font-size-11 font-text padding-05"
+                type="email"
+                name="user_email"
+                required
+              />
+            </div>
+
+            <div className=" padding-bottom-1-25 display-flex flex-column">
+              <label className="padding-05">Mensagem de contacto</label>
+              <textarea
+                className="max-width font-size-11 font-text  padding-05"
+                name="message"
+              ></textarea>
+            </div>
+
+            <div>
+              <button
+                className="width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self link"
+                onClick={changeStyle}
+                style={{ background: color }}
+                type="submit"
+                value="Send"
+              >
+                {label}
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );

@@ -1,26 +1,26 @@
 const SECTIONS = [
   {
-    id: 1,
+    id: "section1",
     title: "Sobre",
     imgURL: "https://chalet-webapp.s3.amazonaws.com/icons/Chalet-logo.jpg",
-    href: "/sobre",
+    href: "/about",
     description: "Saber mais",
   },
   {
-    id: 2,
-    title: "Servicos",
+    id: "section2",
+    title: "Serviços",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG",
-    href: "/servicos",
-    description: "Mais informacoes.",
+    href: "/services",
+    description: "Mais informações.",
   },
   {
-    id: 3,
+    id: "section3",
     title: "Projetos",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room2.png",
-    href: "/projetos",
-    description: "Cada projecto, uma nova historia.",
+    href: "/projects",
+    description: "Cada projecto, uma nova história.",
   },
 ];
 

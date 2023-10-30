@@ -72,6 +72,30 @@ function EmailJs() {
               />
             </div>
 
+            <div className="padding-bottom-1-25 display-flex flex-column">
+              <label className="padding-05">
+                Fotografias da divisao (se disponivel)
+              </label>
+              <input
+                className="max-width font-text-08 padding-05"
+                type="file"
+                id="myFile"
+                name="filename"
+              />
+              <input
+                className="max-width font-text padding-05"
+                type="file"
+                id="myFile"
+                name="filename"
+              />
+              <input
+                className="max-width font-text padding-05"
+                type="file"
+                id="myFile"
+                name="filename"
+              />
+            </div>
+
             <div className=" padding-bottom-1-25 display-flex flex-column">
               <label className="padding-05">Mensagem de contacto</label>
               <textarea

@@ -44,7 +44,7 @@ export default function CardService(props) {
                 </div>
                 <div className="padding-top-1-25">
                   <button
-                    className="border-light-brown background-brown border-radius-075 font-text font-size-08 font-bold text-color-brown padding-05 width-8 link"
+                    className="cursor border-light-brown background-brown border-radius-075 font-text font-size-08 font-bold text-color-brown padding-05 width-8 link"
                     onClick={handleSeeMore}
                   >
                     {" "}

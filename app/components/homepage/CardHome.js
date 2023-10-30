@@ -13,7 +13,7 @@ export default function CardHome(props) {
         <h1 className="font-title text-center font-size-11 padding-bottom-1-25 padding-top-1-25">
           {props.title}
         </h1>
-        <button className="font-title text-center font-size-08 no-border background-green width-100 height-3 padding-05">
+        <button className="cursor font-title text-center font-size-08 no-border background-green width-100 height-3 padding-05">
           <p>{props.description}</p>
         </button>
       </Link>

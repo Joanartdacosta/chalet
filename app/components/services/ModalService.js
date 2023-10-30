@@ -7,7 +7,7 @@ export default function ModalService(props) {
         <div className="float-right">
           <button
             onClick={props.onClose}
-            className="display-flex align-self background-light-green no-border padding-02 link"
+            className="cursor display-flex align-self background-light-green no-border padding-02 link"
           >
             <img
               className="width-1 "
@@ -30,7 +30,7 @@ export default function ModalService(props) {
 
         <div className="display-flex justify-evenly media-display-button padding-bottom-1-25 margin-left-1-25">
           <a href="/contacts">
-            <button className="border-light-brown background-brown border-radius-075 font-text font-size-08 font-bold text-color-brown padding-05 width-8 link">
+            <button className="cursor border-light-brown background-brown border-radius-075 font-text font-size-08 font-bold text-color-brown padding-05 width-8 link">
               Pedir orçamento
             </button>
           </a>

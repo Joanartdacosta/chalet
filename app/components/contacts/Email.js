@@ -34,7 +34,7 @@ function EmailJs() {
 
   return (
     <div className="padding-top-5">
-      <p>
+      <p className="padding-bottom-5">
         Para mais informações ou dúvidas, entre em contacto: a partir do
         formulário abaixo; por mensagem privada no Instagram ou envie email para
         chalet.designinteriores@gmail.com.

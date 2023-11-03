@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ModalService(props) {
   return (
     <div className="padding-top-1-25">
@@ -28,11 +30,11 @@ export default function ModalService(props) {
             <p className="padding-bottom-1-25">{props.step4}</p>
           </div>
           <div className="display-flex justify-evenly media-display-button">
-            <a href="/contacts">
+            <link href="/contacts">
               <button className="border-light-brown background-brown border-radius-075 font-text font-size-08 font-bold text-color-brown padding-05 width-8 link">
                 Pedir orçamento
               </button>
-            </a>
+            </link>
           </div>
         </div>
       </div>

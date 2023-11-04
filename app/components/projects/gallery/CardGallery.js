@@ -22,7 +22,7 @@ export default function CardGallery(props) {
             return (
               <div key={photo.id}>
                 <img
-                  className="width-15 height-12 hover-scale media-image-gallery"
+                  className="cursor width-15 height-12 hover-scale media-image-gallery"
                   src={photo.imgURL}
                   alt={props.title}
                 />

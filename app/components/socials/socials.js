@@ -7,7 +7,7 @@ const SOCIALS = [
   },
   {
     id: 2,
-    href: "/contactos",
+    href: "/contacts",
     text: "message-icon",
     imgURL: "https://chalet-webapp.s3.amazonaws.com/icons/message-icon.png",
   },

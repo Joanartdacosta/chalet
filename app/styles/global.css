@@ -26,6 +26,9 @@ main {
 body {
   font-family: var(--font-paragraph);
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 /* fonts */
 .font-text {
   font-family: var(--font-paragraph);
@@ -119,6 +122,16 @@ body {
   padding: 0 1.25rem;
 }
 
+.margin-left-1-25 {
+  margin-left: 1.25rem;
+}
+.margin-top-1-25 {
+  margin-top: 1.25rem;
+}
+.margin-right-1-25 {
+  margin-right: 1.25rem;
+}
+
 /* margins */
 .margin-auto {
   margin: auto;
@@ -154,11 +167,24 @@ body {
 .width-18 {
   width: 18rem;
 }
-/* hr of background */
-.width-37-5 {
-  width: 37.5rem;
+.max-width-15 {
+  max-width: 15rem;
 }
 
+.min-width-15 {
+  min-width: 15rem;
+}
+.width-19-dot-3 {
+  width: 19.3rem;
+}
+/* hr of background */
+.width-35 {
+  width: 35rem;
+}
+
+.max-width-55 {
+  max-width: 55rem;
+}
 /* background */
 .max-width-100 {
   min-width: 100%;
@@ -179,6 +205,9 @@ body {
 }
 .height-15 {
   height: 15rem;
+}
+.height-17 {
+  height: 17rem;
 }
 .height-21-2 {
   height: 21.2rem;
@@ -456,6 +485,10 @@ body {
   .media-padding-top {
     padding-top: 18rem;
   }
+
+  .media-width-photo {
+    width: 13rem;
+  }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
@@ -479,5 +512,9 @@ body {
   }
   .max-width {
     max-width: 48rem;
+  }
+
+  .media-width-photo {
+    width: 15rem;
   }
 }

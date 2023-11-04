@@ -6,7 +6,7 @@ export default function DesignerPhotos() {
       {DESIGNER.map((designer) => (
         <div id={designer.id}>
           <img
-            className="gallery width-19 media-width-photo"
+            className="gallery width-19-dot-3 media-width-photo"
             src={designer.imgURL}
             alt={designer.title}
           />{" "}

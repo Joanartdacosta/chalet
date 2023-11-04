@@ -36,7 +36,7 @@ At the moment, it is under-construction.
   - cd app
   - npx vercel --prod
 - git checkout dev && git pull origin main
-- git checkout feature branch && git pull origin main
+- (optional) git checkout feature branch && git pull origin main
 
 ## Domain
 

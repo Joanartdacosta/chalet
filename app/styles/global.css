@@ -174,12 +174,17 @@ body {
 .min-width-15 {
   min-width: 15rem;
 }
-
+.width-19-dot-3 {
+  width: 19.3rem;
+}
 /* hr of background */
-.width-37-5 {
-  width: 37.5rem;
+.width-35 {
+  width: 35rem;
 }
 
+.max-width-55 {
+  max-width: 55rem;
+}
 /* background */
 .max-width-100 {
   min-width: 100%;
@@ -480,6 +485,10 @@ body {
   .media-padding-top {
     padding-top: 18rem;
   }
+
+  .media-width-photo {
+    width: 13rem;
+  }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
@@ -503,5 +512,9 @@ body {
   }
   .max-width {
     max-width: 48rem;
+  }
+
+  .media-width-photo {
+    width: 15rem;
   }
 }

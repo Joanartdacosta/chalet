@@ -82,7 +82,7 @@ function EmailJs() {
 
             <div>
               <button
-                className="width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self link"
+                className="cursor width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self link"
                 onClick={changeStyle}
                 style={{ background: color }}
                 type="submit"

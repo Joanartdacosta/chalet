@@ -174,17 +174,16 @@ body {
 .width-19-dot-3 {
   width: 19.3rem;
 }
-/* hr of background */
-.width-35 {
-  width: 35rem;
-}
-
 .max-width-15 {
   max-width: 15rem;
 }
 
 .min-width-15 {
   min-width: 15rem;
+}
+/* hr of background */
+.width-35 {
+  width: 35rem;
 }
 
 .max-width-55 {

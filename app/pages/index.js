@@ -4,11 +4,11 @@ import HomeSections from "../components/homepage/HomeSections";
 
 export default function Home() {
   return (
-    <div>
+    <div className="margin-auto">
       <div data-testid="chalet-entrance">
         <ChaletEntrance />
       </div>
-      <div data-testid="mission" className="text-center margin-auto">
+      <div data-testid="mission" className="text-center margin-auto max-width">
         <Mission />
         <HomeSections />
       </div>

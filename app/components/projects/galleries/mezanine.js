@@ -1,4 +1,4 @@
-const MEZANINE = [
+const MEZZANINE = [
   {
     id: "mezanine600",
     href: "#design",
@@ -227,4 +227,4 @@ const MEZANINE = [
   },
 ];
 
-export default MEZANINE;
+export default MEZZANINE;

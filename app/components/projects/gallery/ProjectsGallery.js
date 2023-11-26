@@ -1,80 +1,23 @@
 import React from "react";
 
+import { getFeaturedProjects } from "../../../helpers/api-util";
 import CardGallery from "./CardGallery";
 
-import HOUSE_10 from "../galleries/house-10";
-import HOUSE_26 from "../galleries/house-26";
-import COMERCIALS from "../galleries/comercials";
-import CONCEPT_BOARDS from "../galleries/concept_board";
-import MEZANINE from "../galleries//mezanine";
-import KITCHEN_JM from "../galleries/kitchen-JM";
-import KITCHEN_JS from "../galleries/kitchen-JS";
-import OFFICE_S from "../galleries/office-S";
-import HOUSE_TV from "../galleries/tv";
-import STUDIO from "../galleries/studio";
-
-export default function ProjectsGallery() {
+export default function ProjectsGallery(props) {
   return (
     <div className="padding-top-5">
-      <CardGallery
-        gallery={MEZANINE}
-        title={"Mezanine"}
-        category1={"Projeto de Design e Remodelação de Interiores"}
-        id={"design"}
-      />
-      <CardGallery
-        gallery={HOUSE_TV}
-        title={"Moradia TV"}
-        category1={"Projeto de Design e Remodelação de Interiores"}
-      />
-
-      <CardGallery
-        gallery={KITCHEN_JS}
-        title={"Cozinha JS"}
-        category1={"Projeto de Design e Remodelação de Interiores"}
-      />
-
-      <CardGallery
-        gallery={KITCHEN_JM}
-        title={"Cozinha JM"}
-        category1={"Projeto de Design e Remodelação de Interiores"}
-      />
-      <CardGallery
-        gallery={OFFICE_S}
-        title={"Escritorio S"}
-        category1={"Projeto de Decoração de Interiores"}
-        id={"decor"}
-      />
-
-      <CardGallery
-        gallery={STUDIO}
-        title={"Sala Studio"}
-        category1={"Projeto de Decoração de Interiores"}
-      />
-
-      <CardGallery
-        gallery={HOUSE_10}
-        title={"Apartamento 10"}
-        category1={"Home Staging"}
-        id={"staging"}
-      />
-      <CardGallery
-        gallery={HOUSE_26}
-        title={"Apartamento 26"}
-        category1={"Home Staging"}
-      />
-
-      <CardGallery
-        gallery={COMERCIALS}
-        title={"Espacos Comerciais"}
-        id={"comercial"}
-      />
-
-      <CardGallery
-        gallery={CONCEPT_BOARDS}
-        title={"Concept Boards"}
-        id={"concept"}
-      />
+      <CardGallery gallery={props.projects} />
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const getFeaturedProject = await getFeaturedProjects();
+
+  return {
+    props: {
+      projects: getFeaturedProject,
+    },
+    revalidate: 1800,
+  };
 }

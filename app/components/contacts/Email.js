@@ -1,5 +1,4 @@
-import emailjs from "@emailjs/browser";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 
 function EmailJs() {
   const [color, setColor] = useState("#e9dccf");

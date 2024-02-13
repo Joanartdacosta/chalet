@@ -1,36 +1,17 @@
-import emailjs from "@emailjs/browser";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 
 function EmailJs() {
   const [color, setColor] = useState("#e9dccf");
   const [label, setLabel] = useState("Enviar");
 
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+
   function changeStyle() {
     setColor("#a89582");
     setLabel("Enviado");
   }
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_1wug8mb",
-        "contact_form",
-        form.current,
-        "gZCM5ZN3kriwCjMvy"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
 
   return (
     <div className="padding-top-5">
@@ -44,13 +25,14 @@ function EmailJs() {
           className="width-15 border-radius-075 media-width-size media-display-none transform180"
           src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
           alt="details"
-        ></img>
+        />
 
         <div className="width-50 padding-2">
           <form
-            ref={form}
-            onSubmit={sendEmail}
-            className="text-justify margin-auto"
+            className="pb-20"
+            id="freetour"
+            action="https://formcarry.com/s/OlAl-K2DqOh"
+            method="POST"
           >
             <input type="hidden" name="contact_number" required />
             <div className="padding-bottom-1-25 display-flex flex-column">
@@ -58,7 +40,10 @@ function EmailJs() {
               <input
                 className="max-width  font-size-11 font-text padding-05"
                 type="text"
-                name="user_name"
+                value={name}
+                name="name"
+                onChange={(e) => setName(e.target.value)}
+                required
               />
             </div>
 
@@ -67,7 +52,9 @@ function EmailJs() {
               <input
                 className="max-width font-size-11 font-text padding-05"
                 type="email"
-                name="user_email"
+                value={email}
+                name="email"
+                onChange={(e) => setEmail(e.target.value)}
                 required
               />
             </div>
@@ -76,8 +63,13 @@ function EmailJs() {
               <label className="padding-05">Mensagem de contacto</label>
               <textarea
                 className="max-width font-size-11 font-text  padding-05"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                id="message"
                 name="message"
-              ></textarea>
+                placeholder="Enter your message..."
+                required
+              />
             </div>
 
             <div>
@@ -86,6 +78,7 @@ function EmailJs() {
                 onClick={changeStyle}
                 style={{ background: color }}
                 type="submit"
+                id="submit"
                 value="Send"
               >
                 {label}

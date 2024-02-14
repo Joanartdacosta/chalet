@@ -22,7 +22,7 @@ function EmailJs() {
       </p>
       <div className="display-flex margin-auto justify-center padding-top-1-25">
         <img
-          className="width-15 border-radius-075 media-width-size media-display-none transform180"
+          className="object-cover width-19-dot-3 border-radius-075 media-width-size media-display-none transform180"
           src="https://chalet-webapp.s3.amazonaws.com/designer-photos/2024.JPG"
           alt="details"
         />
@@ -72,7 +72,31 @@ function EmailJs() {
               />
             </div>
 
-            <div>
+            <div className="padding-bottom-1-25  display-flex flex-column">
+              <label className="padding-05">
+                Fotografias da divisao (se disponivel)
+              </label>
+              <input
+                className="max-width font-text padding-05 border-light-brown margin-top-1-25"
+                type="file"
+                id="myFile"
+                name="filename"
+              />
+              <input
+                className="max-width font-text padding-05 border-light-brown margin-top-1-25"
+                type="file"
+                id="myFile"
+                name="filename"
+              />
+              <input
+                className="max-width font-text padding-05 border-light-brown margin-top-1-25"
+                type="file"
+                id="myFile"
+                name="filename"
+              />
+            </div>
+
+            <div padding-top-1-25>
               <button
                 className="cursor width-100 padding-05 border-light-brown text-color-brown font-size-11 font-text align-self link"
                 onClick={changeStyle}

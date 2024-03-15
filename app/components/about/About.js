@@ -4,13 +4,6 @@ export default function AboutMe() {
   return (
     <div>
       <div>
-        <center>
-          <img
-            className="width-8 opacity-40 padding-bottom-1-25"
-            src="https://chalet-webapp.s3.amazonaws.com/icons/chalet-house-logo.png"
-            alt="logo2"
-          />{" "}
-        </center>
         <h2 className="font-title font-size-11 text-center padding-top-1-25">
           'Cada projeto é o início de uma nova história.'
         </h2>

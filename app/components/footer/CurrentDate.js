@@ -9,10 +9,7 @@ export default function CurrentDate() {
       </p>
 
       <p className="padding-top-1-25 padding-bottom-1-25">
-        © {currentYear} website developed by{" "}
-        <a href="https://github.com/Joanartdacosta" className="link">
-          Joana Costa
-        </a>
+        © {currentYear} website developed by Joana Costa
       </p>
     </div>
   );

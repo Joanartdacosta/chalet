@@ -553,3 +553,9 @@ body {
     width: 15rem;
   }
 }
+
+@media screen and (.min-width: 800px) {
+  .media-flex {
+    display: flex;
+  }
+}

@@ -2,7 +2,7 @@ const KITCHEN_JM = [
   {
     id: "kichenJM-200",
     href: "#design",
-    title: "Cozinha JM",
+    title: "Cozinha - Projeto de Benfica",
     category1: "Projeto de Design e Remodelação de Interiores",
     category2: "Cozinha",
     imgURL:
@@ -13,7 +13,7 @@ const KITCHEN_JM = [
     href: "#design",
     title: "Cozinha JM",
     category1: "Projeto de Design e Remodelação de Interiores",
-    category2: "Cozinha",
+    category2: "Projeto de Decoracao de Interiores",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/project-B/kitchen/Project-B-kitchen2.jpg",
   },
@@ -22,7 +22,8 @@ const KITCHEN_JM = [
     href: "#design",
     title: "Cozinha JM",
     category1: "Projeto de Design e Remodelação de Interiores",
-    category2: "Cozinha",
+    category2: "Projeto de Decoracao de Interiores",
+
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/project-B/kitchen/Project-B-kitchen3.jpg",
   },
@@ -31,7 +32,7 @@ const KITCHEN_JM = [
     href: "#design",
     title: "Cozinha JM",
     category1: "Projeto de Design e Remodelação de Interiores",
-    category2: "Cozinha",
+    category2: "Projeto de Decoracao de Interiores",
     imgURL:
       "https://chalet-webapp.s3.amazonaws.com/Servicos/project-B/kitchen/Project-B-kitchen4.jpg",
   },

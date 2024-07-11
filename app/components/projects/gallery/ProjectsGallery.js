@@ -6,7 +6,7 @@ import HOUSE_10 from "../galleries/house-10";
 import HOUSE_26 from "../galleries/house-26";
 import COMERCIALS from "../galleries/comercials";
 import CONCEPT_BOARDS from "../galleries/concept_board";
-import MEZANINE from "../galleries//mezanine";
+import MEZZANINE from "../galleries//mezanine";
 import KITCHEN_JM from "../galleries/kitchen-JM";
 import KITCHEN_JS from "../galleries/kitchen-JS";
 import OFFICE_S from "../galleries/office-S";
@@ -17,56 +17,62 @@ export default function ProjectsGallery() {
   return (
     <div className="padding-top-5">
       <CardGallery
-        gallery={MEZANINE}
-        title={"Mezanine"}
-        category1={"Projeto de Design e Remodelação de Interiores"}
+        gallery={MEZZANINE}
+        title={"Mezzanine"}
+        category1={
+          "Projeto de Design/Remodelação de Interiores & Projeto de Decoração de Interiores"
+        }
         id={"design"}
       />
       <CardGallery
         gallery={HOUSE_TV}
-        title={"Moradia TV"}
-        category1={"Projeto de Design e Remodelação de Interiores"}
+        title={"Projeto Moradia Torres Vedras"}
+        category1={
+          "Projeto de Design/Remodelação de Interiores & Projeto de Decoração de Interiores"
+        }
       />
 
       <CardGallery
         gallery={KITCHEN_JS}
-        title={"Cozinha JS"}
-        category1={"Projeto de Design e Remodelação de Interiores"}
+        title={"Projeto Cozinha Oeiras"}
+        category1={"Projeto de Design/Remodelação de Interiores"}
       />
 
       <CardGallery
         gallery={KITCHEN_JM}
-        title={"Cozinha JM"}
-        category1={"Projeto de Design e Remodelação de Interiores"}
+        title={"Projeto Cozinha Benfica"}
+        category1={
+          "Projeto de Design/Remodelação de Interiores & Projeto de Decoração de Interiores"
+        }
       />
       <CardGallery
         gallery={OFFICE_S}
-        title={"Escritorio S"}
+        title={"Projeto Home Office Massamá"}
         category1={"Projeto de Decoração de Interiores"}
         id={"decor"}
       />
 
       <CardGallery
         gallery={STUDIO}
-        title={"Sala Studio"}
+        title={"Projeto Studio - Porto "}
         category1={"Projeto de Decoração de Interiores"}
       />
 
       <CardGallery
         gallery={HOUSE_10}
-        title={"Apartamento 10"}
+        title={"Projeto Moradia 10 - Torres Vedras"}
         category1={"Home Staging"}
         id={"staging"}
       />
       <CardGallery
         gallery={HOUSE_26}
-        title={"Apartamento 26"}
+        title={"Projeto Moradia 26 - Torres Vedras"}
         category1={"Home Staging"}
       />
 
       <CardGallery
         gallery={COMERCIALS}
-        title={"Espacos Comerciais"}
+        title={"Projeto de Espaço Comercial"}
         id={"comercial"}
       />
 

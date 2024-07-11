@@ -17,7 +17,6 @@ export default function TableServices() {
           <li>Localização do espaço e breve descrição do que é pretendido</li>
           <li>Medidas gerais do espaço</li>
           <li>Fotografias do espaço</li>
-          <li>Estimativa do valor que prentende investir.</li>
         </ul>
       </div>
 
@@ -30,7 +29,6 @@ export default function TableServices() {
           <li>Breve descrição do que é pretendido.</li>
           <li>Medidas gerais do espaço.</li>
           <li>Fotografias do espaço.</li>
-          <li>Estimativa do valor que pretende investir.</li>
         </ul>
       </div>
 

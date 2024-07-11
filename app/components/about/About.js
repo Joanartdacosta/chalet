@@ -2,7 +2,7 @@ import DesignerPhotos from "./DesignerPhotos";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className="padding-top-5">
       <div>
         <h2 className="font-title font-size-11 text-center padding-top-1-25">
           'Cada projeto é o início de uma nova história.'
